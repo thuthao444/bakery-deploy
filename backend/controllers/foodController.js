@@ -48,4 +48,32 @@ const removeFood = async(req, res) => {
     }
 }
 
-export {addFood, listFood, removeFood} 
+const getFoodById = async (req, res) => {
+    try {
+        const food = await foodModel.findById(req.params.id); // Tìm food theo id từ database
+        res.json({success:true, data:food})
+    } catch (error) {
+        console.error(error);
+        res.status(500).json({ message: 'Error'});
+    }
+};
+
+const addComment = async (req, res) => {
+    try {
+        const food = await foodModel.findById(req.params.id);
+
+        food.ratings.push({
+            userId: req.body.userId,
+            comment: req.body.comment,
+            rating: req.body.rating,
+        });
+
+        await food.save();
+        res.json({success:true, message:"Added comment"});
+    } catch (error) {
+        console.log(error);
+        res.json({success:false, message:"Error"})
+    }  
+}
+
+export {addFood, listFood, removeFood, getFoodById, addComment} 

@@ -1,0 +1,69 @@
+.container {
+    width: 100%;
+    height: 700px;
+}
+
+.food-item-img {
+    width: 50%;
+    margin-top: 15px;
+    margin-left: 15px;
+    flex-direction: none;
+}
+
+.descrip {
+    font-size: 28px;
+    position: absolute;
+    top: 100px;
+    left: 55%;
+    font-weight: 500;
+    width: 35%;
+}
+
+.price{
+    font-size: 22px;
+    color: red;
+}
+
+.name,.price {
+    height: 50px;
+    border-bottom: 1px solid rgb(230, 229, 229);
+    display: flex; 
+    align-items: center; 
+
+}
+.category,.rate {
+    height: 50px;
+    border-top: 1px solid rgb(230, 229, 229);
+    display: flex; 
+    align-items: center; 
+    margin-top: 10px;
+}
+
+.description,.text {
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.star {
+    color: rgb(237, 229, 229); /* Màu mặc định cho ngôi sao không điền */
+    margin-left: 2px;
+}
+
+.filled {
+    color: yellow; 
+}
+
+.half-filled {
+    position: relative;
+
+    overflow: hidden;
+}
+
+.half-filled:before {
+    content: "\2605"; 
+    position: absolute;
+    left: 0;
+    overflow: hidden;
+    width: 50%; 
+    color: yellow; 
+}

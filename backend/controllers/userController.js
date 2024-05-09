@@ -70,4 +70,56 @@ const registerUser = async (req, res) => {
     }
 }
 
-export {loginUser, registerUser}
+const getUser = async (req, res) => {
+    try {
+        let userData = await userModel.findById(req.body.userId);
+        res.json({success:true, data: userData})
+    } catch (error) {
+        console.log(error);
+        res.json({success:false, message:"Error"})
+    }
+}
+
+const changeUser = async (req, res) => {
+    const { email, name, sex, birthday, phone, address } = req.body;
+
+    try {
+        let user = await userModel.findById(req.body.userId);
+
+        if (!user) {
+            return res.status(404).json({ message: "User not found" });
+        }
+
+        if (email) {
+            user.email = email
+        }
+
+        if (name) {
+            user.name = name
+        }
+
+        if (sex) {
+            user.sex = sex
+        }
+
+        if (birthday) {
+            user.birthday = birthday
+        }
+
+        if (phone) {
+            user.phone = phone
+        }
+
+        if (address) {
+            user.address = address
+        }
+
+        await user.save();
+        res.status(200).json({success: true, message: "Success to change information"});
+    } catch (error) {
+        console.error(error);
+        res.status(500).json({success:false, message: "Error"});
+    }
+};
+
+export {loginUser, registerUser, getUser, changeUser}

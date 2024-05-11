@@ -9,22 +9,22 @@
 
 .food-item-image{
     width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
     border-radius: 15px 15px 0px 0px;
 }
 
 .food-item-info{
-    padding: 20px;
+    padding: 10px;
 }
 
 .food-item-name-rating{
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
     align-items: center;
     margin-bottom: 10px;
-}
-
-.food-item-name-rating p{
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 500;
 }
 
@@ -35,10 +35,11 @@
 .food-item-desc{
     color: #676767;
     font-size: 12px;
+    text-align: justify;
 }
 
 .food-item-price{
-    color:peru;
+    color:#cd853f;
     font-size: 22px;
     font-weight: 500;
     margin: 10px 0px;

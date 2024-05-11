@@ -10,6 +10,8 @@ import Verify from './pages/Verify/Verify'
 import MyOrders from './pages/MyOrders/MyOrders'
 import Food from './pages/Food/Food'
 import Profile from './pages/Profile/Profile'
+import Header from '././components/Header/Header'
+import Search from './pages/Search/Search'
 
 const App = () => {
 
@@ -18,6 +20,7 @@ const App = () => {
   return (
     <>
       {showLogin ? <LoginPopup setShowLogin={setShowLogin} /> : <></>}
+      <Header/>
       <div className='app'>
         <Navbar setShowLogin={setShowLogin} />
         <Routes>
@@ -28,6 +31,7 @@ const App = () => {
           <Route path='/myorders' element={<MyOrders />} />
           <Route path='/food/:id' element={<Food />} />
           <Route path='/profile' element={<Profile />} />
+          <Route path='/search' element={<Search />} />
         </Routes>
       </div>
       <Footer />

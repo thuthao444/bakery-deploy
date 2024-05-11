@@ -3,6 +3,11 @@ import './List.css'
 import {toast} from 'react-toastify'
 import axios from 'axios'
 
+const formatPrice = (price) => {
+    return price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
+};
+
+
 const List=({url}) => {
 
     const [list, setList] = useState([]);
@@ -47,7 +52,7 @@ const List=({url}) => {
                             <img src={`${url}/images/` +item.image} alt=""/>
                             <p>{item.name}</p>
                             <p>{item.category}</p>
-                            <p>${item.price}</p>
+                            <p>{formatPrice(parseFloat(item.price))}vnd</p>
                             <p onClick={()=>removeFood(item._id)} className='cursor'>X</p>
                         </div>
                     )

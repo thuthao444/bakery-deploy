@@ -25,6 +25,7 @@
 
 .add-product-name input, .add-product-description textarea{
     padding: 10px;
+    border-radius: 5px;
 }
 
 .add-category-price{
@@ -35,6 +36,7 @@
 .add-category-price select, .add-category-price input{
     max-width: 120px;
     padding: 10px;
+    border-radius: 5px;
 }
 
 .add-btn{
@@ -44,4 +46,5 @@
     background-color: black;
     color: white;
     cursor: pointer;
+    border-radius: 5px;
 }

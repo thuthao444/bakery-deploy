@@ -4,7 +4,7 @@
 }
 
 .container2 {
-    position: absolute;
+    position: relative;
     background-color: rgb(237, 237, 237);
     width: 80%;
     height: 550px;
@@ -15,7 +15,7 @@
     border: 0.5px solid rgb(191, 189, 189);
 }
 
-h2 {
+.container2 h2 {
     height: 80px;
     display: flex;
     align-items: center;
@@ -72,7 +72,7 @@ h2 {
 }
 
 .change:hover {
-    color: rgb(243, 63, 63);
+    color: peru;
     cursor: pointer;
 }
 
@@ -85,9 +85,10 @@ h2 {
     align-items: center;
     border: none;
     color: white;
-    background: tomato;
+    background: peru;
     margin-top: 50px;
     font-size: 18px;
+    border-radius: 5px;
 }
 
 .save:hover {
@@ -111,7 +112,7 @@ h2 {
 }
 
 #button:hover {
-    color: rgb(243, 63, 63);
+    color: peru;
     cursor: pointer;
     background-color: rgb(249, 249, 249);
     font-size: 14px;
@@ -155,7 +156,7 @@ h2 {
     padding-left: 14px;
     font-weight: 400;
     font-size: 17px;
-    color: rgb(13, 151, 56);
+    color: peru;
     border-radius: 4px;
     border: 0.5px solid rgb(209, 209, 209);
 }

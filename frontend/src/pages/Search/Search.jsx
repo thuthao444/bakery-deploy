@@ -1,18 +1,27 @@
-import React, { useContext, useState } from 'react';
+import React, { useContext, useState, useEffect } from 'react';
 import './Search.css';
 import { StoreContext } from '../../context/StoreContext';
 import axios from 'axios';
 import FoodItem from '../../components/FoodItem/FoodItem';
+import { useLocation } from 'react-router-dom'; // Import useLocation
 
 const Search = () => {
     const { url } = useContext(StoreContext);
     const [searchTerm, setSearchTerm] = useState('');
     const [searchResult, setSearchResult] = useState([]);
     const [noFoodFound, setNoFoodFound] = useState(false);
+    const location = useLocation(); // Lấy location
 
-    const handleSearch = async () => {
+    useEffect(() => {
+        const searchParams = new URLSearchParams(location.search);
+        const term = searchParams.get('search');
+        setSearchTerm(term);
+        handleSearch(term);
+    }, [location.search]);
+
+    const handleSearch = async (term) => { // Thêm tham số term vào hàm handleSearch
         try {
-            const response = await axios.get(`${url}/api/food/search?search=${searchTerm}`);
+            const response = await axios.get(`${url}/api/food/search?search=${term}`);
             const data = response.data.data;
             if (data.length === 0) {
                 setNoFoodFound(true);
@@ -27,16 +36,6 @@ const Search = () => {
 
     return (
         <div className='search-container'>
-            <div className="input-search">
-                <input
-                    type="text"
-                    placeholder="Search for food"
-                    value={searchTerm}
-                    onChange={(e) => setSearchTerm(e.target.value)}
-                />
-                <button type='submit' onClick={handleSearch}>Search</button>
-            </div>
-            
             <div className="search-results">
                 {noFoodFound ? (
                     <div>No food</div>

@@ -76,4 +76,15 @@ const addComment = async (req, res) => {
     }  
 }
 
-export {addFood, listFood, removeFood, getFoodById, addComment} 
+const searchFood = async (req, res) => {
+    try {
+        const search = req.query.search || "";
+        const foods = await foodModel.find({ name: { $regex: search, $options: "i" } });
+        res.json({ success: true, message: "Searched", data: foods });
+    } catch (error) {
+        console.error("Error searching for food:", error);
+        res.status(500).json({ success: false, message: "Error" });
+    }
+};
+
+export {addFood, listFood, removeFood, getFoodById, addComment, searchFood} 

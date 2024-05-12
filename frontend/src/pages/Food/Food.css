@@ -1,60 +1,102 @@
-.container {
+.food-details {
+    border-top: 1px solid #c7c7c7;
+}
+
+.food-details-container {
+    margin-top: 80px;
+    display: flex;
     width: 100%;
-    height: 700px;
+    height: 600px;
 }
 
 .food-item-img {
-    width: 50%;
-    margin-top: 15px;
-    margin-left: 15px;
-    flex-direction: none;
+    flex: 1;    
+    width: 40%;
+    height: 100%;
+    border-radius: 50px 0 0 50px;
+    object-fit: cover;
+    object-position: center;
 }
 
 .descrip {
-    font-size: 28px;
-    position: absolute;
-    top: 100px;
-    left: 55%;
+    flex: 1;
+    margin-left: 50px;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    gap: 5px;
+}
+
+.descrip-name {
+    margin-top: 25px;
+    font-size: 50px;
     font-weight: 500;
-    width: 35%;
+    color: rgb(196, 116, 36);
 }
 
-.price{
-    font-size: 22px;
-    color: red;
+.descrip-category{
+    margin-top: 25px;
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(179, 179, 179);
 }
 
-.name,.price {
-    height: 50px;
-    border-bottom: 1px solid rgb(230, 229, 229);
-    display: flex; 
-    align-items: center; 
-
-}
-.category,.rate {
-    height: 50px;
-    border-top: 1px solid rgb(230, 229, 229);
-    display: flex; 
-    align-items: center; 
-    margin-top: 10px;
+.descrip-description {
+    margin-bottom: 25px;
 }
 
-.description,.text {
-    font-weight: 200;
+.descrip-price {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.add-cart {
+    position: relative;
+    padding-bottom: 30px;
+}
+
+.add-cart .add-button{
+    width: 280px;
+    height: 70px;
+    position: relative;
+    cursor: pointer;
+    background-color: peru;
+    border: none;
+    border-radius: 50px;
     font-size: 20px;
+    color: white;
+}
+
+.food-counter{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50px;
+    background-color: #ffe4d2;
+    width: 105px;
+}   
+
+.rating-comments {
+    margin-top: 100px;
+}
+
+.add-cart .add-button:hover {
+    opacity: 75%;
 }
 
 .star {
-    color: rgb(237, 229, 229); /* Màu mặc định cho ngôi sao không điền */
+    color: #ffe4d2;
     margin-left: 2px;
 }
 
 .filled {
-    color: yellow; 
+    color: peru; 
 }
 
 .half-filled {
-    position: relative;
+    position: peru;
 
     overflow: hidden;
 }
@@ -65,5 +107,38 @@
     left: 0;
     overflow: hidden;
     width: 50%; 
-    color: yellow; 
+    color: peru; 
+}
+
+.user-reviews {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 100px;
+}
+
+.reviews {
+    width: 100%;
+    max-width: max(30%, 500px);
+}
+
+.reviews .title {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+
+.reviews input {
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #c5c5c5;
+    border-radius: 4px;
+    color: peru;
+}
+
+.reviews .fields {
+    display: flex;
+    gap: 10px;
 }

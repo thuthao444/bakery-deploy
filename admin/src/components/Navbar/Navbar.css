@@ -2,11 +2,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 8px 4%;
+    padding: 20px 4%;
 }
 
 .navbar .logo {
-    width: max(10%, 80px)
+    width: max(8%, 80px)
 }
 
 .navbar .profile{

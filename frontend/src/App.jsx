@@ -10,8 +10,8 @@ import Verify from './pages/Verify/Verify'
 import MyOrders from './pages/MyOrders/MyOrders'
 import Food from './pages/Food/Food'
 import Profile from './pages/Profile/Profile'
+import Header from '././components/Header/Header'
 import Search from './pages/Search/Search'
-
 const App = () => {
 
   const [showLogin, setShowLogin] = useState(false)
@@ -19,6 +19,7 @@ const App = () => {
   return (
     <>
       {showLogin ? <LoginPopup setShowLogin={setShowLogin} /> : <></>}
+      <Header/>
       <div className='app'>
         <Navbar setShowLogin={setShowLogin} />
         <Routes>

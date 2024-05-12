@@ -4,9 +4,20 @@ import { assets } from '../../assets/assets'
 import { StoreContext } from '../../context/StoreContext';
 import { Link } from 'react-router-dom';
 
+const maxWords = 20;
+
+const truncateDescription = (description) => {
+    const words = description.split(' ');
+    if (words.length > maxWords) {
+        return words.slice(0, maxWords).join(' ') + '...';
+    }
+    return description;
+}
+
 const FoodItem = ({ id, name, price, description, image }) => {
 
     const {cartItems, addToCart, removeFromCart, url} = useContext(StoreContext);
+    const truncatedDescription = truncateDescription(description);
 
     return (
         <div className='food-item'>
@@ -23,11 +34,10 @@ const FoodItem = ({ id, name, price, description, image }) => {
             </div>
             <div className="food-item-info">
                 <div className="food-item-name-rating">
-                    <p>{name}</p>
                     <Link to={`/food/${id}`}>{name}</Link>
                     <img src={assets.rating_starts} alt="" />
                 </div>
-                <p className="food-item-desc">{description}</p>
+                <p className="food-item-desc">{truncatedDescription}</p>
                 <p className="food-item-price">{price}vnd</p>
             </div>
         </div>

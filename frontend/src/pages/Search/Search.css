@@ -1,0 +1,14 @@
+.food-search-title{
+    text-align: center;
+    font-size: 50px;
+    color:rgb(110, 110, 110);
+    margin-bottom: 50px;
+}
+
+.food-search-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    margin-top: 30px;
+    gap: 30px;
+    row-gap: 50px;
+}

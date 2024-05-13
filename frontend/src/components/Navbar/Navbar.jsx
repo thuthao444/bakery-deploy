@@ -103,7 +103,7 @@ const Navbar = ({ setShowLogin }) => {
                                     className="suggestion-item"
                                     onClick={() => handleSuggestionClick(product._id)}
                                 >
-                                    <img className='img' src={url + "/images/"+ product.image} /> 
+                                    <img className='img' src={url + "/images/"+ product.image} alt={product.name} /> 
                                     <span className='name'>{product.name}</span>
                                 </div>
                             ))}

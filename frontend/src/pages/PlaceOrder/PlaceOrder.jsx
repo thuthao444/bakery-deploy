@@ -4,6 +4,10 @@ import { StoreContext } from '../../context/StoreContext'
 import { useNavigate } from 'react-router-dom'
 import axios from 'axios';
 
+const formatPrice = (price) => {
+  return price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
+};
+
 const PlaceOrder = () => {
 
   const { getTotalCartAmount, token, food_list, cartItems, url } = useContext(StoreContext)
@@ -87,17 +91,17 @@ const PlaceOrder = () => {
           <div>
             <div className="cart-total-details">
               <p>Subtotal</p>
-              <p>${getTotalCartAmount()}</p>
+              <p>{formatPrice(parseFloat(getTotalCartAmount()))}đ</p>
             </div>
             <hr />
             <div className="cart-total-details">
               <p>Delivery Fee</p>
-              <p>${getTotalCartAmount() === 0 ? 0 : 2}</p>
+              <p>{formatPrice(parseFloat(getTotalCartAmount() === 0 ? 0 : 15000))}đ</p>
             </div>
             <hr />
             <div className="cart-total-details">
               <b>Total</b>
-              <b>${getTotalCartAmount() === 0 ? 0 : getTotalCartAmount() + 2}</b>
+              <b>{formatPrice(parseFloat(getTotalCartAmount() === 0 ? 0 : getTotalCartAmount() + 15000))}đ</b>
             </div>
           </div>
           <button type='submit'>PROCEED TO PAYMENT</button>

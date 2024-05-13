@@ -12,6 +12,7 @@ import Food from './pages/Food/Food'
 import Profile from './pages/Profile/Profile'
 import Header from '././components/Header/Header'
 import Search from './pages/Search/Search'
+
 const App = () => {
 
   const [showLogin, setShowLogin] = useState(false)

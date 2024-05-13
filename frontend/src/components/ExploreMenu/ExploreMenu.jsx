@@ -22,6 +22,5 @@ const ExploreMenu = ({category, setCategory}) => {
     </div>
   )
 }
-import './ExploreMenu.css'
 
 export default ExploreMenu

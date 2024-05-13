@@ -38,18 +38,24 @@ const Search = () => {
         <div className='search-container'>
             <div className="search-results">
                 {noFoodFound ? (
-                    <div>No food</div>
+                    <div className="not-found">Food item search unsuccessful <br /> Please try again!</div>
                 ) : (
-                    searchResult.map((food) => (
-                        <FoodItem
-                            key={food._id}
-                            id={food._id}
-                            name={food.name}
-                            price={food.price}
-                            description={food.description}
-                            image={food.image}
-                        />
-                    ))
+                    <div>
+                        <h2 className="food-search-title">Search results</h2>
+                        <div className="food-search-list">
+                            {searchResult.map((food) => (
+                                <div key={food._id} className="food-item-wrapper">
+                                    <FoodItem
+                                        id={food._id}
+                                        name={food.name}
+                                        price={food.price}
+                                        description={food.description}
+                                        image={food.image}
+                                    />
+                                </div>
+                            ))}
+                        </div>
+                    </div>
                 )}
             </div>
         </div>

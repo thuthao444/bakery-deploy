@@ -5,6 +5,7 @@ import { StoreContext } from '../../context/StoreContext';
 import { useParams } from 'react-router-dom';
 import axios from 'axios';
 
+// Hàm thêm dấu ngăn cho tiền
 const formatPrice = (price) => {
     return price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
 };

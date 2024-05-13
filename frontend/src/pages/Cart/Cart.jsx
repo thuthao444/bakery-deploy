@@ -3,6 +3,10 @@ import './Cart.css'
 import { StoreContext } from '../../context/StoreContext'
 import { useNavigate } from 'react-router-dom'
 
+const formatPrice = (price) => {
+  return price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
+};
+
 const Cart = () => {
 
   const { cartItems, food_list, removeFromCart, getTotalCartAmount, url } = useContext(StoreContext)
@@ -30,9 +34,9 @@ const Cart = () => {
                 <div className="cart-items-title cart-items-item" >
                   <img src={url + "/images/" + item.image} alt="" />
                   <p>{item.name}</p>
-                  <p>${item.price}</p>
+                  <p>{formatPrice(parseFloat(item.price))}đ</p>
                   <p>{cartItems[item._id]}</p>
-                  <p>${item.price * cartItems[item._id]}</p>
+                  <p>{formatPrice(parseFloat(item.price * cartItems[item._id]))}đ</p>
                   <p onClick={() => removeFromCart(item._id)} className='cross'>x</p>
                 </div>
                 <hr />
@@ -48,17 +52,17 @@ const Cart = () => {
             <div>
               <div className="cart-total-details">
                 <p>Subtotal</p>
-                <p>${getTotalCartAmount()}</p>
+                <p>{formatPrice(parseFloat(getTotalCartAmount()))}đ</p>
               </div>
               <hr />
               <div className="cart-total-details">
                 <p>Delivery Fee</p>
-                <p>${getTotalCartAmount() === 0 ? 0 : 2}</p>
+                <p>{formatPrice(parseFloat(getTotalCartAmount() === 0 ? 0 : 15000))}đ</p>
               </div>
               <hr />
               <div className="cart-total-details">
                 <b>Total</b>
-                <b>${getTotalCartAmount() === 0 ? 0 : getTotalCartAmount() + 2}</b>
+                <b>{formatPrice(parseFloat(getTotalCartAmount() === 0 ? 0 : getTotalCartAmount() + 15000))}đ</b>
               </div>
             </div>
             <button onClick={() => navigate('/order')}>PROCEED TO CHECKOUT</button>

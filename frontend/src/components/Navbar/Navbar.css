@@ -1,11 +1,3 @@
-/* .navbar{
-    padding: 20px 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-} */
-
-
 .navbar {
     padding: 20px 0;
     display: flex;
@@ -20,12 +12,12 @@
 }
 
 
-.navbar .logo{
+.navbar .logo {
     margin-left: 100px;
-    width: 150px;   
+    width: 150px;
 }
 
-.navbar-menu{
+.navbar-menu {
     display: flex;
     list-style: none;
     gap: 20px;
@@ -33,17 +25,18 @@
     font-size: 18px;
 }
 
-.navbar-right{
+.navbar-right {
     margin-right: 100px;
     display: flex;
     align-items: center;
     gap: 40px;
+    position: relative;
 }
 
-.navbar button{
+.navbar-right .sign-btn {
     background: peru;
     font-size: 16px;
-    color:white;
+    color: white;
     padding: 10px 30px;
     border-radius: 50px;
     border: none;
@@ -51,11 +44,11 @@
     transition: 0.3s;
 }
 
-.navbar button:hover{
-    background-color: #fff4f2;
+.navbar-right .sign-btn:hover {
+    opacity: 50%;
 }
 
-.navbar .active{
+.navbar .active {
     padding-bottom: 2px;
     border-bottom: 2px solid peru;
 }
@@ -64,16 +57,85 @@
     cursor: pointer;
 }
 
-.navbar-search-icon .dot{
-    position: absolute;
-    min-width: 10px;
-    min-height: 10px;
-    background-color: peru;
-    border-radius: 5px;
-    top: -8px;
-    right: -8px;
+/* __________________BASKET__________________ */
+.navbar-basket {
+    display: flex;
+    align-items: center;
+    position: relative;
 }
 
+.navbar-basket img {
+    margin: 0 auto;
+}
+
+.navbar-basket .dot {
+    position: absolute;
+    width: 1vw;
+    height: 1vw;
+    max-width: 10px;
+    max-height: 10px;
+    background-color: rgb(205, 63, 63);
+    border-radius: 50%;
+    border: none;
+    right: -2px;
+    bottom: 0px;
+}
+
+/* __________________SEARCH__________________ */
+.navbar-search {
+    position: absolute;
+    right: 150%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.navbar-search input[type="text"] {
+    padding: 0.5em 0.75em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+    width: 12em;
+}
+
+.navbar-search .search-btn {
+    position: absolute;
+    background-color: peru;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    padding: 0.5em;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+.navbar-search .search-btn img {
+    filter: brightness(0) invert(1);
+}
+
+.navbar-search .search-btn:hover {
+    opacity: 0.75;
+}
+
+.sub-search-icon {
+    display: none;
+    /* Ẩn ban đầu */
+}
+
+@media (max-width: 1400px) {
+    .navbar-search {
+        display: none;
+        position: absolute;
+        right: 80%;
+        top: 200%;
+    }
+
+    .sub-search-icon {
+        display: block;
+    }
+}
+
+/* __________________PROFILE__________________ */
 .navbar-profile {
     position: relative;
 }
@@ -81,7 +143,7 @@
 .navbar-profile:hover .nav-profile-dropdown {
     display: flex;
     flex-direction: column;
-    gap:10px;
+    gap: 10px;
     background-color: #fff2ef;
     padding: 12px 25px;
     border-radius: 4px;
@@ -113,46 +175,54 @@
 }
 
 @media (max-width: 1050px) {
-    .navbar .logo{
+    .navbar .logo {
         width: 140px;
     }
-    .navbar-menu{
+
+    .navbar-menu {
         gap: 20px;
         font-size: 17px;
     }
-    .navbar-right{
+
+    .navbar-right {
         gap: 30px;
     }
-    .navbar-right img{
+
+    .navbar-right img {
         width: 22px;
     }
-    .navbar-right button{
+
+    .navbar-right button {
         padding: 8px 25px;
     }
 }
 
 @media (max-width: 900px) {
-    .navbar .logo{
+    .navbar .logo {
         width: 120px;
     }
-    .navbar-menu{
+
+    .navbar-menu {
         gap: 15px;
         font-size: 16px;
     }
-    .navbar-right{
+
+    .navbar-right {
         gap: 20px;
     }
-    .navbar-right img{
+
+    .navbar-right img {
         width: 20px;
     }
-    .navbar-right button{
+
+    .navbar-right button {
         padding: 7px 20px;
         font-size: 15px;
     }
 }
 
 @media (max-width: 750px) {
-    .navbar-menu{
+    .navbar-menu {
         display: none;
         gap: 15px;
         font-size: 16px;

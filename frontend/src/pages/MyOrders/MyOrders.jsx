@@ -4,6 +4,10 @@ import { StoreContext } from '../../context/StoreContext';
 import axios from 'axios';
 import { assets } from '../../assets/assets';
 
+const formatPrice = (price) => {
+    return price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
+};
+
 const MyOrders = () => {
 
     const {url, token} = useContext(StoreContext);
@@ -35,7 +39,7 @@ const MyOrders = () => {
                                 return item.name + " x " + item.Quantity + ", "
                             }
                         })}</p>
-                        <p>${order.amount}.00</p>
+                        <p>{formatPrice(parseFloat(order.amount))}đ</p>
                         <p>Items: {order.items.length}</p>
                         <p><span>&#x25cf;</span><b>{order.status}</b></p>
                         <button onClick={fetchOrders}>Track Order</button>

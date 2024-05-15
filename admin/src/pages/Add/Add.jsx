@@ -11,7 +11,7 @@ const Add=({url}) => {
         name:"",
         description:"",
         price:"",
-        category:"Salad"    
+        category:"Breads & Baked Goods"    
     })
 
     const onChangeHandler = (event) => {

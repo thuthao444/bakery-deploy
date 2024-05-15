@@ -4,14 +4,15 @@ import { Link, useNavigate } from 'react-router-dom';
 import { StoreContext } from '../../context/StoreContext.jsx';
 import axios from 'axios'; // Import axios
 import { assets } from '../../assets/assets.js';
+import axios from 'axios';
 
 const Navbar = ({ setShowLogin }) => {
     const [menu, setMenu] = useState("menu");
     const [searchTerm, setSearchTerm] = useState('');
-    const [suggestions, setSuggestions] = useState([]);
-    const [showDropdown, setShowDropdown] = useState(false); 
     const { url, getTotalCartAmount, token, setToken } = useContext(StoreContext);
     const navigate = useNavigate();
+    const [suggestions, setSuggestions] = useState([]);
+    const [showDropdown, setShowDropdown] = useState(false);
     const dropdownRef = useRef(null); 
 
     useEffect(() => {
@@ -76,6 +77,15 @@ const Navbar = ({ setShowLogin }) => {
         }
     };
 
+    const toggleSearch = () => {
+        const navbarSearch = document.querySelector('.navbar-search');
+        navbarSearch.style.display = navbarSearch.style.display === 'none' ? 'block' : 'none';
+    };
+
+    const handleSuggestionClick = (id) => {
+        navigate(`/food/${id}`); 
+    }; 
+
     return (
         <div className='navbar'>
             <Link to=''><img src={assets.logo} alt="" className="logo" /></Link>
@@ -86,6 +96,9 @@ const Navbar = ({ setShowLogin }) => {
                 <a href='#footer' onClick={() => setMenu("contact-us")} className={menu === "contact-us" ? "active" : ""}>contact us</a>
             </ul>
             <div className="navbar-right">
+                <div className="sub-search-icon" onClick={toggleSearch}>
+                    <img src={assets.search_icon} alt="Search" />
+                </div>
                 <div className="navbar-search" ref={dropdownRef}>
                     <input
                         type="text"
@@ -109,7 +122,7 @@ const Navbar = ({ setShowLogin }) => {
                             ))}
                         </div>
                     )}
-                    <button onClick={handleSearch}><img src={assets.search_icon} alt="" /></button>
+                    <button className="search-btn" onClick={handleSearch}><img src={assets.search_icon} alt="" /></button>
                 </div>
                 <div className="navbar-search-icon">
                     <Link to='/cart'><img src={assets.basket_icon} alt="" className="" /></Link>

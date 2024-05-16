@@ -13,4 +13,3 @@ const Navbar = () => {
 
 console.log(assets.logo)
 export default Navbar
-

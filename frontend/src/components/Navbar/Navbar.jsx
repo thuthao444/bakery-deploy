@@ -2,19 +2,19 @@ import React, { useContext, useState, useEffect, useRef } from 'react';
 import './Navbar.css';
 import { Link, useNavigate } from 'react-router-dom';
 import { StoreContext } from '../../context/StoreContext.jsx';
-import axios from 'axios'; // Import axios
-import { assets } from '../../assets/assets.js';
 import axios from 'axios';
+import { assets } from '../../assets/assets.js';
 
 const Navbar = ({ setShowLogin }) => {
     const [menu, setMenu] = useState("menu");
     const [searchTerm, setSearchTerm] = useState('');
-    const { url, getTotalCartAmount, token, setToken } = useContext(StoreContext);
-    const navigate = useNavigate();
     const [suggestions, setSuggestions] = useState([]);
     const [showDropdown, setShowDropdown] = useState(false);
-    const dropdownRef = useRef(null); 
+    const { url, getTotalCartAmount, token, setToken } = useContext(StoreContext);
+    const navigate = useNavigate();
+    const dropdownRef = useRef(null);
 
+    // Drop tìm kiếm
     useEffect(() => {
         const fetchData = async () => {
             try {
@@ -22,19 +22,20 @@ const Navbar = ({ setShowLogin }) => {
                     const response = await axios.get(`${url}/api/food/search?search=${searchTerm}`);
                     const data = response.data.data;
                     setSuggestions(data);
-                    setShowDropdown(true); 
+                    setShowDropdown(true);
                 } else {
                     setSuggestions([]);
-                    setShowDropdown(false); 
+                    setShowDropdown(false);
                 }
             } catch (error) {
                 console.error('Error fetching data:', error);
             }
         };
-    
+
         fetchData();
     }, [searchTerm]);
 
+    // Ẩn dropdown khi click bên ngoài.
     useEffect(() => {
         function handleClickOutside(event) {
             if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
@@ -47,9 +48,9 @@ const Navbar = ({ setShowLogin }) => {
         };
     }, [dropdownRef]);
 
-    
+
     useEffect(() => {
-        setShowDropdown(false); 
+        setShowDropdown(false);
     }, [navigate]);
 
     const logout = () => {
@@ -58,33 +59,29 @@ const Navbar = ({ setShowLogin }) => {
         navigate("/");
     };
 
-    // Redirecting to search page
+    // Chuyển hướng đến trang tìm kiếm
     const handleSearch = () => {
         if (searchTerm.trim() !== '') {
             navigate(`/search?search=${searchTerm}`);
         }
     };
 
-    // Clicking on the item will redirect to the product detail page
+    // Click vào item thì chuyển đến trang chi tiết sản phẩm
     const handleSuggestionClick = (id) => {
-        navigate(`/food/${id}`); 
-    };    
+        navigate(`/food/${id}`);
+    };
 
-    // Enter to search
     const handleKeyPress = (e) => {
         if (e.key === 'Enter') {
             handleSearch();
         }
     };
 
+    // Hàm thay đổi trạng thái thanh tìm kiếm khi thay đổi kích thước màn hình
     const toggleSearch = () => {
         const navbarSearch = document.querySelector('.navbar-search');
         navbarSearch.style.display = navbarSearch.style.display === 'none' ? 'block' : 'none';
     };
-
-    const handleSuggestionClick = (id) => {
-        navigate(`/food/${id}`); 
-    }; 
 
     return (
         <div className='navbar'>
@@ -106,7 +103,7 @@ const Navbar = ({ setShowLogin }) => {
                         value={searchTerm}
                         onChange={(e) => setSearchTerm(e.target.value)}
                         onKeyPress={handleKeyPress}
-                        onFocus={() => setShowDropdown(true)} 
+                        onFocus={() => setShowDropdown(true)}
                     />
                     {showDropdown && suggestions.length > 0 && (
                         <div className="suggestions-dropdown">
@@ -116,7 +113,6 @@ const Navbar = ({ setShowLogin }) => {
                                     className="suggestion-item"
                                     onClick={() => handleSuggestionClick(product._id)}
                                 >
-                                    <img className='img' src={url + "/images/"+ product.image} alt={product.name} /> 
                                     <span className='name'>{product.name}</span>
                                 </div>
                             ))}
@@ -124,17 +120,17 @@ const Navbar = ({ setShowLogin }) => {
                     )}
                     <button className="search-btn" onClick={handleSearch}><img src={assets.search_icon} alt="" /></button>
                 </div>
-                <div className="navbar-search-icon">
+                <div className="navbar-basket">
                     <Link to='/cart'><img src={assets.basket_icon} alt="" className="" /></Link>
                     <div className={getTotalCartAmount() === 0 ? "" : "dot"}></div>
                 </div>
-                {!token ? <button onClick={() => setShowLogin(true)}>sign in</button>
+                {!token ? <button className="sign-btn" onClick={() => setShowLogin(true)}>sign in</button>
                     : <div className='navbar-profile'>
                         <img src={assets.profile_icon} alt="" />
                         <ul className='nav-profile-dropdown'>
                             <li onClick={() => navigate('/myorders')}><img src={assets.bag_icon} alt="" /><p>Orders</p></li>
                             <hr />
-                            <li onClick={() => navigate('/profile')}>Profile</li>
+                            <li onClick={() => navigate('/profile')}><img src={assets.prf_icon} alt="" /><p>Profile</p></li>
                             <hr />
                             <li onClick={logout}><img src={assets.logout_icon} alt="" /><p>Logout</p></li>
                         </ul>

@@ -87,6 +87,8 @@
     right: 150%;
     top: 50%;
     transform: translateY(-50%);
+    height: 38px;
+    width: 12em;
 }
 
 .navbar-search input[type="text"] {
@@ -95,6 +97,10 @@
     border-radius: 4px;
     font-size: 1em;
     width: 12em;
+    position: relative;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
 }
 
 .navbar-search .search-btn {
@@ -119,7 +125,28 @@
 
 .sub-search-icon {
     display: none;
-    /* Ẩn ban đầu */
+}
+
+/* __________________SEARCH-dropdown__________________ */
+.suggestions-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.suggestion-item{
+    padding-left: 0.75rem;
+    border-bottom: 1px ridge;
+}
+
+.suggestion-item:hover{
+    background-color: peru;
+    color:#fff;
 }
 
 @media (max-width: 1400px) {

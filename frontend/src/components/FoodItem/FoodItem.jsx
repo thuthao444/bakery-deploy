@@ -4,7 +4,7 @@ import { assets } from '../../assets/assets'
 import { StoreContext } from '../../context/StoreContext';
 import { Link } from 'react-router-dom';
 
-const maxWords = 20;
+const maxWords = 5;
 
 const truncateDescription = (description) => {
     const words = description.split(' ');

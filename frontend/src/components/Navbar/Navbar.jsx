@@ -4,7 +4,6 @@ import { Link, useNavigate } from 'react-router-dom';
 import { StoreContext } from '../../context/StoreContext.jsx';
 import axios from 'axios'; // Import axios
 import { assets } from '../../assets/assets.js';
-import axios from 'axios';
 
 const Navbar = ({ setShowLogin }) => {
     const [menu, setMenu] = useState("menu");
@@ -81,10 +80,6 @@ const Navbar = ({ setShowLogin }) => {
         const navbarSearch = document.querySelector('.navbar-search');
         navbarSearch.style.display = navbarSearch.style.display === 'none' ? 'block' : 'none';
     };
-
-    const handleSuggestionClick = (id) => {
-        navigate(`/food/${id}`); 
-    }; 
 
     return (
         <div className='navbar'>

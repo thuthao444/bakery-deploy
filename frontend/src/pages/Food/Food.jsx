@@ -15,10 +15,6 @@ const Food = () => {
     const { id } = useParams();
     const { cartItems, addToCart, removeFromCart, url, token } = useContext(StoreContext);
     const [data, setData] = useState([]);
-    const [rating, setRating] = useState({
-        comment: "",
-        rate: "",
-    });
 
     const [averageRating, setAverageRating] = useState(0);
 
@@ -35,28 +31,6 @@ const Food = () => {
     useEffect(() => {
         fetchFood()
     })
-
-    const onChangeHandler = (event) => {
-        const name = event.target.name;
-        const value = event.target.value;
-        setRating(rating => ({ ...rating, [name]: value }))
-    }
-
-    const comment = async (event) => {
-        event.preventDefault();
-
-        let ratingData = {
-            comment: rating.comment,
-            rating: rating.rate
-        }
-
-        let response = await axios.post(url + `/api/food/${id}`, ratingData, { headers: { token } });
-        if (response.data.success) {
-            fetchFood()
-        } else {
-            console.log("Error")
-        }
-    }
 
     const calAverRating = (ratings) => {
         if (ratings && ratings.length > 0) {
@@ -113,33 +87,29 @@ const Food = () => {
                         <div className="star">{renderStarRating()}</div>
                     </div>
                 </div>
-            </div>
-            <div className='rating-comments'>
-                <h4>Ratings:</h4>
-                {data.ratings && Object.keys(data.ratings).length > 0 ? (
-                    <ul>
-                        {data.ratings.map((rating, index) => (
-                            <li key={index}>
-                                <p>User ID: {rating.userId}</p>
-                                <p>Comment: {rating.comment}</p>
-                                <p>Rating: {rating.rating}</p>
-                            </li>
-                        ))}
-                    </ul>
-                ) : (
-                    <p>No ratings available</p>
-                )}
-            </div>
-            <form onSubmit={comment} className='user-reviews'>
-                <div className="reviews">
-                    <p className="title">Comment</p>
-                    <div className="fields">
-                        <input required name='comment' onChange={onChangeHandler} value={rating.comment} type="text" placeholder='comment' />
-                        <input required name='rate' onChange={onChangeHandler} value={rating.rate} type="number" placeholder='rate' />
+                <div className='box-rating'>
+                    <h2>Ratings:</h2>
+                    <div className="comment-container">
+                        {data.ratings && data.ratings.length > 0 ? (
+                            <ul>
+                                {data.ratings.map((rating, index) => (
+                                    <li key={index} className='rating-item'>
+                                        <p>User ID: <span>{rating.userId}</span></p>
+                                        <p>Comment: <span>{rating.comment}</span></p>
+                                        <p>Rating: <span id='rating-number'>{rating.rating}<img src={assets.rating_starts}/></span></p>
+                                    </li>
+                                ))}
+                            </ul>
+                        ) : (
+                            <p>No ratings</p>
+                        )}
                     </div>
-                    <button type='submit'>Comment</button>
                 </div>
-            </form>
+                <div className="recommend-item">
+                    <h2>Recommend food for you</h2>
+                    <hr />
+                </div>
+            </div>
         </div>
     )
 }

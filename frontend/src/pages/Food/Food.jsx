@@ -153,29 +153,20 @@ const Food = () => {
                     </div>
                 </div>
                 <div className="recommend-item">
-                    <h2>Recommend food for you</h2>
-                    <hr />
+                        <h2>Recommend food for you</h2>
+                        <div className="recommend-list">
+                        <ul>
+                            {recommendations.map((item, index) => (
+                                <li key={index} className='recommendation-item'>
+                                    {item}
+                                </li>
+                            ))}
+                        </ul>
+                        </div>
                 </div>
-            </form>
-            <div className="recommend-item">
-                    <h2>Recommend food for you</h2>
-                    <hr />
-                    <div className="recommend-list">
-                    {recommendations.length > 0 ? (
-                            <ul>
-                                {recommendations.map((item, index) => (
-                                    <li key={index} className='recommendation-item'>
-                                        {item}
-                                    </li>
-                                ))}
-                            </ul>
-                        ) : (
-                            <p>No recommendations available</p>
-                        )}
-                    </div>
             </div>
         </div>
     )
-}
+};
 
 export default Food

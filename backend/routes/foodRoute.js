@@ -1,5 +1,4 @@
 import express from 'express'
-import { addFood, listFood, removeFood, getFoodById, addComment, searchFood } from '../controllers/foodController.js'
 import { addFood, listFood, removeFood, getFoodById, addComment, searchFood, recommendFood } from '../controllers/foodController.js'
 import multer from 'multer'
 import authMiddleware from "../middleware/auth.js"

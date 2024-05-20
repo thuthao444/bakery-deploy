@@ -15,6 +15,7 @@ const Food = () => {
     const { id } = useParams();
     const { cartItems, addToCart, removeFromCart, url, token } = useContext(StoreContext);
     const [data, setData] = useState([]);
+    const [recommendations, setRecommendations] = useState([]);
     const [rating, setRating] = useState({
         comment: "",
         rate: "",
@@ -22,19 +23,39 @@ const Food = () => {
 
     const [averageRating, setAverageRating] = useState(0);
 
+    const userName = localStorage.getItem("name")
     const fetchFood = async () => {
         const response = await axios.get(url + `/api/food/${id}`);
         if (response.data.success) {
             setData(response.data.data);
             calAverRating(response.data.data.ratings);
+            fetchRecommendations(response.data.data.name);
         } else {
             console.log("Error")
         }
     }
 
+    const fetchRecommendations = async (itemName, userName) => {
+        try {
+            const response = await axios.get(`${url}/api/food/recommend/${itemName}/${userName}`);
+            // const response = await axios.get(`http://localhost:4000/api/food/recommend/Toast/trang`);
+            if (response.status === 200) {
+            
+                setRecommendations(response.data.data.recommendations);
+            } else {
+                console.log("Error fetching recommendations");
+            }
+        } catch (error) {
+            console.log("Error:", error);
+        }
+    }; 
+
     useEffect(() => {
         fetchFood()
     })
+    useEffect(() => {
+        fetchRecommendations();
+    }, [])
 
     const onChangeHandler = (event) => {
         const name = event.target.name;
@@ -93,10 +114,10 @@ const Food = () => {
         <div className='food-details'>
             <div className="food-details-container">
                 <img className="food-item-img" src={url + "/images/" + data.image} alt="" />
-                <div class="descrip">
-                    <p class="descrip-name">{data.name}</p>
+                <div className="descrip">
+                    <p className="descrip-name">{data.name}</p>
                     <p className="descrip-category">{data.category}</p>
-                    <p class="descrip-description">{data.description}</p>
+                    <p className="descrip-description">{data.description}</p>
                     <p className="descrip-price">{formatPrice(parseFloat(data.price))}vnd</p>
                     <div className="add-cart">
                         {!cartItems[id]
@@ -108,7 +129,7 @@ const Food = () => {
                             </div>
                         }
                     </div>
-                    <div class="descrip-rate">
+                    <div className="descrip-rate">
                         <p>{averageRating}</p>
                         <div className="star">{renderStarRating()}</div>
                     </div>
@@ -140,6 +161,23 @@ const Food = () => {
                     <button type='submit'>Comment</button>
                 </div>
             </form>
+            <div className="recommend-item">
+                    <h2>Recommend food for you</h2>
+                    <hr />
+                    <div className="recommend-list">
+                    {recommendations.length > 0 ? (
+                            <ul>
+                                {recommendations.map((item, index) => (
+                                    <li key={index} className='recommendation-item'>
+                                        {item}
+                                    </li>
+                                ))}
+                            </ul>
+                        ) : (
+                            <p>No recommendations available</p>
+                        )}
+                    </div>
+            </div>
         </div>
     )
 }

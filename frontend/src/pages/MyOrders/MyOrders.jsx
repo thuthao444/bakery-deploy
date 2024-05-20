@@ -3,6 +3,7 @@ import './MyOrders.css'
 import { StoreContext } from '../../context/StoreContext';
 import axios from 'axios';
 import { assets } from '../../assets/assets';
+import { useNavigate } from 'react-router-dom';
 
 const formatPrice = (price) => {
     return price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
@@ -12,6 +13,7 @@ const MyOrders = () => {
 
     const {url, token} = useContext(StoreContext);
     const [data, setData] = useState([]);
+    const navigate = useNavigate();
 
     const fetchOrders = async () => {
         const response = await axios.post(url + "/api/order/userorders", {}, {headers:{token}});
@@ -24,11 +26,16 @@ const MyOrders = () => {
         }
     }, [token])
 
+    const handleRatingClick = (orderId, items) => {
+        navigate(`/rating/${orderId}`, { state: { items } }); 
+    };
+
   return (
     <div className='my-orders'>
         <h2>My Orders</h2>
         <div className="container">
             {data.map((order, index) => {
+                const isRated = order.rated === true;
                 return (
                     <div key={index} className="my-orders-order">
                         <img src="assets.parcel_icon" alt="" />
@@ -42,7 +49,13 @@ const MyOrders = () => {
                         <p>{formatPrice(parseFloat(order.amount))}đ</p>
                         <p>Items: {order.items.length}</p>
                         <p><span>&#x25cf;</span><b>{order.status}</b></p>
-                        <button onClick={fetchOrders}>Track Order</button>
+                        {order.status === 'Delivered' && (
+                                order.rated ? (
+                                    <div className="complete-box">Completed</div>
+                                ) : (
+                                    <button onClick={() => handleRatingClick(order._id, order.items)} className={order.rated ? 'rated' : ''}>Rating</button>
+                                )
+                        )}
                     </div>
                 )
             })}

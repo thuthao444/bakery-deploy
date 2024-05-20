@@ -105,4 +105,22 @@ const updateStatus = async (req, res) => {
     }
 }
 
-export { placeOrder, verifyOrder, userOrders, listOrders, updateStatus }
+// api for updating order rated
+const updateRated = async (req, res) => {
+    try {
+        const { orderId } = req.params;
+
+        const order = await orderModel.findByIdAndUpdate(orderId, { rated: true });
+
+        if (!order) {
+            return res.status(404).json({ success: false, message: "Order not found" });
+        }
+
+        return res.json({ success: true, message: "Order rated status updated successfully" });
+    } catch (error) {
+        console.error('Error updating rated status:', error);
+        return res.status(500).json({ success: false, message: "Internal server error" });
+    }
+}
+
+export { placeOrder, verifyOrder, userOrders, listOrders, updateStatus, updateRated }

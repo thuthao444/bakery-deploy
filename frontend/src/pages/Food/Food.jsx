@@ -134,31 +134,27 @@ const Food = () => {
                         <div className="star">{renderStarRating()}</div>
                     </div>
                 </div>
-            </div>
-            <div className='rating-comments'>
-                <h4>Ratings:</h4>
-                {data.ratings && Object.keys(data.ratings).length > 0 ? (
-                    <ul>
-                        {data.ratings.map((rating, index) => (
-                            <li key={index}>
-                                <p>User ID: {rating.userId}</p>
-                                <p>Comment: {rating.comment}</p>
-                                <p>Rating: {rating.rating}</p>
-                            </li>
-                        ))}
-                    </ul>
-                ) : (
-                    <p>No ratings available</p>
-                )}
-            </div>
-            <form onSubmit={comment} className='user-reviews'>
-                <div className="reviews">
-                    <p className="title">Comment</p>
-                    <div className="fields">
-                        <input required name='comment' onChange={onChangeHandler} value={rating.comment} type="text" placeholder='comment' />
-                        <input required name='rate' onChange={onChangeHandler} value={rating.rate} type="number" placeholder='rate' />
+                <div className='box-rating'>
+                    <h2>Ratings:</h2>
+                    <div className="comment-container">
+                        {data.ratings && data.ratings.length > 0 ? (
+                            <ul>
+                                {data.ratings.map((rating, index) => (
+                                    <li key={index} className='rating-item'>
+                                        <p>User ID: <span>{rating.userId}</span></p>
+                                        <p>Comment: <span>{rating.comment}</span></p>
+                                        <p>Rating: <span id='rating-number'>{rating.rating}<img src={assets.rating_starts}/></span></p>
+                                    </li>
+                                ))}
+                            </ul>
+                        ) : (
+                            <p>No ratings</p>
+                        )}
                     </div>
-                    <button type='submit'>Comment</button>
+                </div>
+                <div className="recommend-item">
+                    <h2>Recommend food for you</h2>
+                    <hr />
                 </div>
             </form>
             <div className="recommend-item">

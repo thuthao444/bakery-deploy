@@ -28,6 +28,10 @@ const orderSchema = new mongoose.Schema({
     payment: {
         type: Boolean,
         default: false,
+    },
+    rated: {
+        type: Boolean,
+        default: false,
     }
 })
 

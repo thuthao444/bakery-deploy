@@ -4,6 +4,7 @@ import { assets } from '../../assets/assets'
 import { StoreContext } from '../../context/StoreContext';
 import { useParams } from 'react-router-dom';
 import axios from 'axios';
+import FoodItem from '../../components/FoodItem/FoodItem';
 
 // Hàm thêm dấu ngăn cho tiền
 const formatPrice = (price) => {
@@ -13,23 +14,18 @@ const formatPrice = (price) => {
 const Food = () => {
 
     const { id } = useParams();
-    const { cartItems, addToCart, removeFromCart, url, token } = useContext(StoreContext);
+    const { cartItems, addToCart, removeFromCart, url, token, name } = useContext(StoreContext);
     const [data, setData] = useState([]);
     const [recommendations, setRecommendations] = useState([]);
-    const [rating, setRating] = useState({
-        comment: "",
-        rate: "",
-    });
-
+    const [fullItem, setFullItem] = useState([]);
     const [averageRating, setAverageRating] = useState(0);
 
-    const userName = localStorage.getItem("name")
     const fetchFood = async () => {
         const response = await axios.get(url + `/api/food/${id}`);
         if (response.data.success) {
             setData(response.data.data);
             calAverRating(response.data.data.ratings);
-            fetchRecommendations(response.data.data.name);
+            fetchRecommendations(response.data.data.name, name);
         } else {
             console.log("Error")
         }
@@ -37,47 +33,50 @@ const Food = () => {
 
     const fetchRecommendations = async (itemName, userName) => {
         try {
-            const response = await axios.get(`${url}/api/food/recommend/${itemName}/${userName}`);
-            // const response = await axios.get(`http://localhost:4000/api/food/recommend/Toast/trang`);
+            const response = await axios.get('http://localhost:4040/recommend/', {
+                params: {
+                    item_name: itemName,
+                    user_name: userName
+                }
+            });
+
             if (response.status === 200) {
-            
-                setRecommendations(response.data.data.recommendations);
+                setRecommendations(response.data.recommendations);
+                fetchItem(response.data.recommendations)
             } else {
                 console.log("Error fetching recommendations");
             }
         } catch (error) {
             console.log("Error:", error);
         }
-    }; 
+    };
+    
+    // Fetch thông tin các món ăn đề xuất từ API
+    const fetchItem = async (list) => {
+        const item = []
+        for (let i = 0; i < list.length; i++) {
+            const response = await axios.get(url + `/api/food/get?name=${list[i]}`)
+            if (response.status === 200) {
+                item.push(response.data.data)
+            } else {
+                console.log("Can not find item")
+            }
+        }
+        setFullItem(item)
+    }
 
     useEffect(() => {
-        fetchFood()
-    })
+        fetchFood();
+        window.scrollTo(0, 0);
+    }, [id]);
+
     useEffect(() => {
         fetchRecommendations();
+    }, [id])
+
+    useEffect(() => {
+        fetchItem();
     }, [])
-
-    const onChangeHandler = (event) => {
-        const name = event.target.name;
-        const value = event.target.value;
-        setRating(rating => ({ ...rating, [name]: value }))
-    }
-
-    const comment = async (event) => {
-        event.preventDefault();
-
-        let ratingData = {
-            comment: rating.comment,
-            rating: rating.rate
-        }
-
-        let response = await axios.post(url + `/api/food/${id}`, ratingData, { headers: { token } });
-        if (response.data.success) {
-            fetchFood()
-        } else {
-            console.log("Error")
-        }
-    }
 
     const calAverRating = (ratings) => {
         if (ratings && ratings.length > 0) {
@@ -153,16 +152,24 @@ const Food = () => {
                     </div>
                 </div>
                 <div className="recommend-item">
-                        <h2>Recommend food for you</h2>
-                        <div className="recommend-list">
-                        <ul>
-                            {recommendations.map((item, index) => (
-                                <li key={index} className='recommendation-item'>
-                                    {item}
-                                </li>
-                            ))}
-                        </ul>
-                        </div>
+                    <h2>Recommend food for you</h2>
+                    <hr />
+                    <div className="recommend-list">
+                        {fullItem.length > 0 ? (
+                            fullItem.map((food) => (
+                                <FoodItem
+                                    key={food._id}
+                                    id={food._id}
+                                    name={food.name}
+                                    price={food.price}
+                                    description={food.description}
+                                    image={food.image}
+                                />
+                            ))
+                        ) : (
+                            <p>No recommendations available</p>
+                        )}
+                    </div>
                 </div>
             </div>
         </div>

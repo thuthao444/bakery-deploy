@@ -189,7 +189,7 @@ const resources = {
       "orders": "Đơn hàng",
       "profile": "Trang cá nhân",
       "logout": "Đăng xuất",
-      "title-home": "Bánh mì thủ công thơm ngon đang chờ đợi!",
+      "title-home": "Những lát bánh mì thơm ngon đang chờ!",
       "text-home": "Thưởng thức hành trình ẩm thực với thực đơn bánh sandwich hấp dẫn của chúng tôi. Bùng nổ hương vị và được chế biến cẩn thận, mỗi chiếc bánh sandwich là một món ăn ngon đang chờ bạn thưởng thức. Từ những món yêu thích cổ điển đến những món sáng tạo sáng tạo, chúng tôi cố gắng nâng cao trải nghiệm ăn uống của bạn và khiến bạn thèm ăn nhiều hơn. Hãy tham gia cùng chúng tôi và khám phá nghệ thuật làm bánh sandwich hoàn hảo, từng miếng một.",
       "view menu": "Xem thực đơn",
       "explore": "Khám phá thực đơn",

@@ -18,6 +18,8 @@
     padding: 10px 20px;
     color: #454545;
     border: 1px solid peru;
+    margin-top: 5px;
+    border-radius: 5px;
 }
 
 .my-orders-order img {
@@ -33,13 +35,21 @@
     color: #454545;
 }
 
+.my-orders h2{
+    margin-bottom: 20px;
+}
+
 .my-orders-order button {
     border: none;
     padding: 12px 0px;
     border-radius: 4px;
-    background-color: #ffe1e1;
+    background-color: peru;
     cursor: pointer;
-    color: #454545;
+    color: #fff;
+}
+
+.my-orders-order button:hover{
+    opacity: 80%;
 }
 
 @media (max-width: 900px) {

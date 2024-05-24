@@ -3,6 +3,8 @@ import axios from 'axios';
 import { useLocation, useNavigate, useParams } from 'react-router-dom';
 import './Rating.css'
 import { StoreContext } from '../../context/StoreContext';
+import { useTranslation } from 'react-i18next'
+
 
 const Rating = () => {
     const { url, token } = useContext(StoreContext);
@@ -16,6 +18,7 @@ const Rating = () => {
 
     const { orderId } = useParams();
     const navigate = useNavigate();
+    const { t } = useTranslation()
 
     const onChangeHandler = (event) => {
         const name = event.target.name;
@@ -68,17 +71,17 @@ const Rating = () => {
     return (
         <div className='rating'>
             <div className="rating-box">
-            <h2 className='rating-title'>Rating for {currentItem.name}</h2>
+            <h2 className='rating-title'>{t('Rating for')} {currentItem.name}</h2>
                 <form onSubmit={handleSubmit}>
                     <div className="rating-group">
-                        <label>Comment:</label>
+                        <label> {t('Comment:')} </label>
                         <input required name='comment' onChange={onChangeHandler} value={rating.comment} type="text" placeholder='comment' />
                     </div>
                     <div className="rating-group">
-                        <label htmlFor="">Rating:</label>
+                        <label htmlFor="">{t('Rating:')}</label>
                         <input required name='rate' onChange={onChangeHandler} value={rating.rate} min="1" max="5" type="number" placeholder='rate' />
                     </div>
-                    <button type="submit">Submit</button>
+                    <button type="submit">{t('Submit')}</button>
                 </form>
             </div>
         </div>

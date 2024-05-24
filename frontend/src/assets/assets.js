@@ -2,6 +2,7 @@ import basket_icon from './basket_icon.png'
 import logo from './logo.png'
 import header_img from './header_img.png'
 import search_icon from './search_icon.png'
+import translation_icon from './translation_icon.png'
 import menu_1 from './menu_1.png'
 import menu_2 from './menu_2.png'
 import menu_3 from './menu_3.png'
@@ -79,12 +80,13 @@ export const assets = {
     profile_icon,
     logout_icon,
     bag_icon,
-    parcel_icon
+    parcel_icon,
+    translation_icon
 }
 
 export const menu_list = [
     {
-        menu_name: "",
+        menu_name: "Salad",
         menu_image: menu_1
     },
     {

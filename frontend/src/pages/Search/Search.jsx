@@ -4,6 +4,7 @@ import { StoreContext } from '../../context/StoreContext';
 import axios from 'axios';
 import FoodItem from '../../components/FoodItem/FoodItem';
 import { useLocation } from 'react-router-dom'; // Import useLocation
+import { useTranslation } from 'react-i18next'
 
 const Search = () => {
     const { url } = useContext(StoreContext);
@@ -11,6 +12,7 @@ const Search = () => {
     const [searchResult, setSearchResult] = useState([]);
     const [noFoodFound, setNoFoodFound] = useState(false);
     const location = useLocation(); // Lấy location
+    const { t } = useTranslation()
 
     useEffect(() => {
         const searchParams = new URLSearchParams(location.search);
@@ -38,10 +40,10 @@ const Search = () => {
         <div className='search-container'>
             <div className="search-results">
                 {noFoodFound ? (
-                    <div className="not-found">Food item search unsuccessful <br /> Please try again!</div>
+                    <div className="not-found">{t('Food item search unsuccessful')} <br /> {t('Please try again!')}</div>
                 ) : (
                     <div>
-                        <h2 className="food-search-title">Search results</h2>
+                        <h2 className="food-search-title">{t('Search results')}</h2>
                         <div className="food-search-list">
                             {searchResult.map((food) => (
                                 <div key={food._id} className="food-item-wrapper">

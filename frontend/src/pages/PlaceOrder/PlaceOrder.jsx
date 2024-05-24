@@ -3,6 +3,7 @@ import './PlaceOrder.css'
 import { StoreContext } from '../../context/StoreContext'
 import { useNavigate } from 'react-router-dom'
 import axios from 'axios';
+import { useTranslation } from 'react-i18next'
 
 const formatPrice = (price) => {
   return price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
@@ -23,6 +24,8 @@ const PlaceOrder = () => {
     country: "",
     phone: ""
   })
+
+  const { t } = useTranslation()
 
   const onChangeHandler = (event) => {
       const name = event.target.name;
@@ -68,7 +71,7 @@ const PlaceOrder = () => {
   return (
     <form onSubmit={placeOrder} className='place-order'>
       <div className="place-order-left">
-        <p className="title">Delivery Information</p>
+        <p className="title">{t('Delivery Information')}</p>
         <div className="multi-fields">
           <input required name='firstName' onChange={ onChangeHandler } value={ data.firstName } type="text" placeholder='First name' />
           <input required name='lastName' onChange={ onChangeHandler } value={ data.lastName } type="text" placeholder='Last name' />
@@ -87,24 +90,24 @@ const PlaceOrder = () => {
       </div>
       <div className="place-order-right">
         <div className="cart-total">
-          <h2>Cart Totals</h2>
+          <h2>{t('Cart Totals')}</h2>
           <div>
             <div className="cart-total-details">
-              <p>Subtotal</p>
+              <p>{t('Subtotal')}</p>
               <p>{formatPrice(parseFloat(getTotalCartAmount()))}đ</p>
             </div>
             <hr />
             <div className="cart-total-details">
-              <p>Delivery Fee</p>
+              <p>{t('Delivery Fee')}</p>
               <p>{formatPrice(parseFloat(getTotalCartAmount() === 0 ? 0 : 15000))}đ</p>
             </div>
             <hr />
             <div className="cart-total-details">
-              <b>Total</b>
+              <b>{t('Total')}</b>
               <b>{formatPrice(parseFloat(getTotalCartAmount() === 0 ? 0 : getTotalCartAmount() + 15000))}đ</b>
             </div>
           </div>
-          <button type='submit'>PROCEED TO PAYMENT</button>
+          <button type='submit'>{t('PROCEED TO PAYMENT')}</button>
         </div>
       </div>
     </form>

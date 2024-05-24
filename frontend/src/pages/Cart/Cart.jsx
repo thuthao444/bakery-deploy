@@ -2,6 +2,7 @@ import React, { useContext } from 'react'
 import './Cart.css'
 import { StoreContext } from '../../context/StoreContext'
 import { useNavigate } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
 
 const formatPrice = (price) => {
   return price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
@@ -13,16 +14,18 @@ const Cart = () => {
 
   const navigate = useNavigate();
 
+  const { t } = useTranslation()
+
   return (
     <div className='cart'>
       <div className="cart-items">
         <div className="cart-items-title">
-          <p>Items</p>
-          <p>Title</p>
-          <p>Price</p>
-          <p>Quantity</p>
-          <p>Total</p>
-          <p>Remove</p>
+          <p>{t('Items')}</p>
+          <p>{t('Title')}</p>
+          <p>{t('Price')}</p>
+          <p>{t('Quantity')}</p>
+          <p>{t('Total')}</p>
+          <p>{t('Remove')}</p>
         </div>
         <br />
         <hr />
@@ -48,31 +51,31 @@ const Cart = () => {
       <div>
         <div className="cart-bottom">
           <div className="cart-total">
-            <h2>Cart Totals</h2>
+            <h2>{t('Cart Totals')}</h2>
             <div>
               <div className="cart-total-details">
-                <p>Subtotal</p>
+                <p>{t('Subtotal')}</p>
                 <p>{formatPrice(parseFloat(getTotalCartAmount()))}đ</p>
               </div>
               <hr />
               <div className="cart-total-details">
-                <p>Delivery Fee</p>
+                <p>{t('Delivery Fee')}</p>
                 <p>{formatPrice(parseFloat(getTotalCartAmount() === 0 ? 0 : 15000))}đ</p>
               </div>
               <hr />
               <div className="cart-total-details">
-                <b>Total</b>
+                <b>{t('Total')}</b>
                 <b>{formatPrice(parseFloat(getTotalCartAmount() === 0 ? 0 : getTotalCartAmount() + 15000))}đ</b>
               </div>
             </div>
-            <button onClick={() => navigate('/order')}>PROCEED TO CHECKOUT</button>
+            <button onClick={() => navigate('/order')}>{t('PROCEED TO CHECKOUT')}</button>
           </div>
           <div className="cart-promocode">
             <div>
-              <p>if you have a promocode, Enter it here</p>
+              <p>{t('if you have a promocode, Enter it here')}</p>
               <div className='cart-promocode-input'>
                 <input type="text" placeholder='promocode' />
-                <button>Submit</button>
+                <button>{t('Submit')}</button>
               </div>
             </div>
           </div>

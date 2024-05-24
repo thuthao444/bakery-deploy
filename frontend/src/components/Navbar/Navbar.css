@@ -201,6 +201,50 @@
     color: peru;
 }
 
+/* __________________TRANSLATION__________________ */
+.dropdown-translation {
+    position: relative;
+    display: inline-block;
+    background: none;
+}
+
+.dropdown-translation img {
+    width: 25px;
+}
+
+.dropbtn {
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content button {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    background: none;
+    border: none;
+    text-align: left;
+    width: 100%;
+    cursor: pointer;
+}
+
+.dropdown-translation:hover .dropdown-content {
+    display: block; 
+}
+
 @media (max-width: 1050px) {
     .navbar .logo {
         width: 140px;

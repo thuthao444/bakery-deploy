@@ -5,6 +5,7 @@ import { StoreContext } from '../../context/StoreContext';
 import { useParams } from 'react-router-dom';
 import axios from 'axios';
 import FoodItem from '../../components/FoodItem/FoodItem';
+import { useTranslation } from 'react-i18next'
 
 // Hàm thêm dấu ngăn cho tiền
 const formatPrice = (price) => {
@@ -19,6 +20,7 @@ const Food = () => {
     const [recommendations, setRecommendations] = useState([]);
     const [fullItem, setFullItem] = useState([]);
     const [averageRating, setAverageRating] = useState(0);
+    const { t } = useTranslation()
 
     const fetchFood = async () => {
         const response = await axios.get(url + `/api/food/${id}`);
@@ -115,12 +117,12 @@ const Food = () => {
                 <img className="food-item-img" src={url + "/images/" + data.image} alt="" />
                 <div className="descrip">
                     <p className="descrip-name">{data.name}</p>
-                    <p className="descrip-category">{data.category}</p>
-                    <p className="descrip-description">{data.description}</p>
+                    <p className="descrip-category">{t(`${data.category}`)}</p>
+                    <p className="descrip-description">{t(`${data.description}`)}</p>
                     <p className="descrip-price">{formatPrice(parseFloat(data.price))}vnd</p>
                     <div className="add-cart">
                         {!cartItems[id]
-                            ? <button className='add-button' onClick={() => addToCart(id)}>Add to Cart</button>
+                            ? <button className='add-button' onClick={() => addToCart(id)}>{t('Add to cart')}</button>
                             : <div className='food-counter'>
                                 <img onClick={() => removeFromCart(id)} src={assets.remove_icon_red} alt="" />
                                 <p>{cartItems[id]}</p>
@@ -134,25 +136,25 @@ const Food = () => {
                     </div>
                 </div>
                 <div className='box-rating'>
-                    <h2>Ratings:</h2>
+                    <h2>{t('Ratings')}:</h2>
                     <div className="comment-container">
                         {data.ratings && data.ratings.length > 0 ? (
                             <ul>
                                 {data.ratings.map((rating, index) => (
                                     <li key={index} className='rating-item'>
-                                        <p>User ID: <span>{rating.userId}</span></p>
-                                        <p>Comment: <span>{rating.comment}</span></p>
-                                        <p>Rating: <span id='rating-number'>{rating.rating}<img src={assets.rating_starts}/></span></p>
+                                        <p>{t('User ID:')} <span>{rating.userId}</span></p>
+                                        <p>{t('Comment')}: <span>{rating.comment}</span></p>
+                                        <p>{t('Rating')}: <span id='rating-number'>{rating.rating}<img src={assets.rating_starts}/></span></p>
                                     </li>
                                 ))}
                             </ul>
                         ) : (
-                            <p>No ratings</p>
+                            <p>{t('No ratings')}</p>
                         )}
                     </div>
                 </div>
                 <div className="recommend-item">
-                    <h2>Recommend food for you</h2>
+                    <h2>{t('Recommend food for you')}</h2>
                     <hr />
                     <div className="recommend-list">
                         {fullItem.length > 0 ? (
@@ -167,7 +169,7 @@ const Food = () => {
                                 />
                             ))
                         ) : (
-                            <p>No recommendations available</p>
+                            <p>{t('No recommendations available')}</p>
                         )}
                     </div>
                 </div>

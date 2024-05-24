@@ -4,6 +4,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { StoreContext } from '../../context/StoreContext.jsx';
 import axios from 'axios';
 import { assets } from '../../assets/assets.js';
+import { useTranslation } from 'react-i18next';
 
 const Navbar = ({ setShowLogin }) => {
     const [menu, setMenu] = useState("menu");
@@ -13,6 +14,9 @@ const Navbar = ({ setShowLogin }) => {
     const { url, getTotalCartAmount, token, setToken } = useContext(StoreContext);
     const navigate = useNavigate();
     const dropdownRef = useRef(null);
+    const { t } = useTranslation();
+    const { i18n } = useTranslation();
+    const [dropdownOpen, setDropdownOpen] = useState(false);
 
     // Drop tìm kiếm
     useEffect(() => {
@@ -83,23 +87,41 @@ const Navbar = ({ setShowLogin }) => {
         navbarSearch.style.display = navbarSearch.style.display === 'none' ? 'block' : 'none';
     };
 
+    const changeLanguage = (lng) => {
+        if (lng === 'en' || lng === 'vi') {
+            i18n.changeLanguage(lng);
+        } else {
+            console.error('Invalid language:', lng);
+        }
+    };       
+
+    const toggleDropdown = () => {
+        setDropdownOpen(!dropdownOpen);
+    };
+
     return (
         <div className='navbar'>
             <Link to=''><img src={assets.logo} alt="" className="logo" /></Link>
             <ul className="navbar-menu">
-                <Link to='/' onClick={() => setMenu("home")} className={menu === "home" ? "active" : ""}>home</Link>
-                <a href='#explore-menu' onClick={() => setMenu("menu")} className={menu === "menu" ? "active" : ""}>menu</a>
-                <a href='#app-download' onClick={() => setMenu("mobile-app")} className={menu === "mobile-app" ? "active" : ""}>mobile app</a>
-                <a href='#footer' onClick={() => setMenu("contact-us")} className={menu === "contact-us" ? "active" : ""}>contact us</a>
+                <Link to='/' onClick={() => setMenu("home")} className={menu === "home" ? "active" : ""}>{t('home')}</Link>
+                <a href='#explore-menu' onClick={() => setMenu("menu")} className={menu === "menu" ? "active" : ""}>{t('menu')}</a>
+                <a href='#footer' onClick={() => setMenu("contact-us")} className={menu === "contact-us" ? "active" : ""}>{t('contact')}</a>
             </ul>
             <div className="navbar-right">
+                <div className="dropdown-translation">
+                    <button className="dropbtn"><img src={assets.translation_icon} alt="" /></button>
+                    <div className="dropdown-content">
+                        <button onClick={() => changeLanguage('en')}>English</button>
+                        <button onClick={() => changeLanguage('vi')}>Tiếng Việt</button>
+                    </div>
+                </div>
                 <div className="sub-search-icon" onClick={toggleSearch}>
                     <img src={assets.search_icon} alt="Search" />
                 </div>
                 <div className="navbar-search" ref={dropdownRef}>
                     <input
                         type="text"
-                        placeholder="Search"
+                        placeholder={t('search')}
                         value={searchTerm}
                         onChange={(e) => setSearchTerm(e.target.value)}
                         onKeyPress={handleKeyPress}
@@ -124,15 +146,15 @@ const Navbar = ({ setShowLogin }) => {
                     <Link to='/cart'><img src={assets.basket_icon} alt="" className="" /></Link>
                     <div className={getTotalCartAmount() === 0 ? "" : "dot"}></div>
                 </div>
-                {!token ? <button className="sign-btn" onClick={() => setShowLogin(true)}>sign in</button>
+                {!token ? <button className="sign-btn" onClick={() => setShowLogin(true)}>{t('sign in')}</button>
                     : <div className='navbar-profile'>
                         <img src={assets.profile_icon} alt="" />
                         <ul className='nav-profile-dropdown'>
-                            <li onClick={() => navigate('/myorders')}><img src={assets.bag_icon} alt="" /><p>Orders</p></li>
+                            <li onClick={() => navigate('/myorders')}><img src={assets.bag_icon} alt="" /><p>{t('orders')}</p></li>
                             <hr />
-                            <li onClick={() => navigate('/profile')}><img src={assets.prf_icon} alt="" /><p>Profile</p></li>
+                            <li onClick={() => navigate('/profile')}><img src={assets.prf_icon} alt="" /><p>{t('profile')}</p></li>
                             <hr />
-                            <li onClick={logout}><img src={assets.logout_icon} alt="" /><p>Logout</p></li>
+                            <li onClick={logout}><img src={assets.logout_icon} alt="" /><p>{t('logout')}</p></li>
                         </ul>
                     </div>}
             </div>

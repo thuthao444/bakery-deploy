@@ -4,6 +4,7 @@ import { StoreContext } from '../../context/StoreContext';
 import axios from 'axios';
 import { assets } from '../../assets/assets';
 import { useNavigate } from 'react-router-dom';
+import { useTranslation } from 'react-i18next'
 
 const formatPrice = (price) => {
     return price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
@@ -14,6 +15,7 @@ const MyOrders = () => {
     const {url, token} = useContext(StoreContext);
     const [data, setData] = useState([]);
     const navigate = useNavigate();
+    const { t } = useTranslation()
 
     const fetchOrders = async () => {
         const response = await axios.post(url + "/api/order/userorders", {}, {headers:{token}});
@@ -32,7 +34,7 @@ const MyOrders = () => {
 
   return (
     <div className='my-orders'>
-        <h2>My Orders</h2>
+        <h2>{t('My Orders')}</h2>
         <div className="container">
             {data.map((order, index) => {
                 const isRated = order.rated === true;
@@ -47,13 +49,13 @@ const MyOrders = () => {
                             }
                         })}</p>
                         <p>{formatPrice(parseFloat(order.amount))}đ</p>
-                        <p>Items: {order.items.length}</p>
+                        <p>{t('Items:')} {order.items.length}</p>
                         <p><span>&#x25cf;</span><b>{order.status}</b></p>
                         {order.status === 'Delivered' && (
                                 order.rated ? (
-                                    <div className="complete-box">Completed</div>
+                                    <div className="complete-box">{t('Completed')}</div>
                                 ) : (
-                                    <button onClick={() => handleRatingClick(order._id, order.items)} className={order.rated ? 'rated' : ''}>Rating</button>
+                                    <button onClick={() => handleRatingClick(order._id, order.items)} className={order.rated ? 'rated' : ''}>{t('Rating')}</button>
                                 )
                         )}
                     </div>

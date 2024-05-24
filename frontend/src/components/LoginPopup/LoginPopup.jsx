@@ -3,6 +3,7 @@ import './LoginPopup.css'
 import { assets } from '../../assets/assets'
 import { StoreContext } from '../../context/StoreContext.jsx';
 import axios from 'axios';
+import { useTranslation } from 'react-i18next'
 
 const LoginPopup = ({ setShowLogin }) => {
     const {url, setToken} = useContext(StoreContext)
@@ -13,6 +14,8 @@ const LoginPopup = ({ setShowLogin }) => {
         email:"",
         password:""
     })
+
+    const { t } = useTranslation()
 
     const onChangeHandler = (event) => {
         const name = event.target.name;
@@ -55,11 +58,11 @@ const LoginPopup = ({ setShowLogin }) => {
                 <button type='submit'>{currState === "Sign up" ? "Create account" : "Log in"}</button>
                 <div className="login-popup-condition">
                     <input type="checkbox" required />
-                    <p>By continuning, i agree to terms  of use & privacy policy</p>
+                    <p>{t('By continuning, i agree to terms  of use & privacy policy')}</p>
                 </div>
                 {currState === "Login"
-                    ? <p>Create a new account? <span onClick={() => setCurrState("Sign up")}>Click here</span></p>
-                    : <p>Already have an account? <span onClick={() => setCurrState("Login")}>Login here</span></p>
+                    ? <p>{t('Create a new account?')} <span onClick={() => setCurrState("Sign up")}>{t('Click here')}</span></p>
+                    : <p>{t('Already have an account?')} <span onClick={() => setCurrState("Login")}>{t('Login here')}</span></p>
                 }
             </form >
         </div >

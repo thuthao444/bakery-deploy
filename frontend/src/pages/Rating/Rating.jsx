@@ -3,33 +3,34 @@ import axios from 'axios';
 import { useLocation, useNavigate, useParams } from 'react-router-dom';
 import './Rating.css'
 import { StoreContext } from '../../context/StoreContext';
-import { useTranslation } from 'react-i18next'
-
 
 const Rating = () => {
     const { url, token } = useContext(StoreContext);
-    const { state } = useLocation(); 
-    const [items] = useState(state ? state.items : []); 
+    const { state } = useLocation();
+    const [items] = useState(state ? state.items : []);
     const [currentItemIndex, setCurrentItemIndex] = useState(0);
     const [rating, setRating] = useState({
         comment: "",
-        rate: "",
+        rate: 0,
     });
 
     const { orderId } = useParams();
     const navigate = useNavigate();
-    const { t } = useTranslation()
 
     const onChangeHandler = (event) => {
         const name = event.target.name;
         const value = event.target.value;
-        setRating(rating => ({...rating, [name]: value}));
+        setRating(rating => ({ ...rating, [name]: value }));
+    }
+
+    const handleRatingClick = (rate) => {
+        setRating({ ...rating, rate });
     }
 
     const handleSubmit = async (event) => {
         event.preventDefault();
 
-        const item = items[currentItemIndex]; 
+        const item = items[currentItemIndex];
 
         let ratingData = {
             comment: rating.comment,
@@ -62,7 +63,7 @@ const Rating = () => {
         }
     };
 
-    if (!items || items.length === 0) { 
+    if (!items || items.length === 0) {
         return <div>Loading...</div>;
     }
 
@@ -71,21 +72,42 @@ const Rating = () => {
     return (
         <div className='rating'>
             <div className="rating-box">
-            <h2 className='rating-title'>{t('Rating for')} {currentItem.name}</h2>
                 <form onSubmit={handleSubmit}>
                     <div className="rating-group">
-                        <label> {t('Comment:')} </label>
+                        <label className='title'>Rating for {currentItem.name}</label>
                         <input required name='comment' onChange={onChangeHandler} value={rating.comment} type="text" placeholder='comment' />
                     </div>
                     <div className="rating-group">
-                        <label htmlFor="">{t('Rating:')}</label>
-                        <input required name='rate' onChange={onChangeHandler} value={rating.rate} min="1" max="5" type="number" placeholder='rate' />
+                        <label htmlFor="">Rating:</label>
+                        <div className="rating-icons">
+                            {[1, 2, 3, 4, 5].map((rate) => (
+                                <span
+                                    key={rate}
+                                    className={`rating-icon ${rating.rate === rate ? 'selected' : ''}`}
+                                    onClick={() => handleRatingClick(rate)}
+                                >
+                                    {getEmojiForRating(rate)}
+                                </span>
+                            ))}
+                        </div>
                     </div>
-                    <button type="submit">{t('Submit')}</button>
+                    <button className='submit-btn' type="submit">Submit</button>
                 </form>
             </div>
         </div>
     );
 };
 
+const getEmojiForRating = (rate) => {
+    switch (rate) {
+        case 1: return '😞';
+        case 2: return '😟';
+        case 3: return '😐';
+        case 4: return '🙂';
+        case 5: return '😁';
+        default: return '';
+    }
+}
+
 export default Rating;
+

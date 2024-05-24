@@ -181,9 +181,9 @@ const resources = {
     translation: {
       "Home": "Trang chủ",
       "Menu": "Thực đơn",
-      "contact": "liên hệ",
-      "home": "trang chủ",
-      "menu": "thực đơn",
+      "contact": "Liên hệ",
+      "home": "Trang chủ",
+      "menu": "Thực đơn",
       "sign in": "đăng nhập",
       "search": "Tìm kiếm",
       "orders": "Đơn hàng",

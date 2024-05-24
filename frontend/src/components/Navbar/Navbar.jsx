@@ -43,7 +43,7 @@ const Navbar = ({ setShowLogin }) => {
     useEffect(() => {
         function handleClickOutside(event) {
             if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
-                setShowDropdown(false); // Hide dropdown when clicking outside the dropdown
+                setShowDropdown(false);
             }
         }
         document.addEventListener("mousedown", handleClickOutside);

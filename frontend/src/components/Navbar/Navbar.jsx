@@ -103,9 +103,9 @@ const Navbar = ({ setShowLogin }) => {
         <div className='navbar'>
             <Link to=''><img src={assets.logo} alt="" className="logo" /></Link>
             <ul className="navbar-menu">
-                <Link to='/' onClick={() => setMenu("home")} className={menu === "home" ? "active" : ""}>{t('home')}</Link>
-                <a href='#explore-menu' onClick={() => setMenu("menu")} className={menu === "menu" ? "active" : ""}>{t('menu')}</a>
-                <a href='#footer' onClick={() => setMenu("contact-us")} className={menu === "contact-us" ? "active" : ""}>{t('contact')}</a>
+                <Link to='/' onClick={() => setMenu("home")} className={menu === "home" ? "active" : ""}>{t('Home')}</Link>
+                <a href='#explore-menu' onClick={() => setMenu("menu")} className={menu === "menu" ? "active" : ""}>{t('Menu')}</a>
+                <a href='#footer' onClick={() => setMenu("contact-us")} className={menu === "contact-us" ? "active" : ""}>{t('Contact')}</a>
             </ul>
             <div className="navbar-right">
                 <div className="dropdown-translation">

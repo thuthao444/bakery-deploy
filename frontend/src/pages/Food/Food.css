@@ -18,7 +18,7 @@
     object-position: center;
 }
 
-/* 1 */
+/* _____________________DESCRIPTION_____________________ */
 .descrip {
     flex: 1;
     margin-left: 50px;
@@ -79,27 +79,33 @@
     width: 105px;
 }   
 
-/* 2 */
-.rating-comments {
-    margin-top: 100px;
-}
-
 .add-cart .add-button:hover {
     opacity: 75%;
 }
 
-.star {
-    color: #ffe4d2;
-    margin-left: 2px;
+.descrip-rate p{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #333;
 }
 
-.filled {
+.descrip-rate p span{
+    font-size: 1rem;
+    font-weight: 200;
+    color: #646464;
+}
+
+.descrip-rate .star {
+    color: #ffe4d2;
+    font-size: 1.5rem;
+}
+
+.descrip-rate .filled {
     color: peru; 
 }
 
-.half-filled {
+.descrip-rate .half-filled {
     position: peru;
-
     overflow: hidden;
 }
 
@@ -111,6 +117,84 @@
     width: 50%; 
     color: peru; 
 }
+
+/* _____________________RATING BOX_____________________ */
+/* Container cho toàn bộ phần đánh giá */
+.box-rating {
+    margin: 50px 0;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+/* Tiêu đề của phần đánh giá */
+.box-rating h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+/* Container cho các bình luận */
+.comment-container {
+    max-height: 400px;
+    overflow-y: auto;
+    padding-right: 10px;
+}
+
+/* Định dạng danh sách bình luận */
+.comment-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Định dạng từng mục bình luận */
+.rating-item {
+    padding: 15px;
+    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 10px;
+}
+
+/* Định dạng cho thông tin người dùng và nhận xét */
+.rating-item p {
+    margin: 5px 0;
+    font-size: 1rem;
+}
+
+/* Định dạng cho nhãn và giá trị */
+.rating-item p span {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Định dạng cho số lượng ngôi sao đánh giá */
+.rating-item #rating-number {
+    display: flex;
+    align-items: center;
+}
+
+/* Hình ảnh ngôi sao đánh giá */
+.rating-item #rating-number img {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+}
+
+/* Định dạng cho trường hợp không có đánh giá */
+.comment-container p {
+    font-size: 1rem;
+    color: #777;
+}
+
+/* Thêm một số hiệu ứng khi hover vào bình luận */
+.rating-item:hover {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+
+.cmt-stars {
+    color: peru !important;
+}
+
 
 .user-reviews {
     display: flex;

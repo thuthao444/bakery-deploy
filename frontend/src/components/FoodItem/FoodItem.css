@@ -195,6 +195,10 @@
         font-size: 20px;
     }
 
+    .food-item-name-rating a {
+        font-size: 15px;
+    }
+
     .food-item-name-rating img {
         width: 30%;
     }

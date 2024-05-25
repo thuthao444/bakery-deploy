@@ -111,8 +111,8 @@ const Navbar = ({ setShowLogin }) => {
                 <div className="dropdown-translation">
                     <button className="dropbtn"><img src={assets.translation_icon} alt="" /></button>
                     <div className="dropdown-content">
-                        <button onClick={() => changeLanguage('en')}>English</button>
-                        <button onClick={() => changeLanguage('vi')}>Tiếng Việt</button>
+                        <button onClick={() => changeLanguage('en')}>{t('English')}</button>
+                        <button onClick={() => changeLanguage('vi')}>{t('Vietnamese')}</button>
                     </div>
                 </div>
                 <div className="sub-search-icon" onClick={toggleSearch}>

@@ -116,15 +116,6 @@
     overflow: hidden;
 }
 
-.half-filled:before {
-    content: "\2605"; 
-    position: absolute;
-    left: 0;
-    overflow: hidden;
-    width: 50%; 
-    color: peru; 
-}
-
 /* _____________________RATING BOX_____________________ */
 /* Container cho toàn bộ phần đánh giá */
 .box-rating {

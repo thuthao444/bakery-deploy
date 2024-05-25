@@ -4,6 +4,8 @@ import { initReactI18next } from "react-i18next";
 const resources = {
   en: {
     translation: {
+      "Vietnamese": "Vietnamese",
+      "English": "English",
       "Home": "Home",
       "Menu": "Menu",
       "home": "home",
@@ -179,6 +181,8 @@ const resources = {
   },
   vi: {
     translation: {
+      "Vietnamese": "Tiếng Việt",
+      "English": "Tiếng anh",
       "Home": "Trang chủ",
       "Menu": "Thực đơn",
       "contact": "Liên hệ",
@@ -203,7 +207,7 @@ const resources = {
       "Submit": "Gửi",
       "Manage your profile information": "Quản lý thông tin cá nhân của bạn",
       "Name": "Tên",
-      "Sex": "Tuổi",
+      "Sex": "Giới tính",
       "Male": "Nam",
       "Female": "Nữ",
       "Another": "Khác",

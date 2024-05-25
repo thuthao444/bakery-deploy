@@ -7,7 +7,7 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY)
 // placing user order from frontend
 const placeOrder = async (req, res) => {
     
-    const frontend_url = "http://localhost:5174"
+    const frontend_url = "http://localhost:5173"
 
     try {
         const newOrder = new orderModel({
@@ -21,27 +21,28 @@ const placeOrder = async (req, res) => {
         
         const line_items = req.body.items.map((item) => ({
             price_data: {
-                currency: "inr",
+                currency: "usd",
                 product_data: {
                     name: item.name
                 },
-                unit_amount: item.price*100*80
+                unit_amount: Math.round(item.price*0.0039)
             },
             quantity: item.Quantity
         }))
 
         line_items.push({
             price_data: {
-                currency: "inr",
+                currency: "usd",
                 product_data: {
                     name: "Delivery Charges"
                 },
-                unit_amount: 2*100*80
+                unit_amount: Math.round(15000*0.0039)
             },
             quantity: 1 
         })
 
         const session = await stripe.checkout.sessions.create ({
+            payment_method_types: ['card'],
             line_items: line_items,
             mode: 'payment',
             success_url: `${frontend_url}/verify?success=true&orderId=${newOrder._id}`,

@@ -19,7 +19,7 @@ app.add_middleware(
 
 # Load data into a DataFrame
 cd = os.getcwd()
-data_path = os.path.join(os.path.dirname(cd), 'modelAI\\data')
+data_path = os.path.join(os.path.dirname(cd), 'modelAI/data')
 df = pd.read_csv(os.path.join(data_path,'data.csv'))
 
 # check if server is connected
@@ -32,7 +32,7 @@ def pong():
 async def get_recommendations(item_name: str, user_name):
     print(item_name)
     cd = os.getcwd()
-    data_path = os.path.join(os.path.dirname(cd), 'modelAI\\data')
+    data_path = os.path.join(os.path.dirname(cd), 'modelAI/data')
     df = pd.read_csv(os.path.join(data_path,'data.csv'))
     if item_name not in df['Items'].values: 
         raise HTTPException(status_code=404, detail="Item not found")

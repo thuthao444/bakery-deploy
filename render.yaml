@@ -1,0 +1,13 @@
+services:
+  - name: frontend
+    buildCommand: cd frontend && npm install 
+    startCommand: npm run dev
+  - name: backend
+    buildCommand: cd backend && npm install 
+    startCommand: npm run dev
+  - name: admin
+    buildCommand: cd admin && npm install 
+    startCommand: npm run dev
+  - name: modelAI
+    buildCommand: cd modelAI && pip install -r requirements.txt
+    startCommand: uvicorn main:app --reload --port 4040

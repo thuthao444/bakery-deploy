@@ -52,7 +52,7 @@ const Food = () => {
             console.log("Error:", error);
         }
     };
-    
+
     // Fetch thông tin các món ăn đề xuất từ API
     const fetchItem = async (list) => {
         const item = []
@@ -111,6 +111,17 @@ const Food = () => {
         return stars;
     }
 
+    const renderStarCmt = (rating) => {
+        const stars = [];
+
+        // Thêm ngôi sao đầy đủ tương ứng với giá trị rating
+        for (let i = 1; i <= rating; i++) {
+            stars.push(<span key={i} className="cmt-stars">&#9733;</span>);
+        }
+
+        return stars;
+    };
+
     return (
         <div className='food-details'>
             <div className="food-details-container">
@@ -131,47 +142,49 @@ const Food = () => {
                         }
                     </div>
                     <div className="descrip-rate">
-                        <p>{averageRating}</p>
+                        <p>{averageRating}
+                            <span>/5</span>
+                        </p>
                         <div className="star">{renderStarRating()}</div>
                     </div>
                 </div>
-                <div className='box-rating'>
-                    <h2>{t('Ratings')}:</h2>
-                    <div className="comment-container">
-                        {data.ratings && data.ratings.length > 0 ? (
-                            <ul>
-                                {data.ratings.map((rating, index) => (
-                                    <li key={index} className='rating-item'>
-                                        <p>{t('User ID:')} <span>{rating.userId}</span></p>
-                                        <p>{t('Comment')}: <span>{rating.comment}</span></p>
-                                        <p>{t('Rating')}: <span id='rating-number'>{rating.rating}<img src={assets.rating_starts}/></span></p>
-                                    </li>
-                                ))}
-                            </ul>
-                        ) : (
-                            <p>{t('No ratings')}</p>
-                        )}
-                    </div>
+            </div>
+            <div className='box-rating'>
+                <h2>{t('Ratings')}:</h2>
+                <div className="comment-container">
+                    {data.ratings && data.ratings.length > 0 ? (
+                        <ul>
+                            {data.ratings.map((rating, index) => (
+                                <li key={index} className='rating-item'>
+                                    <p>{t('User ID:')} <span>{rating.userId}</span></p>
+                                    <p>{t('Comment')}: <span>{rating.comment}</span></p>
+                                    <p>{t('Rating')}: <span id='rating-number'>{renderStarCmt(rating.rating)}</span></p>
+                                </li>
+                            ))}
+                        </ul>
+                    ) : (
+                        <p>{t('No ratings')}</p>
+                    )}
                 </div>
-                <div className="recommend-item">
-                    <h2>{t('Recommend food for you')}</h2>
-                    <hr />
-                    <div className="recommend-list">
-                        {fullItem.length > 0 ? (
-                            fullItem.map((food) => (
-                                <FoodItem
-                                    key={food._id}
-                                    id={food._id}
-                                    name={food.name}
-                                    price={food.price}
-                                    description={food.description}
-                                    image={food.image}
-                                />
-                            ))
-                        ) : (
-                            <p>{t('No recommendations available')}</p>
-                        )}
-                    </div>
+            </div>
+            <div className="recommend-item">
+                <h2>{t('Recommend food for you')}</h2>
+                <hr />
+                <div className="recommend-list">
+                    {fullItem.length > 0 ? (
+                        fullItem.map((food) => (
+                            <FoodItem
+                                key={food._id}
+                                id={food._id}
+                                name={food.name}
+                                price={food.price}
+                                description={food.description}
+                                image={food.image}
+                            />
+                        ))
+                    ) : (
+                        <p>{t('No recommendations available')}</p>
+                    )}
                 </div>
             </div>
         </div>

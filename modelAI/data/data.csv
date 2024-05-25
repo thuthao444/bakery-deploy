@@ -110,7 +110,7 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 55,Frittata,2016-10-30 12:38:06,Afternoon,Weekend,Edmund,0,"Italian egg-based dishes similar to omelets, often filled with vegetables, cheese, and meats.",Pure Veg
 55,Coffee,2016-10-30 12:38:06,Afternoon,Weekend,Joshua,0,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 55,Tea,2016-10-30 12:38:06,Afternoon,Weekend,Bruce,2,"Cakes perfect for pairing with a cup of tea, offering a balance of sweetness and lightness.",Beverages
-55,Hearty & Seasonal,2016-10-30 12:38:06,Afternoon,Weekend,Herman,4,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+55,Hearty and Seasonal,2016-10-30 12:38:06,Afternoon,Weekend,Herman,4,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 56,Coffee,2016-10-30 12:39:27,Afternoon,Weekend,Jonathan,2,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 56,Frittata,2016-10-30 12:39:27,Afternoon,Weekend,Ella,0,"Italian egg-based dishes similar to omelets, often filled with vegetables, cheese, and meats.",Pure Veg
 57,Scandinavian,2016-10-30 12:45:48,Afternoon,Weekend,Edmund,5,"Reflecting the flavors of Northern Europe, Scandinavian cakes often feature berries, nuts, and wholesome grains.",Pure Veg
@@ -125,8 +125,8 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 60,Coffee,2016-10-30 13:14:04,Afternoon,Weekend,Randy,2,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 61,Coffee,2016-10-30 13:15:38,Afternoon,Weekend,Matthew,1,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 62,Pecan,2016-10-30 13:24:00,Afternoon,Weekend,Leonard,3,"Customizable bowls filled with a variety of cake bites, candies, fruits, and toppings, allowing for personalized flavor combinations.",Pure Veg
-62,Hearty & Seasonal,2016-10-30 13:24:00,Afternoon,Weekend,Stanley,2,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
-62,Hearty & Seasonal,2016-10-30 13:24:00,Afternoon,Weekend,Valerie,4,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+62,Hearty and Seasonal,2016-10-30 13:24:00,Afternoon,Weekend,Stanley,2,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+62,Hearty and Seasonal,2016-10-30 13:24:00,Afternoon,Weekend,Valerie,4,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 62,Coffee,2016-10-30 13:24:00,Afternoon,Weekend,Aaron,4,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 62,Smoothies,2016-10-30 13:24:00,Afternoon,Weekend,Eugene,2,"Refreshing blended beverages made from fruits, vegetables, and yogurt or milk, perfect for pairing with cakes for a light meal or snack.",Pure Veg
 62,Coffee,2016-10-30 13:24:00,Afternoon,Weekend,Susie,0,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
@@ -136,10 +136,10 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 65,Fudge,2016-10-30 13:37:25,Afternoon,Weekend,Brianna,3,Protein-rich cakes or snacks designed to provide sustained energy and muscle recovery.,Desserts
 65,Tea,2016-10-30 13:37:25,Afternoon,Weekend,Agnes,2,"Cakes perfect for pairing with a cup of tea, offering a balance of sweetness and lightness.",Beverages
 65,Coffee,2016-10-30 13:37:25,Afternoon,Weekend,Sean,1,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
-66,Hearty & Seasonal,2016-10-30 13:40:20,Afternoon,Weekend,Diana,3,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+66,Hearty and Seasonal,2016-10-30 13:40:20,Afternoon,Weekend,Diana,3,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 66,Frittata,2016-10-30 13:40:20,Afternoon,Weekend,Joanne,2,"Italian egg-based dishes similar to omelets, often filled with vegetables, cheese, and meats.",Pure Veg
 66,Mineral water,2016-10-30 13:40:20,Afternoon,Weekend,Claire,5,A refreshing beverage often served alongside cakes to cleanse the palate and provide hydration.,Beverages
-67,Hearty & Seasonal,2016-10-30 13:46:48,Afternoon,Weekend,Douglas,0,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+67,Hearty and Seasonal,2016-10-30 13:46:48,Afternoon,Weekend,Douglas,0,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 67,Mineral water,2016-10-30 13:46:48,Afternoon,Weekend,June,2,A refreshing beverage often served alongside cakes to cleanse the palate and provide hydration.,Beverages
 67,Muffin,2016-10-30 13:46:48,Afternoon,Weekend,Thomas,2,"Individual-sized quick breads, often sweetened and flavored with fruits, nuts, or chocolate chips.",Pure Veg
 68,Frittata,2016-10-30 13:49:36,Afternoon,Weekend,Maxwell,2,"Italian egg-based dishes similar to omelets, often filled with vegetables, cheese, and meats.",Pure Veg
@@ -281,9 +281,9 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 132,Juice,2016-10-31 12:14:20,Afternoon,Weekday,Martin,3,Refreshing fruit or vegetable juices served alongside cakes to provide a burst of flavor and hydration.,Beverages
 132,Pecan,2016-10-31 12:14:20,Afternoon,Weekday,Isabella,2,"Customizable bowls filled with a variety of cake bites, candies, fruits, and toppings, allowing for personalized flavor combinations.",Pure Veg
 132,Cookies,2016-10-31 12:14:20,Afternoon,Weekday,Aaron,0,"Bite-sized baked treats with endless variations, from chewy chocolate chip to delicate shortbread.",Pure Veg
-133,Hearty & Seasonal,2016-10-31 12:16:32,Afternoon,Weekday,Jessie,0,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+133,Hearty and Seasonal,2016-10-31 12:16:32,Afternoon,Weekday,Jessie,0,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 133,Soup,2016-10-31 12:16:32,Afternoon,Weekday,Laura,0,"Warm, comforting soups served alongside cakes for a satisfying meal.",Pure Veg
-134,Hearty & Seasonal,2016-10-31 12:19:37,Afternoon,Weekday,Christian,5,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+134,Hearty and Seasonal,2016-10-31 12:19:37,Afternoon,Weekday,Christian,5,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 134,Tea,2016-10-31 12:19:37,Afternoon,Weekday,Sonya,3,"Cakes perfect for pairing with a cup of tea, offering a balance of sweetness and lightness.",Beverages
 134,Farm House,2016-10-31 12:19:37,Afternoon,Weekday,Herman,2,"Rustic cakes reminiscent of farmhouse baking, featuring simple, wholesome ingredients like oats, nuts, and dried fruits.",Pure Veg
 135,Bread,2016-10-31 12:20:21,Afternoon,Weekday,Christian,4,"A staple food made from flour, water, and yeast, often baked until golden brown with a soft interior.",Pure Veg
@@ -291,11 +291,11 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 136,Soup,2016-10-31 12:27:41,Afternoon,Weekday,Marilyn,4,"Warm, comforting soups served alongside cakes for a satisfying meal.",Pure Veg
 137,Farm House,2016-10-31 12:37:07,Afternoon,Weekday,Amber,3,"Rustic cakes reminiscent of farmhouse baking, featuring simple, wholesome ingredients like oats, nuts, and dried fruits.",Pure Veg
 138,Soup,2016-10-31 12:43:35,Afternoon,Weekday,Mildred,4,"Warm, comforting soups served alongside cakes for a satisfying meal.",Pure Veg
-138,Hearty & Seasonal,2016-10-31 12:43:35,Afternoon,Weekday,Sophia,1,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+138,Hearty and Seasonal,2016-10-31 12:43:35,Afternoon,Weekday,Sophia,1,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 138,Coffee,2016-10-31 12:43:35,Afternoon,Weekday,Brittany,4,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 139,Bread,2016-10-31 12:50:57,Afternoon,Weekday,Virginia,0,"A staple food made from flour, water, and yeast, often baked until golden brown with a soft interior.",Pure Veg
 139,Muffin,2016-10-31 12:50:57,Afternoon,Weekday,Jacques,2,"Individual-sized quick breads, often sweetened and flavored with fruits, nuts, or chocolate chips.",Pure Veg
-139,Hearty & Seasonal,2016-10-31 12:50:57,Afternoon,Weekday,Chris,1,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+139,Hearty and Seasonal,2016-10-31 12:50:57,Afternoon,Weekday,Chris,1,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 140,Coffee,2016-10-31 12:53:33,Afternoon,Weekday,Randy,2,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 140,Coffee,2016-10-31 12:53:33,Afternoon,Weekday,Jennifer,2,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 140,Cookies,2016-10-31 12:53:33,Afternoon,Weekday,Grace,2,"Bite-sized baked treats with endless variations, from chewy chocolate chip to delicate shortbread.",Pure Veg
@@ -304,7 +304,7 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 142,Muffin,2016-10-31 12:56:47,Afternoon,Weekday,Felix,2,"Individual-sized quick breads, often sweetened and flavored with fruits, nuts, or chocolate chips.",Pure Veg
 143,Tea,2016-10-31 12:59:08,Afternoon,Weekday,Sarah,1,"Cakes perfect for pairing with a cup of tea, offering a balance of sweetness and lightness.",Beverages
 144,Soup,2016-10-31 13:02:11,Afternoon,Weekday,Roger,3,"Warm, comforting soups served alongside cakes for a satisfying meal.",Pure Veg
-144,Hearty & Seasonal,2016-10-31 13:02:11,Afternoon,Weekday,Tabitha,2,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+144,Hearty and Seasonal,2016-10-31 13:02:11,Afternoon,Weekday,Tabitha,2,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 145,Coffee,2016-10-31 13:05:49,Afternoon,Weekday,Gladys,3,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 145,Tea,2016-10-31 13:05:49,Afternoon,Weekday,Rose,1,"Cakes perfect for pairing with a cup of tea, offering a balance of sweetness and lightness.",Beverages
 145,Focaccia,2016-10-31 13:05:49,Afternoon,Weekday,Maggie,5,"Italian flatbread flavored with herbs and olive oil, often served as an appetizer or accompaniment to meals.",Rolls
@@ -324,7 +324,7 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 153,Cookies,2016-10-31 13:55:22,Afternoon,Weekday,Richard,3,"Bite-sized baked treats with endless variations, from chewy chocolate chip to delicate shortbread.",Pure Veg
 153,Muffin,2016-10-31 13:55:22,Afternoon,Weekday,Shawn,1,"Individual-sized quick breads, often sweetened and flavored with fruits, nuts, or chocolate chips.",Pure Veg
 154,Fudge,2016-10-31 14:00:21,Afternoon,Weekday,Irene,3,Protein-rich cakes or snacks designed to provide sustained energy and muscle recovery.,Desserts
-154,Hearty & Seasonal,2016-10-31 14:00:21,Afternoon,Weekday,Marc,1,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+154,Hearty and Seasonal,2016-10-31 14:00:21,Afternoon,Weekday,Marc,1,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 154,Coffee,2016-10-31 14:00:21,Afternoon,Weekday,Mark,0,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 154,Almond,2016-10-31 14:00:21,Afternoon,Weekday,Faith,1,A popular carbonated beverage often served alongside cakes to provide a sweet and fizzy contrast.,Pure Veg
 155,Tea,2016-10-31 14:01:30,Afternoon,Weekday,Gilbert,3,"Cakes perfect for pairing with a cup of tea, offering a balance of sweetness and lightness.",Beverages
@@ -351,7 +351,7 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 166,Coffee,2016-10-31 14:49:28,Afternoon,Weekday,Wayne,2,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 166,Muffin,2016-10-31 14:49:28,Afternoon,Weekday,Herman,0,"Individual-sized quick breads, often sweetened and flavored with fruits, nuts, or chocolate chips.",Pure Veg
 167,Sandwich,2016-10-31 14:50:42,Afternoon,Weekday,Garry,4,"Layers of bread filled with meats, cheeses, vegetables, and condiments, offering a portable and satisfying meal option.",Sandwiches
-167,Hearty & Seasonal,2016-10-31 14:50:42,Afternoon,Weekday,Eddie,0,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+167,Hearty and Seasonal,2016-10-31 14:50:42,Afternoon,Weekday,Eddie,0,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 167,Bread,2016-10-31 14:50:42,Afternoon,Weekday,Evan,5,"A staple food made from flour, water, and yeast, often baked until golden brown with a soft interior.",Pure Veg
 167,Mineral water,2016-10-31 14:50:42,Afternoon,Weekday,Kimberly,3,A refreshing beverage often served alongside cakes to cleanse the palate and provide hydration.,Beverages
 168,Tea,2016-10-31 14:56:25,Afternoon,Weekday,Albert,3,"Cakes perfect for pairing with a cup of tea, offering a balance of sweetness and lightness.",Beverages
@@ -424,7 +424,7 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 206,Scandinavian,2016-01-11 11:54:17,Morning,Weekday,Christian,3,"Reflecting the flavors of Northern Europe, Scandinavian cakes often feature berries, nuts, and wholesome grains.",Pure Veg
 206,Coffee,2016-01-11 11:54:17,Morning,Weekday,Rachel,0,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 206,Pastry,2016-01-11 11:54:17,Morning,Weekday,Jacques,2,"Delicate, flaky pastries filled with sweet or savory ingredients, ranging from fruit to cheese and meats.",Pure Veg
-207,Hearty & Seasonal,2016-01-11 12:03:37,Afternoon,Weekday,Luke,0,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+207,Hearty and Seasonal,2016-01-11 12:03:37,Afternoon,Weekday,Luke,0,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 207,Coffee,2016-01-11 12:03:37,Afternoon,Weekday,Brian,1,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 207,Muffin,2016-01-11 12:03:37,Afternoon,Weekday,Brian,0,"Individual-sized quick breads, often sweetened and flavored with fruits, nuts, or chocolate chips.",Pure Veg
 208,Bread,2016-01-11 12:10:09,Afternoon,Weekday,Austin,3,"A staple food made from flour, water, and yeast, often baked until golden brown with a soft interior.",Pure Veg
@@ -463,7 +463,7 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 227,Sandwich,2016-01-11 13:31:35,Afternoon,Weekday,Tyler,2,"Layers of bread filled with meats, cheeses, vegetables, and condiments, offering a portable and satisfying meal option.",Sandwiches
 227,Soup,2016-01-11 13:31:35,Afternoon,Weekday,Wayne,3,"Warm, comforting soups served alongside cakes for a satisfying meal.",Pure Veg
 228,Coffee,2016-01-11 13:33:54,Afternoon,Weekday,Anita,4,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
-229,Hearty & Seasonal,2016-01-11 13:37:48,Afternoon,Weekday,Julie,3,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+229,Hearty and Seasonal,2016-01-11 13:37:48,Afternoon,Weekday,Julie,3,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 229,Bread,2016-01-11 13:37:48,Afternoon,Weekday,Janet,0,"A staple food made from flour, water, and yeast, often baked until golden brown with a soft interior.",Pure Veg
 230,Alfajores,2016-01-11 13:41:53,Afternoon,Weekday,Floyd,1,"Traditional South American cookies made from delicate shortbread filled with dulce de leche or jam, often coated in powdered sugar or dipped in chocolate.",Desserts
 231,Cake,2016-01-11 13:45:21,Afternoon,Weekday,Debbie,1,"Sweet baked goods made from a mixture of flour, sugar, eggs, and butter or oil, often flavored with extracts, fruits, or spices.",Pure Veg
@@ -590,14 +590,14 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 290,Cookies,2016-02-11 11:03:49,Morning,Weekday,Eric,3,"Bite-sized baked treats with endless variations, from chewy chocolate chip to delicate shortbread.",Pure Veg
 291,Coffee,2016-02-11 11:04:47,Morning,Weekday,Brandon,3,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 292,Cookies,2016-02-11 11:15:13,Morning,Weekday,Josh,0,"Bite-sized baked treats with endless variations, from chewy chocolate chip to delicate shortbread.",Pure Veg
-293,Hearty & Seasonal,2016-02-11 11:29:15,Morning,Weekday,Kay,0,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+293,Hearty and Seasonal,2016-02-11 11:29:15,Morning,Weekday,Kay,0,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 294,Coffee,2016-02-11 11:35:36,Morning,Weekday,Martha,0,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 295,Jam,2016-02-11 11:39:45,Morning,Weekday,Eleanor,4,"A sweet spread made from fruits, commonly used in cake fillings, adding fruity flavors and moisture.",Desserts
 295,Tartine,2016-02-11 11:39:45,Morning,Weekday,Kathleen,0,"Open-faced sandwiches or cakes topped with various spreads, fruits, or vegetables, often served as a light meal or snack.",Sandwiches
 295,Bread,2016-02-11 11:39:45,Morning,Weekday,Madison,3,"A staple food made from flour, water, and yeast, often baked until golden brown with a soft interior.",Pure Veg
 296,Farm House,2016-02-11 11:58:42,Morning,Weekday,Maggie,3,"Rustic cakes reminiscent of farmhouse baking, featuring simple, wholesome ingredients like oats, nuts, and dried fruits.",Pure Veg
 296,Scandinavian,2016-02-11 11:58:42,Morning,Weekday,Fred,4,"Reflecting the flavors of Northern Europe, Scandinavian cakes often feature berries, nuts, and wholesome grains.",Pure Veg
-297,Hearty & Seasonal,2016-02-11 12:06:51,Afternoon,Weekday,Philip,4,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+297,Hearty and Seasonal,2016-02-11 12:06:51,Afternoon,Weekday,Philip,4,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 297,Coffee,2016-02-11 12:06:51,Afternoon,Weekday,Lyle,5,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 297,Muffin,2016-02-11 12:06:51,Afternoon,Weekday,Jordan,4,"Individual-sized quick breads, often sweetened and flavored with fruits, nuts, or chocolate chips.",Pure Veg
 297,Scandinavian,2016-02-11 12:06:51,Afternoon,Weekday,Lydia,3,"Reflecting the flavors of Northern Europe, Scandinavian cakes often feature berries, nuts, and wholesome grains.",Pure Veg
@@ -620,17 +620,17 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 303,Tea,2016-02-11 12:30:42,Afternoon,Weekday,Jacqueline,4,"Cakes perfect for pairing with a cup of tea, offering a balance of sweetness and lightness.",Beverages
 303,Cookies,2016-02-11 12:30:42,Afternoon,Weekday,Wilson,0,"Bite-sized baked treats with endless variations, from chewy chocolate chip to delicate shortbread.",Pure Veg
 303,Soup,2016-02-11 12:30:42,Afternoon,Weekday,Janie,2,"Warm, comforting soups served alongside cakes for a satisfying meal.",Pure Veg
-304,Hearty & Seasonal,2016-02-11 12:33:51,Afternoon,Weekday,Paul,2,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+304,Hearty and Seasonal,2016-02-11 12:33:51,Afternoon,Weekday,Paul,2,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 304,Tea,2016-02-11 12:33:51,Afternoon,Weekday,Margaret,2,"Cakes perfect for pairing with a cup of tea, offering a balance of sweetness and lightness.",Beverages
 305,Fudge,2016-02-11 12:35:41,Afternoon,Weekday,Jonathan,2,"Dense, sweet confections made from sugar, butter, and milk or cream, often flavored with chocolate or nuts.",Desserts
 306,Coffee,2016-02-11 12:39:02,Afternoon,Weekday,Drew,1,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 306,Mineral water,2016-02-11 12:39:02,Afternoon,Weekday,Sylvia,1,A refreshing beverage often served alongside cakes to cleanse the palate and provide hydration.,Beverages
 306,Juice,2016-02-11 12:39:02,Afternoon,Weekday,Ann,5,Refreshing fruit or vegetable juices served alongside cakes to provide a burst of flavor and hydration.,Beverages
 306,Soup,2016-02-11 12:39:02,Afternoon,Weekday,Alyssa,5,"Warm, comforting soups served alongside cakes for a satisfying meal.",Pure Veg
-307,Hearty & Seasonal,2016-02-11 12:52:44,Afternoon,Weekday,Kay,4,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
-308,Hearty & Seasonal,2016-02-11 12:54:49,Afternoon,Weekday,Earl,4,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+307,Hearty and Seasonal,2016-02-11 12:52:44,Afternoon,Weekday,Kay,4,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+308,Hearty and Seasonal,2016-02-11 12:54:49,Afternoon,Weekday,Earl,4,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 308,Smoothies,2016-02-11 12:54:49,Afternoon,Weekday,Laurence,4,"Refreshing blended beverages made from fruits, vegetables, and yogurt or milk, perfect for pairing with cakes for a light meal or snack.",Pure Veg
-309,Hearty & Seasonal,2016-02-11 12:56:40,Afternoon,Weekday,Hugh,2,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+309,Hearty and Seasonal,2016-02-11 12:56:40,Afternoon,Weekday,Hugh,2,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 309,Tea,2016-02-11 12:56:40,Afternoon,Weekday,Adrian,0,"Cakes perfect for pairing with a cup of tea, offering a balance of sweetness and lightness.",Beverages
 310,Coffee,2016-02-11 13:02:57,Afternoon,Weekday,Jeremy,1,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 310,Sandwich,2016-02-11 13:02:57,Afternoon,Weekday,Paula,4,"Layers of bread filled with meats, cheeses, vegetables, and condiments, offering a portable and satisfying meal option.",Sandwiches
@@ -646,7 +646,7 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 317,Cookies,2016-02-11 13:42:15,Afternoon,Weekday,Kate,5,"Bite-sized baked treats with endless variations, from chewy chocolate chip to delicate shortbread.",Pure Veg
 317,Tea,2016-02-11 13:42:15,Afternoon,Weekday,Cheryl,5,"Cakes perfect for pairing with a cup of tea, offering a balance of sweetness and lightness.",Beverages
 318,Soup,2016-02-11 13:46:42,Afternoon,Weekday,Stephanie,4,"Warm, comforting soups served alongside cakes for a satisfying meal.",Pure Veg
-318,Hearty & Seasonal,2016-02-11 13:46:42,Afternoon,Weekday,Cecilia,4,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+318,Hearty and Seasonal,2016-02-11 13:46:42,Afternoon,Weekday,Cecilia,4,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 318,Bread,2016-02-11 13:46:42,Afternoon,Weekday,Jenny,4,"A staple food made from flour, water, and yeast, often baked until golden brown with a soft interior.",Pure Veg
 319,Coffee,2016-02-11 13:50:59,Afternoon,Weekday,Shelley,0,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 320,Coffee,2016-02-11 13:58:39,Afternoon,Weekday,Tony,1,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
@@ -754,7 +754,7 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 376,Coffee,2016-03-11 11:20:31,Morning,Weekday,Justin,1,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 377,Smoothies,2016-03-11 11:23:16,Morning,Weekday,Colleen,1,"Refreshing blended beverages made from fruits, vegetables, and yogurt or milk, perfect for pairing with cakes for a light meal or snack.",Pure Veg
 377,Soup,2016-03-11 11:23:16,Morning,Weekday,Patsy,2,"Warm, comforting soups served alongside cakes for a satisfying meal.",Pure Veg
-377,Hearty & Seasonal,2016-03-11 11:23:16,Morning,Weekday,Mildred,0,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+377,Hearty and Seasonal,2016-03-11 11:23:16,Morning,Weekday,Mildred,0,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 377,Pastry,2016-03-11 11:23:16,Morning,Weekday,Elizabeth,3,"Delicate, flaky pastries filled with sweet or savory ingredients, ranging from fruit to cheese and meats.",Pure Veg
 378,Pastry,2016-03-11 11:31:01,Morning,Weekday,Patricia,0,"Delicate, flaky pastries filled with sweet or savory ingredients, ranging from fruit to cheese and meats.",Pure Veg
 378,Bread,2016-03-11 11:31:01,Morning,Weekday,Albert,3,"A staple food made from flour, water, and yeast, often baked until golden brown with a soft interior.",Pure Veg
@@ -767,7 +767,7 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 382,Coffee,2016-03-11 12:01:18,Afternoon,Weekday,Jacqueline,5,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 382,Coffee,2016-03-11 12:01:18,Afternoon,Weekday,Maxwell,4,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 382,Bread,2016-03-11 12:01:18,Afternoon,Weekday,Jacqueline,5,"A staple food made from flour, water, and yeast, often baked until golden brown with a soft interior.",Pure Veg
-382,Hearty & Seasonal,2016-03-11 12:01:18,Afternoon,Weekday,Jeanette,2,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+382,Hearty and Seasonal,2016-03-11 12:01:18,Afternoon,Weekday,Jeanette,2,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 382,Pecan,2016-03-11 12:01:18,Afternoon,Weekday,Kyle,0,"Customizable bowls filled with a variety of cake bites, candies, fruits, and toppings, allowing for personalized flavor combinations.",Pure Veg
 382,Sandwich,2016-03-11 12:01:18,Afternoon,Weekday,Todd,4,"Layers of bread filled with meats, cheeses, vegetables, and condiments, offering a portable and satisfying meal option.",Sandwiches
 382,Focaccia,2016-03-11 12:01:18,Afternoon,Weekday,Jason,2,"Italian flatbread flavored with herbs and olive oil, often served as an appetizer or accompaniment to meals.",Rolls
@@ -795,10 +795,10 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 393,Cake,2016-03-11 13:30:57,Afternoon,Weekday,April,1,"Sweet baked goods made from a mixture of flour, sugar, eggs, and butter or oil, often flavored with extracts, fruits, or spices.",Pure Veg
 393,Focaccia,2016-03-11 13:30:57,Afternoon,Weekday,Craig,5,"Italian flatbread flavored with herbs and olive oil, often served as an appetizer or accompaniment to meals.",Rolls
 394,Soup,2016-03-11 13:35:48,Afternoon,Weekday,Simon,4,"Warm, comforting soups served alongside cakes for a satisfying meal.",Pure Veg
-394,Hearty & Seasonal,2016-03-11 13:35:48,Afternoon,Weekday,Brad,3,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+394,Hearty and Seasonal,2016-03-11 13:35:48,Afternoon,Weekday,Brad,3,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 394,Mineral water,2016-03-11 13:35:48,Afternoon,Weekday,Clarence,2,A refreshing beverage often served alongside cakes to cleanse the palate and provide hydration.,Beverages
-395,Hearty & Seasonal,2016-03-11 13:36:09,Afternoon,Weekday,Lyle,0,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
-396,Hearty & Seasonal,2016-03-11 13:37:53,Afternoon,Weekday,Amber,1,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+395,Hearty and Seasonal,2016-03-11 13:36:09,Afternoon,Weekday,Lyle,0,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+396,Hearty and Seasonal,2016-03-11 13:37:53,Afternoon,Weekday,Amber,1,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 397,Coffee,2016-03-11 13:41:42,Afternoon,Weekday,Anthony,5,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 397,Coffee,2016-03-11 13:41:42,Afternoon,Weekday,Virginia,4,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 397,Pastry,2016-03-11 13:41:42,Afternoon,Weekday,Rosa,2,"Delicate, flaky pastries filled with sweet or savory ingredients, ranging from fruit to cheese and meats.",Pure Veg
@@ -976,12 +976,12 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 489,Bread,2016-04-11 12:54:15,Afternoon,Weekday,Jake,4,"A staple food made from flour, water, and yeast, often baked until golden brown with a soft interior.",Pure Veg
 489,Pastry,2016-04-11 12:54:15,Afternoon,Weekday,Henry,3,"Delicate, flaky pastries filled with sweet or savory ingredients, ranging from fruit to cheese and meats.",Pure Veg
 489,Bread,2016-04-11 12:54:15,Afternoon,Weekday,Lyle,2,"A staple food made from flour, water, and yeast, often baked until golden brown with a soft interior.",Pure Veg
-490,Hearty & Seasonal,2016-04-11 12:56:51,Afternoon,Weekday,Tammy,0,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
-490,Hearty & Seasonal,2016-04-11 12:56:51,Afternoon,Weekday,Edwin,1,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+490,Hearty and Seasonal,2016-04-11 12:56:51,Afternoon,Weekday,Tammy,0,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+490,Hearty and Seasonal,2016-04-11 12:56:51,Afternoon,Weekday,Edwin,1,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 490,Coffee,2016-04-11 12:56:51,Afternoon,Weekday,Edward,1,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 490,Coffee,2016-04-11 12:56:51,Afternoon,Weekday,Joel,3,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 491,Bread,2016-04-11 13:01:38,Afternoon,Weekday,Amanda,2,"A staple food made from flour, water, and yeast, often baked until golden brown with a soft interior.",Pure Veg
-491,Hearty & Seasonal,2016-04-11 13:01:38,Afternoon,Weekday,Simon,1,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+491,Hearty and Seasonal,2016-04-11 13:01:38,Afternoon,Weekday,Simon,1,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 491,Coffee,2016-04-11 13:01:38,Afternoon,Weekday,Alice,1,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 491,Mineral water,2016-04-11 13:01:38,Afternoon,Weekday,Wayne,5,A refreshing beverage often served alongside cakes to cleanse the palate and provide hydration.,Beverages
 492,Coffee,2016-04-11 13:04:40,Afternoon,Weekday,Travis,4,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
@@ -1013,7 +1013,7 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 503,Coffee,2016-04-11 14:51:22,Afternoon,Weekday,David,1,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 503,Hot chocolate,2016-04-11 14:51:22,Afternoon,Weekday,Denise,3,"Though not a cake in the traditional sense, hot chocolate complements cakes well, offering a warm and indulgent beverage often topped with whipped cream or marshmallows.",Beverages
 503,Brownie,2016-04-11 14:51:22,Afternoon,Weekday,Nina,4,"Rich, fudgy chocolate cakes with a dense texture, often studded with nuts or chocolate chips.",Pure Veg
-503,Hearty & Seasonal,2016-04-11 14:51:22,Afternoon,Weekday,Cindy,4,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+503,Hearty and Seasonal,2016-04-11 14:51:22,Afternoon,Weekday,Cindy,4,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 504,Tea,2016-04-11 15:18:24,Afternoon,Weekday,Ernest,5,"Cakes perfect for pairing with a cup of tea, offering a balance of sweetness and lightness.",Beverages
 504,Cake,2016-04-11 15:18:24,Afternoon,Weekday,Noelle,2,"Sweet baked goods made from a mixture of flour, sugar, eggs, and butter or oil, often flavored with extracts, fruits, or spices.",Pure Veg
 505,Medialuna,2016-04-11 15:20:23,Afternoon,Weekday,Tyler,2,"A crescent-shaped pastry originating from Argentina, often sweetened and glazed.",Pure Veg
@@ -1195,7 +1195,7 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 580,Coffee,2016-05-11 11:35:46,Morning,Weekend,Elisabeth,1,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 581,Fudge,2016-05-11 11:37:53,Morning,Weekend,Jenny,1,"Dense, sweet confections made from sugar, butter, and milk or cream, often flavored with chocolate or nuts.",Desserts
 583,Fudge,2016-05-11 11:49:10,Morning,Weekend,Christian,0,Protein-rich cakes or snacks designed to provide sustained energy and muscle recovery.,Desserts
-583,Hearty & Seasonal,2016-05-11 11:49:10,Morning,Weekend,Teresa,3,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+583,Hearty and Seasonal,2016-05-11 11:49:10,Morning,Weekend,Teresa,3,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 583,Coffee,2016-05-11 11:49:10,Morning,Weekend,Benjamin,0,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 583,Tea,2016-05-11 11:49:10,Morning,Weekend,Bonnie,1,"Cakes perfect for pairing with a cup of tea, offering a balance of sweetness and lightness.",Beverages
 583,Cake,2016-05-11 11:49:10,Morning,Weekend,Wendy,3,"Sweet baked goods made from a mixture of flour, sugar, eggs, and butter or oil, often flavored with extracts, fruits, or spices.",Pure Veg
@@ -1222,7 +1222,7 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 594,Coffee,2016-05-11 12:27:50,Afternoon,Weekend,Rosa,3,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 594,Coffee,2016-05-11 12:27:50,Afternoon,Weekend,Brett,2,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 595,Hot chocolate,2016-05-11 12:31:46,Afternoon,Weekend,Elias,4,"Though not a cake in the traditional sense, hot chocolate complements cakes well, offering a warm and indulgent beverage often topped with whipped cream or marshmallows.",Beverages
-595,Hearty & Seasonal,2016-05-11 12:31:46,Afternoon,Weekend,George,4,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+595,Hearty and Seasonal,2016-05-11 12:31:46,Afternoon,Weekend,George,4,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 595,Pecan,2016-05-11 12:31:46,Afternoon,Weekend,Danielle,3,"Customizable bowls filled with a variety of cake bites, candies, fruits, and toppings, allowing for personalized flavor combinations.",Pure Veg
 595,Brownie,2016-05-11 12:31:46,Afternoon,Weekend,Todd,3,"Rich, fudgy chocolate cakes with a dense texture, often studded with nuts or chocolate chips.",Pure Veg
 596,Frittata,2016-05-11 12:35:28,Afternoon,Weekend,Angela,1,"Italian egg-based dishes similar to omelets, often filled with vegetables, cheese, and meats.",Pure Veg
@@ -1237,7 +1237,7 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 602,Jam,2016-05-11 12:58:46,Afternoon,Weekend,Felix,2,"A sweet spread made from fruits, commonly used in cake fillings, adding fruity flavors and moisture.",Desserts
 602,Soup,2016-05-11 12:58:46,Afternoon,Weekend,Jacqueline,5,"Warm, comforting soups served alongside cakes for a satisfying meal.",Pure Veg
 602,Brownie,2016-05-11 12:58:46,Afternoon,Weekend,Evan,5,"Rich, fudgy chocolate cakes with a dense texture, often studded with nuts or chocolate chips.",Pure Veg
-603,Hearty & Seasonal,2016-05-11 13:01:28,Afternoon,Weekend,Brittany,5,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+603,Hearty and Seasonal,2016-05-11 13:01:28,Afternoon,Weekend,Brittany,5,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 603,Coffee,2016-05-11 13:01:28,Afternoon,Weekend,Nathaniel,1,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 603,Tea,2016-05-11 13:01:28,Afternoon,Weekend,Rick,1,"Cakes perfect for pairing with a cup of tea, offering a balance of sweetness and lightness.",Beverages
 604,Bread,2016-05-11 13:03:55,Afternoon,Weekend,Luke,0,"A staple food made from flour, water, and yeast, often baked until golden brown with a soft interior.",Pure Veg
@@ -1252,13 +1252,13 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 610,Frittata,2016-05-11 13:27:11,Afternoon,Weekend,Vanessa,0,"Italian egg-based dishes similar to omelets, often filled with vegetables, cheese, and meats.",Pure Veg
 610,Coffee,2016-05-11 13:27:11,Afternoon,Weekend,Ernest,5,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 611,Scandinavian,2016-05-11 13:29:26,Afternoon,Weekend,Danny,4,"Reflecting the flavors of Northern Europe, Scandinavian cakes often feature berries, nuts, and wholesome grains.",Pure Veg
-612,Hearty & Seasonal,2016-05-11 13:31:32,Afternoon,Weekend,Lindsay,2,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+612,Hearty and Seasonal,2016-05-11 13:31:32,Afternoon,Weekend,Lindsay,2,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 612,Coffee,2016-05-11 13:31:32,Afternoon,Weekend,Lillian,3,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 612,Mineral water,2016-05-11 13:31:32,Afternoon,Weekend,Marcus,0,A refreshing beverage often served alongside cakes to cleanse the palate and provide hydration.,Beverages
 613,Scandinavian,2016-05-11 13:43:24,Afternoon,Weekend,Clarence,1,"Reflecting the flavors of Northern Europe, Scandinavian cakes often feature berries, nuts, and wholesome grains.",Pure Veg
 615,Bread,2016-05-11 13:45:35,Afternoon,Weekend,Dianne,2,"A staple food made from flour, water, and yeast, often baked until golden brown with a soft interior.",Pure Veg
 615,Coffee,2016-05-11 13:45:35,Afternoon,Weekend,Doris,1,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
-616,Hearty & Seasonal,2016-05-11 13:57:58,Afternoon,Weekend,Nina,2,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+616,Hearty and Seasonal,2016-05-11 13:57:58,Afternoon,Weekend,Nina,2,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 616,Soup,2016-05-11 13:57:58,Afternoon,Weekend,Tatiana,2,"Warm, comforting soups served alongside cakes for a satisfying meal.",Pure Veg
 616,Bread,2016-05-11 13:57:58,Afternoon,Weekend,Leslie,1,"A staple food made from flour, water, and yeast, often baked until golden brown with a soft interior.",Pure Veg
 616,Coffee,2016-05-11 13:57:58,Afternoon,Weekend,Amy,1,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
@@ -1275,7 +1275,7 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 622,Hot chocolate,2016-05-11 14:32:52,Afternoon,Weekend,Robert,5,"Though not a cake in the traditional sense, hot chocolate complements cakes well, offering a warm and indulgent beverage often topped with whipped cream or marshmallows.",Beverages
 622,Coffee,2016-05-11 14:32:52,Afternoon,Weekend,Kristin,3,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 622,Cake,2016-05-11 14:32:52,Afternoon,Weekend,Lawrence,0,"Sweet baked goods made from a mixture of flour, sugar, eggs, and butter or oil, often flavored with extracts, fruits, or spices.",Pure Veg
-623,Hearty & Seasonal,2016-05-11 14:48:55,Afternoon,Weekend,Lucas,5,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+623,Hearty and Seasonal,2016-05-11 14:48:55,Afternoon,Weekend,Lucas,5,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 623,Coffee,2016-05-11 14:48:55,Afternoon,Weekend,Annie,5,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 624,Coffee,2016-05-11 14:49:57,Afternoon,Weekend,Ruby,4,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 625,Frittata,2016-05-11 15:14:47,Afternoon,Weekend,Sonya,4,"Italian egg-based dishes similar to omelets, often filled with vegetables, cheese, and meats.",Pure Veg
@@ -1355,7 +1355,7 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 657,Coffee,2016-06-11 10:18:08,Morning,Weekend,Tasha,0,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 657,Coffee,2016-06-11 10:18:08,Morning,Weekend,Claire,2,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 657,Focaccia,2016-06-11 10:18:08,Morning,Weekend,Karen,2,"Italian flatbread flavored with herbs and olive oil, often served as an appetizer or accompaniment to meals.",Rolls
-657,Hearty & Seasonal,2016-06-11 10:18:08,Morning,Weekend,Christian,0,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+657,Hearty and Seasonal,2016-06-11 10:18:08,Morning,Weekend,Christian,0,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 658,Bread,2016-06-11 10:21:51,Morning,Weekend,Denise,2,"A staple food made from flour, water, and yeast, often baked until golden brown with a soft interior.",Pure Veg
 658,Farm House,2016-06-11 10:21:51,Morning,Weekend,Miranda,5,"Rustic cakes reminiscent of farmhouse baking, featuring simple, wholesome ingredients like oats, nuts, and dried fruits.",Pure Veg
 658,Coffee,2016-06-11 10:21:51,Morning,Weekend,Kenneth,2,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
@@ -1460,7 +1460,7 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 706,Coffee,2016-06-11 13:31:34,Afternoon,Weekend,Deborah,5,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 707,Tea,2016-06-11 13:45:10,Afternoon,Weekend,Felicia,2,"Cakes perfect for pairing with a cup of tea, offering a balance of sweetness and lightness.",Beverages
 707,Coffee,2016-06-11 13:45:10,Afternoon,Weekend,Marshall,4,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
-708,Hearty & Seasonal,2016-06-11 13:47:12,Afternoon,Weekend,Angelina,2,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+708,Hearty and Seasonal,2016-06-11 13:47:12,Afternoon,Weekend,Angelina,2,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 708,Cake,2016-06-11 13:47:12,Afternoon,Weekend,Courtney,0,"Sweet baked goods made from a mixture of flour, sugar, eggs, and butter or oil, often flavored with extracts, fruits, or spices.",Pure Veg
 708,Coffee,2016-06-11 13:47:12,Afternoon,Weekend,Ingrid,1,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 709,Bread,2016-06-11 13:50:28,Afternoon,Weekend,Margaret,4,"A staple food made from flour, water, and yeast, often baked until golden brown with a soft interior.",Pure Veg
@@ -1519,7 +1519,7 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 733,Pastry,2016-06-11 16:15:53,Afternoon,Weekend,Zach,5,"Delicate, flaky pastries filled with sweet or savory ingredients, ranging from fruit to cheese and meats.",Pure Veg
 733,Tea,2016-06-11 16:15:53,Afternoon,Weekend,Nancy,0,"Cakes perfect for pairing with a cup of tea, offering a balance of sweetness and lightness.",Beverages
 733,Alfajores,2016-06-11 16:15:53,Afternoon,Weekend,Kathryn,1,"Traditional South American cookies made from delicate shortbread filled with dulce de leche or jam, often coated in powdered sugar or dipped in chocolate.",Desserts
-733,Hearty & Seasonal,2016-06-11 16:15:53,Afternoon,Weekend,Laurence,4,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+733,Hearty and Seasonal,2016-06-11 16:15:53,Afternoon,Weekend,Laurence,4,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 734,Tea,2016-06-11 16:23:01,Afternoon,Weekend,Donna,1,"Cakes perfect for pairing with a cup of tea, offering a balance of sweetness and lightness.",Beverages
 734,Sandwich,2016-06-11 16:23:01,Afternoon,Weekend,Bryan,4,"Layers of bread filled with meats, cheeses, vegetables, and condiments, offering a portable and satisfying meal option.",Sandwiches
 735,Empanadas,2016-06-11 16:29:15,Afternoon,Weekend,Austin,0,"Latin American pastries filled with a variety of savory ingredients, such as meats, cheeses, and vegetables, enclosed in a flaky pastry crust.",Pure Veg
@@ -1629,7 +1629,7 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 786,Fudge,2016-07-11 13:28:28,Afternoon,Weekday,Kristin,3,"Dense, sweet confections made from sugar, butter, and milk or cream, often flavored with chocolate or nuts.",Desserts
 786,Fudge,2016-07-11 13:28:28,Afternoon,Weekday,Lindsey,1,"Dense, sweet confections made from sugar, butter, and milk or cream, often flavored with chocolate or nuts.",Desserts
 787,Soup,2016-07-11 13:36:49,Afternoon,Weekday,Tommy,3,"Warm, comforting soups served alongside cakes for a satisfying meal.",Pure Veg
-787,Hearty & Seasonal,2016-07-11 13:36:49,Afternoon,Weekday,Lisa,5,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+787,Hearty and Seasonal,2016-07-11 13:36:49,Afternoon,Weekday,Lisa,5,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 787,Coffee,2016-07-11 13:36:49,Afternoon,Weekday,Herman,0,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 788,Almond,2016-07-11 13:42:36,Afternoon,Weekday,Sally,4,A popular carbonated beverage often served alongside cakes to provide a sweet and fizzy contrast.,Pure Veg
 789,Coffee,2016-07-11 13:45:52,Afternoon,Weekday,Ellen,2,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
@@ -1761,15 +1761,15 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 858,Farm House,2016-08-11 13:00:04,Afternoon,Weekday,Annie,2,"Rustic cakes reminiscent of farmhouse baking, featuring simple, wholesome ingredients like oats, nuts, and dried fruits.",Pure Veg
 859,Scandinavian,2016-08-11 13:04:05,Afternoon,Weekday,Jeff,3,"Reflecting the flavors of Northern Europe, Scandinavian cakes often feature berries, nuts, and wholesome grains.",Pure Veg
 860,Soup,2016-08-11 13:16:55,Afternoon,Weekday,Anna,5,"Warm, comforting soups served alongside cakes for a satisfying meal.",Pure Veg
-861,Hearty & Seasonal,2016-08-11 13:25:27,Afternoon,Weekday,Jason,1,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+861,Hearty and Seasonal,2016-08-11 13:25:27,Afternoon,Weekday,Jason,1,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 861,Tea,2016-08-11 13:25:27,Afternoon,Weekday,April,1,"Cakes perfect for pairing with a cup of tea, offering a balance of sweetness and lightness.",Beverages
 861,Bread,2016-08-11 13:25:27,Afternoon,Weekday,Chad,3,"A staple food made from flour, water, and yeast, often baked until golden brown with a soft interior.",Pure Veg
 862,Hot chocolate,2016-08-11 13:28:15,Afternoon,Weekday,Sherry,1,"Though not a cake in the traditional sense, hot chocolate complements cakes well, offering a warm and indulgent beverage often topped with whipped cream or marshmallows.",Beverages
 863,Coffee,2016-08-11 13:29:47,Afternoon,Weekday,Lucy,5,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 863,Sandwich,2016-08-11 13:29:47,Afternoon,Weekday,Agnes,2,"Layers of bread filled with meats, cheeses, vegetables, and condiments, offering a portable and satisfying meal option.",Sandwiches
-863,Hearty & Seasonal,2016-08-11 13:29:47,Afternoon,Weekday,Virginia,0,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+863,Hearty and Seasonal,2016-08-11 13:29:47,Afternoon,Weekday,Virginia,0,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 864,Brownie,2016-08-11 13:37:01,Afternoon,Weekday,Debra,2,"Rich, fudgy chocolate cakes with a dense texture, often studded with nuts or chocolate chips.",Pure Veg
-864,Hearty & Seasonal,2016-08-11 13:37:01,Afternoon,Weekday,Oscar,2,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+864,Hearty and Seasonal,2016-08-11 13:37:01,Afternoon,Weekday,Oscar,2,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 864,Sandwich,2016-08-11 13:37:01,Afternoon,Weekday,Barry,5,"Layers of bread filled with meats, cheeses, vegetables, and condiments, offering a portable and satisfying meal option.",Sandwiches
 864,Coffee,2016-08-11 13:37:01,Afternoon,Weekday,Jeanette,3,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 865,Medialuna,2016-08-11 14:01:59,Afternoon,Weekday,Lee,3,"A crescent-shaped pastry originating from Argentina, often sweetened and glazed.",Pure Veg
@@ -1792,7 +1792,7 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 872,Pastry,2016-08-11 14:31:31,Afternoon,Weekday,Timothy,4,"Delicate, flaky pastries filled with sweet or savory ingredients, ranging from fruit to cheese and meats.",Pure Veg
 873,Coffee,2016-08-11 14:36:39,Afternoon,Weekday,Christopher,5,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 873,Brownie,2016-08-11 14:36:39,Afternoon,Weekday,Debra,1,"Rich, fudgy chocolate cakes with a dense texture, often studded with nuts or chocolate chips.",Pure Veg
-873,Hearty & Seasonal,2016-08-11 14:36:39,Afternoon,Weekday,Alan,2,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+873,Hearty and Seasonal,2016-08-11 14:36:39,Afternoon,Weekday,Alan,2,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 873,Soup,2016-08-11 14:36:39,Afternoon,Weekday,Ernest,4,"Warm, comforting soups served alongside cakes for a satisfying meal.",Pure Veg
 873,Chocolate crinkles,2016-08-11 14:36:39,Afternoon,Weekday,Emily,1,"Hearty bowls filled with roasted meats, grains, vegetables, and sauces, offering a satisfying and balanced meal option.",Pure Veg
 874,Coffee,2016-08-11 14:45:38,Afternoon,Weekday,Sonia,0,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
@@ -1879,7 +1879,7 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 916,Coffee,2016-09-11 12:38:43,Afternoon,Weekday,Michele,0,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 916,Pastry,2016-09-11 12:38:43,Afternoon,Weekday,Casey,1,"Delicate, flaky pastries filled with sweet or savory ingredients, ranging from fruit to cheese and meats.",Pure Veg
 916,Bread,2016-09-11 12:38:43,Afternoon,Weekday,Mandy,1,"A staple food made from flour, water, and yeast, often baked until golden brown with a soft interior.",Pure Veg
-916,Hearty & Seasonal,2016-09-11 12:38:43,Afternoon,Weekday,Heather,0,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+916,Hearty and Seasonal,2016-09-11 12:38:43,Afternoon,Weekday,Heather,0,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 917,Bread,2016-09-11 12:50:36,Afternoon,Weekday,Linda,3,"A staple food made from flour, water, and yeast, often baked until golden brown with a soft interior.",Pure Veg
 917,Coffee,2016-09-11 12:50:36,Afternoon,Weekday,Jenny,0,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 917,Brownie,2016-09-11 12:50:36,Afternoon,Weekday,Richard,0,"Rich, fudgy chocolate cakes with a dense texture, often studded with nuts or chocolate chips.",Pure Veg
@@ -1904,7 +1904,7 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 927,Bread Pudding,2016-09-11 14:16:15,Afternoon,Weekday,Joe,4,A comforting dessert made from leftover bread soaked in a custard mixture and baked until golden and set.,Pure Veg
 927,Soup,2016-09-11 14:16:15,Afternoon,Weekday,Dennis,2,"Warm, comforting soups served alongside cakes for a satisfying meal.",Pure Veg
 927,Coffee,2016-09-11 14:16:15,Afternoon,Weekday,Trisha,2,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
-928,Hearty & Seasonal,2016-09-11 14:21:56,Afternoon,Weekday,Luis,5,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+928,Hearty and Seasonal,2016-09-11 14:21:56,Afternoon,Weekday,Luis,5,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 928,Bread,2016-09-11 14:21:56,Afternoon,Weekday,Melinda,3,"A staple food made from flour, water, and yeast, often baked until golden brown with a soft interior.",Pure Veg
 929,Coffee,2016-09-11 14:26:30,Afternoon,Weekday,Greg,2,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 929,Coffee,2016-09-11 14:26:30,Afternoon,Weekday,Vivian,5,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
@@ -2026,7 +2026,7 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 982,Smoothies,2016-10-11 13:24:36,Afternoon,Weekday,Molly,3,"Refreshing blended beverages made from fruits, vegetables, and yogurt or milk, perfect for pairing with cakes for a light meal or snack.",Pure Veg
 982,Juice,2016-10-11 13:24:36,Afternoon,Weekday,Ann,0,Refreshing fruit or vegetable juices served alongside cakes to provide a burst of flavor and hydration.,Beverages
 982,Soup,2016-10-11 13:24:36,Afternoon,Weekday,Howard,5,"Warm, comforting soups served alongside cakes for a satisfying meal.",Pure Veg
-982,Hearty & Seasonal,2016-10-11 13:24:36,Afternoon,Weekday,Beth,0,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+982,Hearty and Seasonal,2016-10-11 13:24:36,Afternoon,Weekday,Beth,0,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 983,Alfajores,2016-10-11 13:43:08,Afternoon,Weekday,Penny,0,"Traditional South American cookies made from delicate shortbread filled with dulce de leche or jam, often coated in powdered sugar or dipped in chocolate.",Desserts
 983,Sandwich,2016-10-11 13:43:08,Afternoon,Weekday,Alicia,3,"Layers of bread filled with meats, cheeses, vegetables, and condiments, offering a portable and satisfying meal option.",Sandwiches
 983,Hot chocolate,2016-10-11 13:43:08,Afternoon,Weekday,Antonio,2,"Though not a cake in the traditional sense, hot chocolate complements cakes well, offering a warm and indulgent beverage often topped with whipped cream or marshmallows.",Beverages
@@ -2205,8 +2205,8 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 1075,Coffee,2016-11-11 13:50:43,Afternoon,Weekday,Dana,2,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 1075,Coffee,2016-11-11 13:50:43,Afternoon,Weekday,Bill,0,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 1076,Bread,2016-11-11 13:59:45,Afternoon,Weekday,Cody,1,"A staple food made from flour, water, and yeast, often baked until golden brown with a soft interior.",Pure Veg
-1076,Hearty & Seasonal,2016-11-11 13:59:45,Afternoon,Weekday,Emily,4,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
-1077,Hearty & Seasonal,2016-11-11 14:00:15,Afternoon,Weekday,Brent,1,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+1076,Hearty and Seasonal,2016-11-11 13:59:45,Afternoon,Weekday,Emily,4,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+1077,Hearty and Seasonal,2016-11-11 14:00:15,Afternoon,Weekday,Brent,1,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 1077,Bread,2016-11-11 14:00:15,Afternoon,Weekday,Ella,3,"A staple food made from flour, water, and yeast, often baked until golden brown with a soft interior.",Pure Veg
 1078,Scandinavian,2016-11-11 14:15:49,Afternoon,Weekday,Teresa,2,"Reflecting the flavors of Northern Europe, Scandinavian cakes often feature berries, nuts, and wholesome grains.",Pure Veg
 1078,Focaccia,2016-11-11 14:15:49,Afternoon,Weekday,Judith,3,"Italian flatbread flavored with herbs and olive oil, often served as an appetizer or accompaniment to meals.",Rolls
@@ -2358,8 +2358,8 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 1150,Alfajores,2016-12-11 12:22:37,Afternoon,Weekend,Jenny,5,"Traditional South American cookies made from delicate shortbread filled with dulce de leche or jam, often coated in powdered sugar or dipped in chocolate.",Desserts
 1151,Tea,2016-12-11 12:38:17,Afternoon,Weekend,Bobby,4,"Cakes perfect for pairing with a cup of tea, offering a balance of sweetness and lightness.",Beverages
 1151,Juice,2016-12-11 12:38:17,Afternoon,Weekend,Elisabeth,2,Refreshing fruit or vegetable juices served alongside cakes to provide a burst of flavor and hydration.,Beverages
-1151,Hearty & Seasonal,2016-12-11 12:38:17,Afternoon,Weekend,Cecilia,1,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
-1151,Hearty & Seasonal,2016-12-11 12:38:17,Afternoon,Weekend,Steve,4,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+1151,Hearty and Seasonal,2016-12-11 12:38:17,Afternoon,Weekend,Cecilia,1,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+1151,Hearty and Seasonal,2016-12-11 12:38:17,Afternoon,Weekend,Steve,4,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 1152,Truffles,2016-12-11 12:40:44,Afternoon,Weekend,Sandy,2,"Decadent chocolate confections made from ganache rolled in cocoa powder, nuts, or other coatings, perfect for indulgent treats or gifts.",Desserts
 1153,Coffee,2016-12-11 12:45:16,Afternoon,Weekend,Mary,2,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 1153,Coffee,2016-12-11 12:45:16,Afternoon,Weekend,Amy,4,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
@@ -2421,13 +2421,13 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 1174,Coffee,2016-12-11 14:26:11,Afternoon,Weekend,Angela,4,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 1174,Alfajores,2016-12-11 14:26:11,Afternoon,Weekend,Denise,5,"Traditional South American cookies made from delicate shortbread filled with dulce de leche or jam, often coated in powdered sugar or dipped in chocolate.",Desserts
 1175,Tea,2016-12-11 14:35:38,Afternoon,Weekend,Tanya,4,"Cakes perfect for pairing with a cup of tea, offering a balance of sweetness and lightness.",Beverages
-1175,Hearty & Seasonal,2016-12-11 14:35:38,Afternoon,Weekend,Ronald,2,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+1175,Hearty and Seasonal,2016-12-11 14:35:38,Afternoon,Weekend,Ronald,2,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 1175,Farm House,2016-12-11 14:35:38,Afternoon,Weekend,Wesley,4,"Rustic cakes reminiscent of farmhouse baking, featuring simple, wholesome ingredients like oats, nuts, and dried fruits.",Pure Veg
 1176,Bread,2016-12-11 14:42:31,Afternoon,Weekend,Emily,0,"A staple food made from flour, water, and yeast, often baked until golden brown with a soft interior.",Pure Veg
 1176,Coffee,2016-12-11 14:42:31,Afternoon,Weekend,Sarah,0,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 1176,Alfajores,2016-12-11 14:42:31,Afternoon,Weekend,Judy,3,"Traditional South American cookies made from delicate shortbread filled with dulce de leche or jam, often coated in powdered sugar or dipped in chocolate.",Desserts
 1176,Cookies,2016-12-11 14:42:31,Afternoon,Weekend,Gene,5,"Bite-sized baked treats with endless variations, from chewy chocolate chip to delicate shortbread.",Pure Veg
-1177,Hearty & Seasonal,2016-12-11 14:48:20,Afternoon,Weekend,Dwayne,5,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+1177,Hearty and Seasonal,2016-12-11 14:48:20,Afternoon,Weekend,Dwayne,5,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 1177,Sandwich,2016-12-11 14:48:20,Afternoon,Weekend,Andrew,1,"Layers of bread filled with meats, cheeses, vegetables, and condiments, offering a portable and satisfying meal option.",Sandwiches
 1177,Bread,2016-12-11 14:48:20,Afternoon,Weekend,Claudia,5,"A staple food made from flour, water, and yeast, often baked until golden brown with a soft interior.",Pure Veg
 1177,Muffin,2016-12-11 14:48:20,Afternoon,Weekend,Benjamin,1,"Individual-sized quick breads, often sweetened and flavored with fruits, nuts, or chocolate chips.",Pure Veg
@@ -2514,7 +2514,7 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 1216,Bread,2016-11-13 11:07:58,Morning,Weekend,Elisabeth,4,"A staple food made from flour, water, and yeast, often baked until golden brown with a soft interior.",Pure Veg
 1217,Bread,2016-11-13 11:12:10,Morning,Weekend,Randy,5,"A staple food made from flour, water, and yeast, often baked until golden brown with a soft interior.",Pure Veg
 1217,Pastry,2016-11-13 11:12:10,Morning,Weekend,Karen,2,"Delicate, flaky pastries filled with sweet or savory ingredients, ranging from fruit to cheese and meats.",Pure Veg
-1218,Hearty & Seasonal,2016-11-13 11:16:05,Morning,Weekend,Kristina,1,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+1218,Hearty and Seasonal,2016-11-13 11:16:05,Morning,Weekend,Kristina,1,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 1219,Scandinavian,2016-11-13 11:16:39,Morning,Weekend,Sarah,4,"Reflecting the flavors of Northern Europe, Scandinavian cakes often feature berries, nuts, and wholesome grains.",Pure Veg
 1220,Coffee,2016-11-13 11:19:32,Morning,Weekend,Sidney,1,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 1220,Hot chocolate,2016-11-13 11:19:32,Morning,Weekend,Susie,1,"Though not a cake in the traditional sense, hot chocolate complements cakes well, offering a warm and indulgent beverage often topped with whipped cream or marshmallows.",Beverages
@@ -2532,7 +2532,7 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 1225,Medialuna,2016-11-13 11:33:56,Morning,Weekend,Sally,0,"A crescent-shaped pastry originating from Argentina, often sweetened and glazed.",Pure Veg
 1226,Brownie,2016-11-13 11:34:54,Morning,Weekend,Joshua,3,"Rich, fudgy chocolate cakes with a dense texture, often studded with nuts or chocolate chips.",Pure Veg
 1227,Muffin,2016-11-13 11:37:33,Morning,Weekend,Michael,3,"Individual-sized quick breads, often sweetened and flavored with fruits, nuts, or chocolate chips.",Pure Veg
-1228,Hearty & Seasonal,2016-11-13 11:41:45,Morning,Weekend,Marilyn,4,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+1228,Hearty and Seasonal,2016-11-13 11:41:45,Morning,Weekend,Marilyn,4,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 1229,Coffee,2016-11-13 11:42:45,Morning,Weekend,Maxwell,0,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 1229,Bread,2016-11-13 11:42:45,Morning,Weekend,Debra,5,"A staple food made from flour, water, and yeast, often baked until golden brown with a soft interior.",Pure Veg
 1230,Coffee,2016-11-13 11:44:44,Morning,Weekend,Brandon,2,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
@@ -2579,7 +2579,7 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 1248,Juice,2016-11-13 13:01:23,Afternoon,Weekend,Ellis,0,Refreshing fruit or vegetable juices served alongside cakes to provide a burst of flavor and hydration.,Beverages
 1249,Bread,2016-11-13 13:04:04,Afternoon,Weekend,Barbara,5,"A staple food made from flour, water, and yeast, often baked until golden brown with a soft interior.",Pure Veg
 1250,Coffee,2016-11-13 13:13:15,Afternoon,Weekend,Casey,4,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
-1251,Hearty & Seasonal,2016-11-13 13:17:17,Afternoon,Weekend,William,1,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+1251,Hearty and Seasonal,2016-11-13 13:17:17,Afternoon,Weekend,William,1,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 1251,Coffee,2016-11-13 13:17:17,Afternoon,Weekend,Edmund,1,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 1251,Tea,2016-11-13 13:17:17,Afternoon,Weekend,Elaine,2,"Cakes perfect for pairing with a cup of tea, offering a balance of sweetness and lightness.",Beverages
 1252,Brownie,2016-11-13 13:19:35,Afternoon,Weekend,Allison,5,"Rich, fudgy chocolate cakes with a dense texture, often studded with nuts or chocolate chips.",Pure Veg
@@ -2600,11 +2600,11 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 1256,Macaroons,2016-11-13 13:50:52,Afternoon,Weekend,Patricia,5,"Versatile spreads made from fruits, nuts, or vegetables, perfect for adding flavor and moisture to cakes, sandwiches, and snacks.",Pure Veg
 1257,Brownie,2016-11-13 13:52:27,Afternoon,Weekend,Isabella,2,"Rich, fudgy chocolate cakes with a dense texture, often studded with nuts or chocolate chips.",Pure Veg
 1258,Coffee,2016-11-13 13:59:28,Afternoon,Weekend,Tom,3,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
-1258,Hearty & Seasonal,2016-11-13 13:59:28,Afternoon,Weekend,Amber,2,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+1258,Hearty and Seasonal,2016-11-13 13:59:28,Afternoon,Weekend,Amber,2,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 1259,Bread,2016-11-13 14:14:28,Afternoon,Weekend,Priscilla,5,"A staple food made from flour, water, and yeast, often baked until golden brown with a soft interior.",Pure Veg
 1259,Bread,2016-11-13 14:14:28,Afternoon,Weekend,Evan,1,"A staple food made from flour, water, and yeast, often baked until golden brown with a soft interior.",Pure Veg
 1259,Banana cake,2016-11-13 14:14:28,Afternoon,Weekend,Caroline,2,"Cakes made with locally sourced ingredients, supporting community farmers and producers while offering fresh and seasonal flavors.",Cakes
-1259,Hearty & Seasonal,2016-11-13 14:14:28,Afternoon,Weekend,Gabriel,0,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+1259,Hearty and Seasonal,2016-11-13 14:14:28,Afternoon,Weekend,Gabriel,0,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 1259,Tea,2016-11-13 14:14:28,Afternoon,Weekend,Hugh,5,"Cakes perfect for pairing with a cup of tea, offering a balance of sweetness and lightness.",Beverages
 1260,Coffee,2016-11-13 14:28:42,Afternoon,Weekend,Madeline,2,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 1260,Almond,2016-11-13 14:28:42,Afternoon,Weekend,Rose,5,A popular carbonated beverage often served alongside cakes to provide a sweet and fizzy contrast.,Pure Veg
@@ -2719,8 +2719,8 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 1313,Coffee,2016-11-14 12:52:11,Afternoon,Weekday,Cecilia,3,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 1314,Sandwich,2016-11-14 13:03:24,Afternoon,Weekday,Linda,3,"Layers of bread filled with meats, cheeses, vegetables, and condiments, offering a portable and satisfying meal option.",Sandwiches
 1314,Bread,2016-11-14 13:03:24,Afternoon,Weekday,Leslie,0,"A staple food made from flour, water, and yeast, often baked until golden brown with a soft interior.",Pure Veg
-1315,Hearty & Seasonal,2016-11-14 13:09:13,Afternoon,Weekday,Claudia,5,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
-1315,Hearty & Seasonal,2016-11-14 13:09:13,Afternoon,Weekday,Amy,3,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+1315,Hearty and Seasonal,2016-11-14 13:09:13,Afternoon,Weekday,Claudia,5,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+1315,Hearty and Seasonal,2016-11-14 13:09:13,Afternoon,Weekday,Amy,3,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 1315,Alfajores,2016-11-14 13:09:13,Afternoon,Weekday,Jessie,4,"Traditional South American cookies made from delicate shortbread filled with dulce de leche or jam, often coated in powdered sugar or dipped in chocolate.",Desserts
 1315,Truffles,2016-11-14 13:09:13,Afternoon,Weekday,Jessie,5,"Decadent chocolate confections made from ganache rolled in cocoa powder, nuts, or other coatings, perfect for indulgent treats or gifts.",Desserts
 1316,Frittata,2016-11-14 13:14:17,Afternoon,Weekday,Mitchell,0,"Italian egg-based dishes similar to omelets, often filled with vegetables, cheese, and meats.",Pure Veg
@@ -2730,7 +2730,7 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 1317,Sandwich,2016-11-14 13:19:14,Afternoon,Weekday,Kristina,2,"Layers of bread filled with meats, cheeses, vegetables, and condiments, offering a portable and satisfying meal option.",Sandwiches
 1317,Hot chocolate,2016-11-14 13:19:14,Afternoon,Weekday,Darlene,5,"Though not a cake in the traditional sense, hot chocolate complements cakes well, offering a warm and indulgent beverage often topped with whipped cream or marshmallows.",Beverages
 1317,Coffee,2016-11-14 13:19:14,Afternoon,Weekday,Jill,2,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
-1317,Hearty & Seasonal,2016-11-14 13:19:14,Afternoon,Weekday,Lydia,4,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+1317,Hearty and Seasonal,2016-11-14 13:19:14,Afternoon,Weekday,Lydia,4,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 1317,Cookies,2016-11-14 13:19:14,Afternoon,Weekday,Pamela,0,"Bite-sized baked treats with endless variations, from chewy chocolate chip to delicate shortbread.",Pure Veg
 1318,Bread,2016-11-14 13:20:35,Afternoon,Weekday,Neil,1,"A staple food made from flour, water, and yeast, often baked until golden brown with a soft interior.",Pure Veg
 1318,Bread,2016-11-14 13:20:35,Afternoon,Weekday,Harold,3,"A staple food made from flour, water, and yeast, often baked until golden brown with a soft interior.",Pure Veg
@@ -2842,7 +2842,7 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 1370,Coffee,2016-11-15 12:00:24,Afternoon,Weekday,Amber,2,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 1370,Pastry,2016-11-15 12:00:24,Afternoon,Weekday,Floyd,5,"Delicate, flaky pastries filled with sweet or savory ingredients, ranging from fruit to cheese and meats.",Pure Veg
 1371,Soup,2016-11-15 12:08:55,Afternoon,Weekday,Ricardo,3,"Warm, comforting soups served alongside cakes for a satisfying meal.",Pure Veg
-1371,Hearty & Seasonal,2016-11-15 12:08:55,Afternoon,Weekday,Emma,0,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+1371,Hearty and Seasonal,2016-11-15 12:08:55,Afternoon,Weekday,Emma,0,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 1371,Tea,2016-11-15 12:08:55,Afternoon,Weekday,Elijah,3,"Cakes perfect for pairing with a cup of tea, offering a balance of sweetness and lightness.",Beverages
 1372,Bread,2016-11-15 12:13:28,Afternoon,Weekday,Noah,2,"A staple food made from flour, water, and yeast, often baked until golden brown with a soft interior.",Pure Veg
 1372,Scandinavian,2016-11-15 12:13:28,Afternoon,Weekday,Ralph,1,"Reflecting the flavors of Northern Europe, Scandinavian cakes often feature berries, nuts, and wholesome grains.",Pure Veg
@@ -2865,7 +2865,7 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 1379,Soup,2016-11-15 12:50:18,Afternoon,Weekday,Noelle,5,"Warm, comforting soups served alongside cakes for a satisfying meal.",Pure Veg
 1379,Sandwich,2016-11-15 12:50:18,Afternoon,Weekday,Rita,1,"Layers of bread filled with meats, cheeses, vegetables, and condiments, offering a portable and satisfying meal option.",Sandwiches
 1380,Sandwich,2016-11-15 13:02:04,Afternoon,Weekday,Michael,4,"Layers of bread filled with meats, cheeses, vegetables, and condiments, offering a portable and satisfying meal option.",Sandwiches
-1380,Hearty & Seasonal,2016-11-15 13:02:04,Afternoon,Weekday,Brittany,5,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+1380,Hearty and Seasonal,2016-11-15 13:02:04,Afternoon,Weekday,Brittany,5,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 1380,Coffee,2016-11-15 13:02:04,Afternoon,Weekday,Willie,4,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 1381,Soup,2016-11-15 13:02:39,Afternoon,Weekday,Barbara,4,"Warm, comforting soups served alongside cakes for a satisfying meal.",Pure Veg
 1382,Bread,2016-11-15 13:11:28,Afternoon,Weekday,Jacqueline,4,"A staple food made from flour, water, and yeast, often baked until golden brown with a soft interior.",Pure Veg
@@ -2883,7 +2883,7 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 1388,Coffee,2016-11-15 13:36:05,Afternoon,Weekday,Margaret,5,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 1388,Coffee,2016-11-15 13:36:05,Afternoon,Weekday,Crystal,1,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 1388,Sandwich,2016-11-15 13:36:05,Afternoon,Weekday,Sally,2,"Layers of bread filled with meats, cheeses, vegetables, and condiments, offering a portable and satisfying meal option.",Sandwiches
-1388,Hearty & Seasonal,2016-11-15 13:36:05,Afternoon,Weekday,Ruby,1,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+1388,Hearty and Seasonal,2016-11-15 13:36:05,Afternoon,Weekday,Ruby,1,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 1389,Coffee,2016-11-15 13:43:28,Afternoon,Weekday,Sheila,4,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 1389,Coffee,2016-11-15 13:43:28,Afternoon,Weekday,Cameron,3,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 1389,Soup,2016-11-15 13:43:28,Afternoon,Weekday,Haley,3,"Warm, comforting soups served alongside cakes for a satisfying meal.",Pure Veg
@@ -2895,7 +2895,7 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 1394,Soup,2016-11-15 14:16:25,Afternoon,Weekday,Derek,0,"Warm, comforting soups served alongside cakes for a satisfying meal.",Pure Veg
 1395,Coffee,2016-11-15 14:40:51,Afternoon,Weekday,Karen,0,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 1395,Coffee,2016-11-15 14:40:51,Afternoon,Weekday,Rose,0,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
-1395,Hearty & Seasonal,2016-11-15 14:40:51,Afternoon,Weekday,Alan,4,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+1395,Hearty and Seasonal,2016-11-15 14:40:51,Afternoon,Weekday,Alan,4,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 1395,Soup,2016-11-15 14:40:51,Afternoon,Weekday,Florence,2,"Warm, comforting soups served alongside cakes for a satisfying meal.",Pure Veg
 1396,Scandinavian,2016-11-15 14:42:24,Afternoon,Weekday,Scott,5,"Reflecting the flavors of Northern Europe, Scandinavian cakes often feature berries, nuts, and wholesome grains.",Pure Veg
 1397,Coffee,2016-11-15 14:45:52,Afternoon,Weekday,Marvin,2,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
@@ -2982,7 +2982,7 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 1442,Juice,2016-11-16 12:39:27,Afternoon,Weekday,Henry,1,Refreshing fruit or vegetable juices served alongside cakes to provide a burst of flavor and hydration.,Beverages
 1442,Brownie,2016-11-16 12:39:27,Afternoon,Weekday,Paul,0,"Rich, fudgy chocolate cakes with a dense texture, often studded with nuts or chocolate chips.",Pure Veg
 1443,Coffee,2016-11-16 12:55:30,Afternoon,Weekday,Ruth,4,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
-1444,Hearty & Seasonal,2016-11-16 13:07:04,Afternoon,Weekday,Clara,5,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+1444,Hearty and Seasonal,2016-11-16 13:07:04,Afternoon,Weekday,Clara,5,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 1445,Coffee,2016-11-16 13:15:30,Afternoon,Weekday,Eleanor,2,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 1445,Soup,2016-11-16 13:15:30,Afternoon,Weekday,Ingrid,5,"Warm, comforting soups served alongside cakes for a satisfying meal.",Pure Veg
 1445,Sandwich,2016-11-16 13:15:30,Afternoon,Weekday,Agnes,1,"Layers of bread filled with meats, cheeses, vegetables, and condiments, offering a portable and satisfying meal option.",Sandwiches
@@ -3016,7 +3016,7 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 1457,Cake,2016-11-16 14:43:29,Afternoon,Weekday,Charlotte,5,"Sweet baked goods made from a mixture of flour, sugar, eggs, and butter or oil, often flavored with extracts, fruits, or spices.",Pure Veg
 1458,Bread,2016-11-16 14:44:42,Afternoon,Weekday,Charlie,2,"A staple food made from flour, water, and yeast, often baked until golden brown with a soft interior.",Pure Veg
 1458,Bread,2016-11-16 14:44:42,Afternoon,Weekday,Erica,5,"A staple food made from flour, water, and yeast, often baked until golden brown with a soft interior.",Pure Veg
-1459,Hearty & Seasonal,2016-11-16 14:46:23,Afternoon,Weekday,Jennifer,3,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+1459,Hearty and Seasonal,2016-11-16 14:46:23,Afternoon,Weekday,Jennifer,3,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 1460,Bread,2016-11-16 14:52:58,Afternoon,Weekday,Edward,0,"A staple food made from flour, water, and yeast, often baked until golden brown with a soft interior.",Pure Veg
 1460,Mineral water,2016-11-16 14:52:58,Afternoon,Weekday,Lyle,1,A refreshing beverage often served alongside cakes to cleanse the palate and provide hydration.,Beverages
 1460,Brownie,2016-11-16 14:52:58,Afternoon,Weekday,Michael,4,"Rich, fudgy chocolate cakes with a dense texture, often studded with nuts or chocolate chips.",Pure Veg
@@ -3102,13 +3102,13 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 1511,Soup,2016-11-17 12:34:23,Afternoon,Weekday,Jeffrey,3,"Warm, comforting soups served alongside cakes for a satisfying meal.",Pure Veg
 1511,Cookie with strawberries,2016-11-17 12:34:23,Afternoon,Weekday,Joseph,2,"Edible art pieces made from cake, icing, and decorative elements, perfect for special occasions and celebrations.",Pure Veg
 1511,Pastry,2016-11-17 12:34:23,Afternoon,Weekday,Donald,4,"Delicate, flaky pastries filled with sweet or savory ingredients, ranging from fruit to cheese and meats.",Pure Veg
-1512,Hearty & Seasonal,2016-11-17 12:49:02,Afternoon,Weekday,Lauren,5,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+1512,Hearty and Seasonal,2016-11-17 12:49:02,Afternoon,Weekday,Lauren,5,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 1512,Mineral water,2016-11-17 12:49:02,Afternoon,Weekday,Hugh,3,A refreshing beverage often served alongside cakes to cleanse the palate and provide hydration.,Beverages
 1512,Alfajores,2016-11-17 12:49:02,Afternoon,Weekday,Darlene,3,"Traditional South American cookies made from delicate shortbread filled with dulce de leche or jam, often coated in powdered sugar or dipped in chocolate.",Desserts
 1513,Bread,2016-11-17 12:49:29,Afternoon,Weekday,Jessica,1,"A staple food made from flour, water, and yeast, often baked until golden brown with a soft interior.",Pure Veg
 1514,Coffee,2016-11-17 12:56:27,Afternoon,Weekday,Donna,5,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
-1514,Hearty & Seasonal,2016-11-17 12:56:27,Afternoon,Weekday,Mindy,5,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
-1514,Hearty & Seasonal,2016-11-17 12:56:27,Afternoon,Weekday,Neal,1,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+1514,Hearty and Seasonal,2016-11-17 12:56:27,Afternoon,Weekday,Mindy,5,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+1514,Hearty and Seasonal,2016-11-17 12:56:27,Afternoon,Weekday,Neal,1,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 1514,Alfajores,2016-11-17 12:56:27,Afternoon,Weekday,Ian,3,"Traditional South American cookies made from delicate shortbread filled with dulce de leche or jam, often coated in powdered sugar or dipped in chocolate.",Desserts
 1514,Alfajores,2016-11-17 12:56:27,Afternoon,Weekday,Jackie,5,"Traditional South American cookies made from delicate shortbread filled with dulce de leche or jam, often coated in powdered sugar or dipped in chocolate.",Desserts
 1514,Cake,2016-11-17 12:56:27,Afternoon,Weekday,Nick,1,"Sweet baked goods made from a mixture of flour, sugar, eggs, and butter or oil, often flavored with extracts, fruits, or spices.",Pure Veg
@@ -3122,13 +3122,13 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 1521,Bread,2016-11-17 13:25:21,Afternoon,Weekday,Kate,5,"A staple food made from flour, water, and yeast, often baked until golden brown with a soft interior.",Pure Veg
 1521,Coffee,2016-11-17 13:25:21,Afternoon,Weekday,Leona,0,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 1522,Coffee,2016-11-17 13:33:52,Afternoon,Weekday,Stacey,4,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
-1522,Hearty & Seasonal,2016-11-17 13:33:52,Afternoon,Weekday,Molly,0,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+1522,Hearty and Seasonal,2016-11-17 13:33:52,Afternoon,Weekday,Molly,0,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 1522,Sandwich,2016-11-17 13:33:52,Afternoon,Weekday,Travis,4,"Layers of bread filled with meats, cheeses, vegetables, and condiments, offering a portable and satisfying meal option.",Sandwiches
 1522,Bread,2016-11-17 13:33:52,Afternoon,Weekday,Patsy,0,"A staple food made from flour, water, and yeast, often baked until golden brown with a soft interior.",Pure Veg
 1523,Soup,2016-11-17 13:36:34,Afternoon,Weekday,Edith,2,"Warm, comforting soups served alongside cakes for a satisfying meal.",Pure Veg
 1523,Coffee,2016-11-17 13:36:34,Afternoon,Weekday,Cliff,2,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 1524,Coffee,2016-11-17 13:38:20,Afternoon,Weekday,Martha,4,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
-1524,Hearty & Seasonal,2016-11-17 13:38:20,Afternoon,Weekday,Dennis,2,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+1524,Hearty and Seasonal,2016-11-17 13:38:20,Afternoon,Weekday,Dennis,2,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 1524,Banana cake,2016-11-17 13:38:20,Afternoon,Weekday,Phyllis,0,"Cakes made with locally sourced ingredients, supporting community farmers and producers while offering fresh and seasonal flavors.",Cakes
 1525,Bread,2016-11-17 13:51:58,Afternoon,Weekday,Ruben,2,"A staple food made from flour, water, and yeast, often baked until golden brown with a soft interior.",Pure Veg
 1526,Coffee,2016-11-17 13:53:52,Afternoon,Weekday,Joe,4,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
@@ -3282,8 +3282,8 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 1601,Cookie with strawberries,2016-11-18 14:14:44,Afternoon,Weekday,Kelly,0,"Edible art pieces made from cake, icing, and decorative elements, perfect for special occasions and celebrations.",Pure Veg
 1601,Coffee,2016-11-18 14:14:44,Afternoon,Weekday,Beverly,1,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 1601,Bread,2016-11-18 14:14:44,Afternoon,Weekday,Georgia,5,"A staple food made from flour, water, and yeast, often baked until golden brown with a soft interior.",Pure Veg
-1601,Hearty & Seasonal,2016-11-18 14:14:44,Afternoon,Weekday,Dana,5,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
-1601,Hearty & Seasonal,2016-11-18 14:14:44,Afternoon,Weekday,Zach,2,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+1601,Hearty and Seasonal,2016-11-18 14:14:44,Afternoon,Weekday,Dana,5,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+1601,Hearty and Seasonal,2016-11-18 14:14:44,Afternoon,Weekday,Zach,2,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 1602,Bread,2016-11-18 14:31:15,Afternoon,Weekday,Wade,2,"A staple food made from flour, water, and yeast, often baked until golden brown with a soft interior.",Pure Veg
 1603,Farm House,2016-11-18 14:34:26,Afternoon,Weekday,Sophia,4,"Rustic cakes reminiscent of farmhouse baking, featuring simple, wholesome ingredients like oats, nuts, and dried fruits.",Pure Veg
 1604,Brownie,2016-11-18 14:41:48,Afternoon,Weekday,Louis,5,"Rich, fudgy chocolate cakes with a dense texture, often studded with nuts or chocolate chips.",Pure Veg
@@ -3479,7 +3479,7 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 1698,Medialuna,2016-11-19 13:28:09,Afternoon,Weekend,Neal,3,"A crescent-shaped pastry originating from Argentina, often sweetened and glazed.",Pure Veg
 1699,Focaccia,2016-11-19 13:34:07,Afternoon,Weekend,Fannie,4,"Italian flatbread flavored with herbs and olive oil, often served as an appetizer or accompaniment to meals.",Rolls
 1700,Scandinavian,2016-11-19 13:36:30,Afternoon,Weekend,Clarence,5,"Reflecting the flavors of Northern Europe, Scandinavian cakes often feature berries, nuts, and wholesome grains.",Pure Veg
-1701,Hearty & Seasonal,2016-11-19 13:45:24,Afternoon,Weekend,James,4,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+1701,Hearty and Seasonal,2016-11-19 13:45:24,Afternoon,Weekend,James,4,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 1701,Sandwich,2016-11-19 13:45:24,Afternoon,Weekend,Justin,5,"Layers of bread filled with meats, cheeses, vegetables, and condiments, offering a portable and satisfying meal option.",Sandwiches
 1701,Coffee,2016-11-19 13:45:24,Afternoon,Weekend,Yvonne,4,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 1701,Mineral water,2016-11-19 13:45:24,Afternoon,Weekend,Stacy,0,A refreshing beverage often served alongside cakes to cleanse the palate and provide hydration.,Beverages
@@ -4045,7 +4045,7 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 1977,Sandwich,2016-11-24 13:31:38,Afternoon,Weekday,Wilson,1,"Layers of bread filled with meats, cheeses, vegetables, and condiments, offering a portable and satisfying meal option.",Sandwiches
 1978,Coffee,2016-11-24 13:39:41,Afternoon,Weekday,Ruth,4,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 1978,Sandwich,2016-11-24 13:39:41,Afternoon,Weekday,Roy,5,"Layers of bread filled with meats, cheeses, vegetables, and condiments, offering a portable and satisfying meal option.",Sandwiches
-1978,Hearty & Seasonal,2016-11-24 13:39:41,Afternoon,Weekday,Adam,2,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+1978,Hearty and Seasonal,2016-11-24 13:39:41,Afternoon,Weekday,Adam,2,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 1979,Coffee,2016-11-24 13:58:03,Afternoon,Weekday,Alice,0,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 1980,Tea,2016-11-24 13:58:38,Afternoon,Weekday,Rita,3,"Cakes perfect for pairing with a cup of tea, offering a balance of sweetness and lightness.",Beverages
 1980,Cake,2016-11-24 13:58:38,Afternoon,Weekday,Brendan,0,"Sweet baked goods made from a mixture of flour, sugar, eggs, and butter or oil, often flavored with extracts, fruits, or spices.",Pure Veg
@@ -4427,7 +4427,7 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 2176,Hot chocolate,2016-11-27 11:14:35,Morning,Weekend,Nicholas,3,"Though not a cake in the traditional sense, hot chocolate complements cakes well, offering a warm and indulgent beverage often topped with whipped cream or marshmallows.",Beverages
 2176,Coffee,2016-11-27 11:14:35,Morning,Weekend,Darren,1,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 2177,Tartine,2016-11-27 11:17:13,Morning,Weekend,Matthew,5,"Open-faced sandwiches or cakes topped with various spreads, fruits, or vegetables, often served as a light meal or snack.",Sandwiches
-2177,Hearty & Seasonal,2016-11-27 11:17:13,Morning,Weekend,Sally,5,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+2177,Hearty and Seasonal,2016-11-27 11:17:13,Morning,Weekend,Sally,5,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 2178,Fudge,2016-11-27 11:17:32,Morning,Weekend,Vernon,0,"Dense, sweet confections made from sugar, butter, and milk or cream, often flavored with chocolate or nuts.",Desserts
 2179,Bread,2016-11-27 11:18:45,Morning,Weekend,Pamela,0,"A staple food made from flour, water, and yeast, often baked until golden brown with a soft interior.",Pure Veg
 2180,Coffee,2016-11-27 11:20:08,Morning,Weekend,Beth,0,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
@@ -4464,10 +4464,10 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 2192,Coffee,2016-11-27 11:59:45,Morning,Weekend,Ronald,1,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 2193,Apple pie,2016-11-27 12:15:10,Afternoon,Weekend,Shelly,2,"British sandwich cookies filled with jam and topped with a decorative heart, perfect for tea time or snacking.",Desserts
 2194,Coffee,2016-11-27 12:16:44,Afternoon,Weekend,John,2,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
-2194,Hearty & Seasonal,2016-11-27 12:16:44,Afternoon,Weekend,Lindsey,5,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+2194,Hearty and Seasonal,2016-11-27 12:16:44,Afternoon,Weekend,Lindsey,5,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 2195,Cookie with strawberries,2016-11-27 12:21:01,Afternoon,Weekend,Claire,0,"Edible art pieces made from cake, icing, and decorative elements, perfect for special occasions and celebrations.",Pure Veg
-2195,Hearty & Seasonal,2016-11-27 12:21:01,Afternoon,Weekend,Robert,2,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
-2195,Hearty & Seasonal,2016-11-27 12:21:01,Afternoon,Weekend,Antonio,2,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+2195,Hearty and Seasonal,2016-11-27 12:21:01,Afternoon,Weekend,Robert,2,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+2195,Hearty and Seasonal,2016-11-27 12:21:01,Afternoon,Weekend,Antonio,2,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 2195,Tea,2016-11-27 12:21:01,Afternoon,Weekend,Ed,3,"Cakes perfect for pairing with a cup of tea, offering a balance of sweetness and lightness.",Beverages
 2195,Coffee,2016-11-27 12:21:01,Afternoon,Weekend,Bruce,3,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 2196,Coffee,2016-11-27 12:30:35,Afternoon,Weekend,Sherry,2,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
@@ -4478,7 +4478,7 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 2197,Coffee,2016-11-27 12:35:12,Afternoon,Weekend,Sean,5,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 2197,Coffee,2016-11-27 12:35:12,Afternoon,Weekend,Rosalie,4,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 2197,Medialuna,2016-11-27 12:35:12,Afternoon,Weekend,Jordan,0,"A crescent-shaped pastry originating from Argentina, often sweetened and glazed.",Pure Veg
-2197,Hearty & Seasonal,2016-11-27 12:35:12,Afternoon,Weekend,Casey,0,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+2197,Hearty and Seasonal,2016-11-27 12:35:12,Afternoon,Weekend,Casey,0,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 2198,Coffee,2016-11-27 12:45:08,Afternoon,Weekend,Jimmy,3,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 2198,Bread,2016-11-27 12:45:08,Afternoon,Weekend,Jamie,1,"A staple food made from flour, water, and yeast, often baked until golden brown with a soft interior.",Pure Veg
 2198,Farm House,2016-11-27 12:45:08,Afternoon,Weekend,Ellis,4,"Rustic cakes reminiscent of farmhouse baking, featuring simple, wholesome ingredients like oats, nuts, and dried fruits.",Pure Veg
@@ -4486,7 +4486,7 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 2200,Coffee,2016-11-27 12:56:13,Afternoon,Weekend,Maggie,1,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 2200,Tea,2016-11-27 12:56:13,Afternoon,Weekend,Simon,3,"Cakes perfect for pairing with a cup of tea, offering a balance of sweetness and lightness.",Beverages
 2200,Cake,2016-11-27 12:56:13,Afternoon,Weekend,Faith,0,"Sweet baked goods made from a mixture of flour, sugar, eggs, and butter or oil, often flavored with extracts, fruits, or spices.",Pure Veg
-2201,Hearty & Seasonal,2016-11-27 12:58:50,Afternoon,Weekend,Liz,2,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+2201,Hearty and Seasonal,2016-11-27 12:58:50,Afternoon,Weekend,Liz,2,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 2201,Tea,2016-11-27 12:58:50,Afternoon,Weekend,Michelle,4,"Cakes perfect for pairing with a cup of tea, offering a balance of sweetness and lightness.",Beverages
 2202,Hot chocolate,2016-11-27 13:15:14,Afternoon,Weekend,Penny,4,"Though not a cake in the traditional sense, hot chocolate complements cakes well, offering a warm and indulgent beverage often topped with whipped cream or marshmallows.",Beverages
 2202,Coffee,2016-11-27 13:15:14,Afternoon,Weekend,Rita,5,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
@@ -4494,7 +4494,7 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 2203,Black-forest-cake,2016-11-27 13:16:59,Afternoon,Weekend,David,5,"A traditional British tart made with a shortcrust pastry base, frangipane filling, and topped with a layer of raspberry jam and almond-flavored icing.",Desserts
 2203,Cake,2016-11-27 13:16:59,Afternoon,Weekend,Gail,2,"Sweet baked goods made from a mixture of flour, sugar, eggs, and butter or oil, often flavored with extracts, fruits, or spices.",Pure Veg
 2204,Coffee,2016-11-27 13:38:04,Afternoon,Weekend,Anthony,5,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
-2204,Hearty & Seasonal,2016-11-27 13:38:04,Afternoon,Weekend,Elias,4,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+2204,Hearty and Seasonal,2016-11-27 13:38:04,Afternoon,Weekend,Elias,4,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 2205,Coffee,2016-11-27 13:44:51,Afternoon,Weekend,Natalie,1,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 2205,Muffin,2016-11-27 13:44:51,Afternoon,Weekend,Fannie,3,"Individual-sized quick breads, often sweetened and flavored with fruits, nuts, or chocolate chips.",Pure Veg
 2206,Cake,2016-11-27 13:46:49,Afternoon,Weekend,Juan,3,"Sweet baked goods made from a mixture of flour, sugar, eggs, and butter or oil, often flavored with extracts, fruits, or spices.",Pure Veg
@@ -4841,7 +4841,7 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 2385,Banana cake,2016-01-12 12:05:24,Afternoon,Weekday,Jacob,3,"Cakes made with locally sourced ingredients, supporting community farmers and producers while offering fresh and seasonal flavors.",Cakes
 2386,Bread,2016-01-12 12:06:05,Afternoon,Weekday,Pamela,4,"A staple food made from flour, water, and yeast, often baked until golden brown with a soft interior.",Pure Veg
 2386,Coffee,2016-01-12 12:06:05,Afternoon,Weekday,Jimmy,4,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
-2387,Hearty & Seasonal,2016-01-12 12:10:28,Afternoon,Weekday,Jacob,4,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+2387,Hearty and Seasonal,2016-01-12 12:10:28,Afternoon,Weekday,Jacob,4,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 2388,Bread,2016-01-12 12:23:19,Afternoon,Weekday,Chad,0,"A staple food made from flour, water, and yeast, often baked until golden brown with a soft interior.",Pure Veg
 2389,Fudge,2016-01-12 12:38:39,Afternoon,Weekday,Dan,4,"Dense, sweet confections made from sugar, butter, and milk or cream, often flavored with chocolate or nuts.",Desserts
 2390,Scandinavian,2016-01-12 12:50:35,Afternoon,Weekday,Julie,4,"Reflecting the flavors of Northern Europe, Scandinavian cakes often feature berries, nuts, and wholesome grains.",Pure Veg
@@ -5381,7 +5381,7 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 2667,Tea,2016-05-12 13:50:44,Afternoon,Weekday,Isabella,0,"Cakes perfect for pairing with a cup of tea, offering a balance of sweetness and lightness.",Beverages
 2668,Cookies,2016-05-12 13:52:34,Afternoon,Weekday,April,4,"Bite-sized baked treats with endless variations, from chewy chocolate chip to delicate shortbread.",Pure Veg
 2668,Coffee,2016-05-12 13:52:34,Afternoon,Weekday,Wilson,4,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
-2669,Hearty & Seasonal,2016-05-12 14:04:32,Afternoon,Weekday,Brenda,1,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+2669,Hearty and Seasonal,2016-05-12 14:04:32,Afternoon,Weekday,Brenda,1,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 2669,Almond,2016-05-12 14:04:32,Afternoon,Weekday,Charlotte,4,A popular carbonated beverage often served alongside cakes to provide a sweet and fizzy contrast.,Pure Veg
 2670,Coffee,2016-05-12 14:12:21,Afternoon,Weekday,Ashley,3,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 2670,Coffee,2016-05-12 14:12:21,Afternoon,Weekday,Victor,3,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
@@ -5659,7 +5659,7 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 2814,Coffee,2016-08-12 11:53:34,Morning,Weekday,Sherry,3,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 2814,Sandwich,2016-08-12 11:53:34,Morning,Weekday,Tanya,5,"Layers of bread filled with meats, cheeses, vegetables, and condiments, offering a portable and satisfying meal option.",Sandwiches
 2815,Tea,2016-08-12 12:19:45,Afternoon,Weekday,Noah,4,"Cakes perfect for pairing with a cup of tea, offering a balance of sweetness and lightness.",Beverages
-2816,Hearty & Seasonal,2016-08-12 12:45:41,Afternoon,Weekday,Edward,3,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+2816,Hearty and Seasonal,2016-08-12 12:45:41,Afternoon,Weekday,Edward,3,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 2816,Tea,2016-08-12 12:45:41,Afternoon,Weekday,William,3,"Cakes perfect for pairing with a cup of tea, offering a balance of sweetness and lightness.",Beverages
 2817,Coffee,2016-08-12 13:03:52,Afternoon,Weekday,Gerald,3,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 2818,Coffee,2016-08-12 13:04:38,Afternoon,Weekday,Joe,0,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
@@ -5758,11 +5758,11 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 2870,Sandwich,2016-09-12 13:42:26,Afternoon,Weekday,Annie,0,"Layers of bread filled with meats, cheeses, vegetables, and condiments, offering a portable and satisfying meal option.",Sandwiches
 2871,Coffee,2016-09-12 13:43:48,Afternoon,Weekday,Rick,3,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 2871,Brownie,2016-09-12 13:43:48,Afternoon,Weekday,Leonard,1,"Rich, fudgy chocolate cakes with a dense texture, often studded with nuts or chocolate chips.",Pure Veg
-2872,Hearty & Seasonal,2016-09-12 13:48:24,Afternoon,Weekday,Nancy,5,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+2872,Hearty and Seasonal,2016-09-12 13:48:24,Afternoon,Weekday,Nancy,5,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 2872,Brownie,2016-09-12 13:48:24,Afternoon,Weekday,Vanessa,0,"Rich, fudgy chocolate cakes with a dense texture, often studded with nuts or chocolate chips.",Pure Veg
 2872,Bread,2016-09-12 13:48:24,Afternoon,Weekday,Harold,5,"A staple food made from flour, water, and yeast, often baked until golden brown with a soft interior.",Pure Veg
 2873,Tea,2016-09-12 13:50:55,Afternoon,Weekday,Tatiana,2,"Cakes perfect for pairing with a cup of tea, offering a balance of sweetness and lightness.",Beverages
-2873,Hearty & Seasonal,2016-09-12 13:50:55,Afternoon,Weekday,Joan,0,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+2873,Hearty and Seasonal,2016-09-12 13:50:55,Afternoon,Weekday,Joan,0,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 2874,Coffee,2016-09-12 13:52:06,Afternoon,Weekday,Julia,1,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 2874,Brownie,2016-09-12 13:52:06,Afternoon,Weekday,Stuart,2,"Rich, fudgy chocolate cakes with a dense texture, often studded with nuts or chocolate chips.",Pure Veg
 2875,Coffee,2016-09-12 14:19:07,Afternoon,Weekday,Walt,5,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
@@ -6904,12 +6904,12 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 3468,Focaccia,2016-12-19 12:26:34,Afternoon,Weekday,Stuart,1,"Italian flatbread flavored with herbs and olive oil, often served as an appetizer or accompaniment to meals.",Rolls
 3468,Scandinavian,2016-12-19 12:26:34,Afternoon,Weekday,George,3,"Reflecting the flavors of Northern Europe, Scandinavian cakes often feature berries, nuts, and wholesome grains.",Pure Veg
 3469,Truffles,2016-12-19 12:29:33,Afternoon,Weekday,David,3,"Decadent chocolate confections made from ganache rolled in cocoa powder, nuts, or other coatings, perfect for indulgent treats or gifts.",Desserts
-3469,Hearty & Seasonal,2016-12-19 12:29:33,Afternoon,Weekday,Patsy,2,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+3469,Hearty and Seasonal,2016-12-19 12:29:33,Afternoon,Weekday,Patsy,2,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 3470,Coffee,2016-12-19 12:32:35,Afternoon,Weekday,Kristin,0,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 3470,Coffee,2016-12-19 12:32:35,Afternoon,Weekday,Grant,4,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 3471,Sandwich,2016-12-19 12:37:35,Afternoon,Weekday,Julia,3,"Layers of bread filled with meats, cheeses, vegetables, and condiments, offering a portable and satisfying meal option.",Sandwiches
 3471,Sandwich,2016-12-19 12:37:35,Afternoon,Weekday,Margaret,0,"Layers of bread filled with meats, cheeses, vegetables, and condiments, offering a portable and satisfying meal option.",Sandwiches
-3472,Hearty & Seasonal,2016-12-19 12:41:03,Afternoon,Weekday,Madeline,4,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+3472,Hearty and Seasonal,2016-12-19 12:41:03,Afternoon,Weekday,Madeline,4,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 3472,Coffee,2016-12-19 12:41:03,Afternoon,Weekday,Benjamin,2,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 3472,Bread,2016-12-19 12:41:03,Afternoon,Weekday,Clarence,3,"A staple food made from flour, water, and yeast, often baked until golden brown with a soft interior.",Pure Veg
 3473,Bread,2016-12-19 12:45:48,Afternoon,Weekday,Joan,2,"A staple food made from flour, water, and yeast, often baked until golden brown with a soft interior.",Pure Veg
@@ -7038,10 +7038,10 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 3536,Coffee,2016-12-20 12:19:25,Afternoon,Weekday,Dennis,4,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 3537,Hot chocolate,2016-12-20 12:28:12,Afternoon,Weekday,Amber,5,"Though not a cake in the traditional sense, hot chocolate complements cakes well, offering a warm and indulgent beverage often topped with whipped cream or marshmallows.",Beverages
 3537,Cake,2016-12-20 12:28:12,Afternoon,Weekday,Ashley,1,"Sweet baked goods made from a mixture of flour, sugar, eggs, and butter or oil, often flavored with extracts, fruits, or spices.",Pure Veg
-3538,Hearty & Seasonal,2016-12-20 12:46:12,Afternoon,Weekday,Ralph,1,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+3538,Hearty and Seasonal,2016-12-20 12:46:12,Afternoon,Weekday,Ralph,1,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 3538,Juice,2016-12-20 12:46:12,Afternoon,Weekday,Erik,3,Refreshing fruit or vegetable juices served alongside cakes to provide a burst of flavor and hydration.,Beverages
 3539,Coffee,2016-12-20 12:47:38,Afternoon,Weekday,Ruby,3,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
-3540,Hearty & Seasonal,2016-12-20 12:52:18,Afternoon,Weekday,Hilary,5,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+3540,Hearty and Seasonal,2016-12-20 12:52:18,Afternoon,Weekday,Hilary,5,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 3540,Coffee,2016-12-20 12:52:18,Afternoon,Weekday,Becky,0,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 3541,Farm House,2016-12-20 12:54:50,Afternoon,Weekday,Shannon,5,"Rustic cakes reminiscent of farmhouse baking, featuring simple, wholesome ingredients like oats, nuts, and dried fruits.",Pure Veg
 3541,Cake,2016-12-20 12:54:50,Afternoon,Weekday,Elaine,3,"Sweet baked goods made from a mixture of flour, sugar, eggs, and butter or oil, often flavored with extracts, fruits, or spices.",Pure Veg
@@ -7867,7 +7867,7 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 3952,Bread,2016-12-29 13:35:07,Afternoon,Weekday,Neil,3,"A staple food made from flour, water, and yeast, often baked until golden brown with a soft interior.",Pure Veg
 3952,Lemon and coconut,2016-12-29 13:35:07,Afternoon,Weekday,Rick,5,"Refreshing cakes infused with the tangy flavor of lemon and the tropical sweetness of coconut, perfect for summer celebrations.",Desserts
 3953,Bread,2016-12-29 13:37:50,Afternoon,Weekday,Lauren,0,"A staple food made from flour, water, and yeast, often baked until golden brown with a soft interior.",Pure Veg
-3954,Hearty & Seasonal,2016-12-29 13:39:08,Afternoon,Weekday,Molly,4,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+3954,Hearty and Seasonal,2016-12-29 13:39:08,Afternoon,Weekday,Molly,4,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 3954,Coffee,2016-12-29 13:39:08,Afternoon,Weekday,Jon,5,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 3954,Coffee,2016-12-29 13:39:08,Afternoon,Weekday,Lisa,5,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 3955,Medialuna,2016-12-29 13:39:57,Afternoon,Weekday,Howard,5,"A crescent-shaped pastry originating from Argentina, often sweetened and glazed.",Pure Veg
@@ -8772,7 +8772,7 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 4403,Bread,2017-08-01 15:11:56,Afternoon,Weekend,Ingrid,5,"A staple food made from flour, water, and yeast, often baked until golden brown with a soft interior.",Pure Veg
 4403,Coffee,2017-08-01 15:11:56,Afternoon,Weekend,Larry,1,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 4403,Medialuna,2017-08-01 15:11:56,Afternoon,Weekend,Bob,5,"A crescent-shaped pastry originating from Argentina, often sweetened and glazed.",Pure Veg
-4403,Hearty & Seasonal,2017-08-01 15:11:56,Afternoon,Weekend,Darlene,2,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+4403,Hearty and Seasonal,2017-08-01 15:11:56,Afternoon,Weekend,Darlene,2,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 4403,Bread,2017-08-01 15:11:56,Afternoon,Weekend,Quentin,3,"A staple food made from flour, water, and yeast, often baked until golden brown with a soft interior.",Pure Veg
 4404,Tea,2017-08-01 15:21:04,Afternoon,Weekend,Trisha,0,"Cakes perfect for pairing with a cup of tea, offering a balance of sweetness and lightness.",Beverages
 4404,Hot chocolate,2017-08-01 15:21:04,Afternoon,Weekend,Penny,3,"Though not a cake in the traditional sense, hot chocolate complements cakes well, offering a warm and indulgent beverage often topped with whipped cream or marshmallows.",Beverages
@@ -8915,7 +8915,7 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 4486,Coffee,2017-10-01 13:45:01,Afternoon,Weekday,Drew,2,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 4487,Cake,2017-10-01 13:47:51,Afternoon,Weekday,Albert,3,"Sweet baked goods made from a mixture of flour, sugar, eggs, and butter or oil, often flavored with extracts, fruits, or spices.",Pure Veg
 4487,Cake,2017-10-01 13:47:51,Afternoon,Weekday,Katrina,2,"Sweet baked goods made from a mixture of flour, sugar, eggs, and butter or oil, often flavored with extracts, fruits, or spices.",Pure Veg
-4489,Hearty & Seasonal,2017-10-01 14:07:16,Afternoon,Weekday,Drew,5,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+4489,Hearty and Seasonal,2017-10-01 14:07:16,Afternoon,Weekday,Drew,5,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 4489,Coffee,2017-10-01 14:07:16,Afternoon,Weekday,Antonio,1,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 4489,Tea,2017-10-01 14:07:16,Afternoon,Weekday,Mark,1,"Cakes perfect for pairing with a cup of tea, offering a balance of sweetness and lightness.",Beverages
 4490,Fudge,2017-10-01 14:13:28,Afternoon,Weekday,Melanie,4,"Dense, sweet confections made from sugar, butter, and milk or cream, often flavored with chocolate or nuts.",Desserts
@@ -8981,7 +8981,7 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 4524,Coffee,2017-11-01 11:33:07,Morning,Weekday,Ray,1,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 4525,Bread,2017-11-01 11:33:54,Morning,Weekday,Roger,0,"A staple food made from flour, water, and yeast, often baked until golden brown with a soft interior.",Pure Veg
 4527,Coffee,2017-11-01 12:12:23,Afternoon,Weekday,Bob,2,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
-4527,Hearty & Seasonal,2017-11-01 12:12:23,Afternoon,Weekday,Donna,5,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+4527,Hearty and Seasonal,2017-11-01 12:12:23,Afternoon,Weekday,Donna,5,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 4528,Bread,2017-11-01 12:13:55,Afternoon,Weekday,Theodore,0,"A staple food made from flour, water, and yeast, often baked until golden brown with a soft interior.",Pure Veg
 4529,Coffee,2017-11-01 12:31:13,Afternoon,Weekday,Ernest,0,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 4529,Coffee,2017-11-01 12:31:13,Afternoon,Weekday,Ronald,5,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
@@ -9250,7 +9250,7 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 4662,Coffee,2017-01-14 10:31:32,Morning,Weekend,Kristina,4,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 4663,Coffee,2017-01-14 10:42:40,Morning,Weekend,Jon,0,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 4663,Hot chocolate,2017-01-14 10:42:40,Morning,Weekend,Theresa,2,"Though not a cake in the traditional sense, hot chocolate complements cakes well, offering a warm and indulgent beverage often topped with whipped cream or marshmallows.",Beverages
-4663,Hearty & Seasonal,2017-01-14 10:42:40,Morning,Weekend,Chuck,4,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+4663,Hearty and Seasonal,2017-01-14 10:42:40,Morning,Weekend,Chuck,4,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 4663,Bread,2017-01-14 10:42:40,Morning,Weekend,Janet,4,"A staple food made from flour, water, and yeast, often baked until golden brown with a soft interior.",Pure Veg
 4664,Coffee,2017-01-14 10:47:13,Morning,Weekend,Janet,2,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 4665,Bread,2017-01-14 10:50:46,Morning,Weekend,Henry,5,"A staple food made from flour, water, and yeast, often baked until golden brown with a soft interior.",Pure Veg
@@ -9287,7 +9287,7 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 4676,Bread,2017-01-14 11:49:58,Morning,Weekend,Nicole,1,"A staple food made from flour, water, and yeast, often baked until golden brown with a soft interior.",Pure Veg
 4676,Scone,2017-01-14 11:49:58,Morning,Weekend,Edward,2,"Traditional British baked goods resembling small, lightly sweetened biscuits, often served with clotted cream and jam for afternoon tea.",Pure Veg
 4676,Cookies,2017-01-14 11:49:58,Morning,Weekend,Lucy,4,"Bite-sized baked treats with endless variations, from chewy chocolate chip to delicate shortbread.",Pure Veg
-4676,Hearty & Seasonal,2017-01-14 11:49:58,Morning,Weekend,Jordan,1,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+4676,Hearty and Seasonal,2017-01-14 11:49:58,Morning,Weekend,Jordan,1,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 4677,Bread,2017-01-14 12:00:12,Afternoon,Weekend,Casey,1,"A staple food made from flour, water, and yeast, often baked until golden brown with a soft interior.",Pure Veg
 4678,Bread,2017-01-14 12:21:27,Afternoon,Weekend,Stacy,5,"A staple food made from flour, water, and yeast, often baked until golden brown with a soft interior.",Pure Veg
 4679,Coffee,2017-01-14 12:23:26,Afternoon,Weekend,Susie,1,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
@@ -9306,7 +9306,7 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 4683,Alfajores,2017-01-14 12:35:24,Afternoon,Weekend,Kirk,0,"Traditional South American cookies made from delicate shortbread filled with dulce de leche or jam, often coated in powdered sugar or dipped in chocolate.",Desserts
 4684,Tea,2017-01-14 12:36:28,Afternoon,Weekend,Mary,0,"Cakes perfect for pairing with a cup of tea, offering a balance of sweetness and lightness.",Beverages
 4685,Coffee,2017-01-14 12:36:53,Afternoon,Weekend,Clarence,2,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
-4685,Hearty & Seasonal,2017-01-14 12:36:53,Afternoon,Weekend,Denise,4,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+4685,Hearty and Seasonal,2017-01-14 12:36:53,Afternoon,Weekend,Denise,4,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 4686,Coffee,2017-01-14 12:38:56,Afternoon,Weekend,Pam,4,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 4686,Coffee,2017-01-14 12:38:56,Afternoon,Weekend,Neil,2,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 4687,Bread,2017-01-14 12:42:30,Afternoon,Weekend,Stuart,0,"A staple food made from flour, water, and yeast, often baked until golden brown with a soft interior.",Pure Veg
@@ -9320,7 +9320,7 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 4692,Coffee,2017-01-14 12:55:14,Afternoon,Weekend,Edward,2,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 4692,Tea,2017-01-14 12:55:14,Afternoon,Weekend,Bernice,2,"Cakes perfect for pairing with a cup of tea, offering a balance of sweetness and lightness.",Beverages
 4692,Tea,2017-01-14 12:55:14,Afternoon,Weekend,Yvonne,2,"Cakes perfect for pairing with a cup of tea, offering a balance of sweetness and lightness.",Beverages
-4692,Hearty & Seasonal,2017-01-14 12:55:14,Afternoon,Weekend,Nancy,3,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+4692,Hearty and Seasonal,2017-01-14 12:55:14,Afternoon,Weekend,Nancy,3,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 4692,Tiffin,2017-01-14 12:55:14,Afternoon,Weekend,Mitchell,3,"A British confection made from crushed biscuits, dried fruits, nuts, and chocolate, perfect for a sweet and indulgent treat.",Pure Veg
 4692,Bread,2017-01-14 12:55:14,Afternoon,Weekend,Arthur,0,"A staple food made from flour, water, and yeast, often baked until golden brown with a soft interior.",Pure Veg
 4692,Cake,2017-01-14 12:55:14,Afternoon,Weekend,Debbie,4,"Sweet baked goods made from a mixture of flour, sugar, eggs, and butter or oil, often flavored with extracts, fruits, or spices.",Pure Veg
@@ -9345,20 +9345,20 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 4699,Cake,2017-01-14 14:03:34,Afternoon,Weekend,Leslie,2,"Sweet baked goods made from a mixture of flour, sugar, eggs, and butter or oil, often flavored with extracts, fruits, or spices.",Pure Veg
 4699,Alfajores,2017-01-14 14:03:34,Afternoon,Weekend,Cathy,0,"Traditional South American cookies made from delicate shortbread filled with dulce de leche or jam, often coated in powdered sugar or dipped in chocolate.",Desserts
 4699,Toast,2017-01-14 14:03:34,Afternoon,Weekend,Janet,2,"Slices of bread toasted until golden brown and crisp, often served with butter, jam, or other toppings for breakfast or snacks.",Sandwiches
-4701,Hearty & Seasonal,2017-01-14 14:11:38,Afternoon,Weekend,Susan,2,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+4701,Hearty and Seasonal,2017-01-14 14:11:38,Afternoon,Weekend,Susan,2,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 4701,Sandwich,2017-01-14 14:11:38,Afternoon,Weekend,Benjamin,0,"Layers of bread filled with meats, cheeses, vegetables, and condiments, offering a portable and satisfying meal option.",Sandwiches
 4701,Coffee,2017-01-14 14:11:38,Afternoon,Weekend,Jeremy,2,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 4702,Juice,2017-01-14 14:15:34,Afternoon,Weekend,Lloyd,3,Refreshing fruit or vegetable juices served alongside cakes to provide a burst of flavor and hydration.,Beverages
 4702,Hot chocolate,2017-01-14 14:15:34,Afternoon,Weekend,Louis,3,"Though not a cake in the traditional sense, hot chocolate complements cakes well, offering a warm and indulgent beverage often topped with whipped cream or marshmallows.",Beverages
 4702,Coffee,2017-01-14 14:15:34,Afternoon,Weekend,Travis,3,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
-4702,Hearty & Seasonal,2017-01-14 14:15:34,Afternoon,Weekend,Kim,3,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+4702,Hearty and Seasonal,2017-01-14 14:15:34,Afternoon,Weekend,Kim,3,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 4703,Brownie,2017-01-14 14:18:34,Afternoon,Weekend,Carl,3,"Rich, fudgy chocolate cakes with a dense texture, often studded with nuts or chocolate chips.",Pure Veg
 4703,Bread,2017-01-14 14:18:34,Afternoon,Weekend,Rachel,5,"A staple food made from flour, water, and yeast, often baked until golden brown with a soft interior.",Pure Veg
 4704,Coffee,2017-01-14 14:30:22,Afternoon,Weekend,Eleanor,1,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 4704,Coffee,2017-01-14 14:30:22,Afternoon,Weekend,Cody,0,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 4704,Cake,2017-01-14 14:30:22,Afternoon,Weekend,Jeanette,0,"Sweet baked goods made from a mixture of flour, sugar, eggs, and butter or oil, often flavored with extracts, fruits, or spices.",Pure Veg
 4704,Sandwich,2017-01-14 14:30:22,Afternoon,Weekend,Jessica,1,"Layers of bread filled with meats, cheeses, vegetables, and condiments, offering a portable and satisfying meal option.",Sandwiches
-4704,Hearty & Seasonal,2017-01-14 14:30:22,Afternoon,Weekend,Spencer,3,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+4704,Hearty and Seasonal,2017-01-14 14:30:22,Afternoon,Weekend,Spencer,3,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 4705,Coffee,2017-01-14 14:32:14,Afternoon,Weekend,Terrance,4,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 4706,Fudge,2017-01-14 14:34:01,Afternoon,Weekend,Gregory,3,"Dense, sweet confections made from sugar, butter, and milk or cream, often flavored with chocolate or nuts.",Desserts
 4707,Tiffin,2017-01-14 14:36:53,Afternoon,Weekend,Rosemary,3,"A British confection made from crushed biscuits, dried fruits, nuts, and chocolate, perfect for a sweet and indulgent treat.",Pure Veg
@@ -9459,7 +9459,7 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 4750,Granola,2017-01-15 13:26:19,Afternoon,Weekend,Nicole,5,"Crunchy, sweetened oats mixed with nuts, seeds, and dried fruits, often served as a topping for yogurt or baked into cakes for added texture and flavor.",Pure Veg
 4751,Gingerbread syrup,2017-01-15 13:45:43,Afternoon,Weekend,Jimmy,4,"A sweet and spicy syrup made from ginger, sugar, and water, perfect for flavoring cakes, drinks, and desserts.",Pure Veg
 4751,Coffee,2017-01-15 13:45:43,Afternoon,Weekend,Joan,1,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
-4752,Hearty & Seasonal,2017-01-15 14:00:55,Afternoon,Weekend,Lynn,1,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+4752,Hearty and Seasonal,2017-01-15 14:00:55,Afternoon,Weekend,Lynn,1,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 4752,Coffee,2017-01-15 14:00:55,Afternoon,Weekend,Lynnette,4,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 4752,Cake,2017-01-15 14:00:55,Afternoon,Weekend,Austin,0,"Sweet baked goods made from a mixture of flour, sugar, eggs, and butter or oil, often flavored with extracts, fruits, or spices.",Pure Veg
 4753,Pastry,2017-01-15 14:04:43,Afternoon,Weekend,Connie,3,"Delicate, flaky pastries filled with sweet or savory ingredients, ranging from fruit to cheese and meats.",Pure Veg
@@ -9477,7 +9477,7 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 4758,Tea,2017-01-15 14:41:29,Afternoon,Weekend,Ingrid,0,"Cakes perfect for pairing with a cup of tea, offering a balance of sweetness and lightness.",Beverages
 4758,Juice,2017-01-15 14:41:29,Afternoon,Weekend,Jessica,4,Refreshing fruit or vegetable juices served alongside cakes to provide a burst of flavor and hydration.,Beverages
 4759,Alfajores,2017-01-15 14:42:11,Afternoon,Weekend,Jean,1,"Traditional South American cookies made from delicate shortbread filled with dulce de leche or jam, often coated in powdered sugar or dipped in chocolate.",Desserts
-4760,Hearty & Seasonal,2017-01-15 14:58:18,Afternoon,Weekend,Dale,0,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+4760,Hearty and Seasonal,2017-01-15 14:58:18,Afternoon,Weekend,Dale,0,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 4760,Truffles,2017-01-15 14:58:18,Afternoon,Weekend,Haley,1,"Decadent chocolate confections made from ganache rolled in cocoa powder, nuts, or other coatings, perfect for indulgent treats or gifts.",Desserts
 4760,Mineral water,2017-01-15 14:58:18,Afternoon,Weekend,Emma,1,A refreshing beverage often served alongside cakes to cleanse the palate and provide hydration.,Beverages
 4760,Bread,2017-01-15 14:58:18,Afternoon,Weekend,Hugh,2,"A staple food made from flour, water, and yeast, often baked until golden brown with a soft interior.",Pure Veg
@@ -9617,7 +9617,7 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 4835,Coffee,2017-01-17 13:01:37,Afternoon,Weekday,Florence,3,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 4835,Smoothies,2017-01-17 13:01:37,Afternoon,Weekday,Abigail,0,"Refreshing blended beverages made from fruits, vegetables, and yogurt or milk, perfect for pairing with cakes for a light meal or snack.",Pure Veg
 4835,Sandwich,2017-01-17 13:01:37,Afternoon,Weekday,Benjamin,4,"Layers of bread filled with meats, cheeses, vegetables, and condiments, offering a portable and satisfying meal option.",Sandwiches
-4835,Hearty & Seasonal,2017-01-17 13:01:37,Afternoon,Weekday,Grant,0,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+4835,Hearty and Seasonal,2017-01-17 13:01:37,Afternoon,Weekday,Grant,0,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 4835,Cake,2017-01-17 13:01:37,Afternoon,Weekday,Wesley,0,"Sweet baked goods made from a mixture of flour, sugar, eggs, and butter or oil, often flavored with extracts, fruits, or spices.",Pure Veg
 4836,Bread,2017-01-17 13:03:01,Afternoon,Weekday,Connor,0,"A staple food made from flour, water, and yeast, often baked until golden brown with a soft interior.",Pure Veg
 4837,Sandwich,2017-01-17 13:06:15,Afternoon,Weekday,Antonio,4,"Layers of bread filled with meats, cheeses, vegetables, and condiments, offering a portable and satisfying meal option.",Sandwiches
@@ -9629,7 +9629,7 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 4839,Cookies,2017-01-17 13:22:49,Afternoon,Weekday,Sophia,0,"Bite-sized baked treats with endless variations, from chewy chocolate chip to delicate shortbread.",Pure Veg
 4839,Bread,2017-01-17 13:22:49,Afternoon,Weekday,Lindsay,3,"A staple food made from flour, water, and yeast, often baked until golden brown with a soft interior.",Pure Veg
 4839,Hot chocolate,2017-01-17 13:22:49,Afternoon,Weekday,Sandra,0,"Though not a cake in the traditional sense, hot chocolate complements cakes well, offering a warm and indulgent beverage often topped with whipped cream or marshmallows.",Beverages
-4839,Hearty & Seasonal,2017-01-17 13:22:49,Afternoon,Weekday,Nancy,0,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
+4839,Hearty and Seasonal,2017-01-17 13:22:49,Afternoon,Weekday,Nancy,0,"Cakes made with seasonal ingredients and hearty flavors, perfect for cooler weather or holiday celebrations.",Pure Veg
 4840,Farm House,2017-01-17 13:26:24,Afternoon,Weekday,Austin,1,"Rustic cakes reminiscent of farmhouse baking, featuring simple, wholesome ingredients like oats, nuts, and dried fruits.",Pure Veg
 4841,Truffles,2017-01-17 13:32:31,Afternoon,Weekday,Brad,0,"Decadent chocolate confections made from ganache rolled in cocoa powder, nuts, or other coatings, perfect for indulgent treats or gifts.",Desserts
 4841,Cake,2017-01-17 13:32:31,Afternoon,Weekday,Tatiana,1,"Sweet baked goods made from a mixture of flour, sugar, eggs, and butter or oil, often flavored with extracts, fruits, or spices.",Pure Veg
@@ -14266,7 +14266,7 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 6881,Alfajores,2017-02-19 14:23:27,Afternoon,Weekend,Renee,2,"Traditional South American cookies made from delicate shortbread filled with dulce de leche or jam, often coated in powdered sugar or dipped in chocolate.",Desserts
 6882,Cake,2017-02-19 14:33:33,Afternoon,Weekend,Patsy,1,"Sweet baked goods made from a mixture of flour, sugar, eggs, and butter or oil, often flavored with extracts, fruits, or spices.",Pure Veg
 6882,Cake,2017-02-19 14:33:33,Afternoon,Weekend,Renee,2,"Sweet baked goods made from a mixture of flour, sugar, eggs, and butter or oil, often flavored with extracts, fruits, or spices.",Pure Veg
-6882,Coffee granules ,2017-02-19 14:33:33,Afternoon,Weekend,Nelson,2,,Pure Veg
+6882,Coffee granules,2017-02-19 14:33:33,Afternoon,Weekend,Nelson,2,,Pure Veg
 6883,Coffee,2017-02-19 14:35:33,Afternoon,Weekend,Frances,0,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 6883,Salad,2017-02-19 14:35:33,Afternoon,Weekend,Molly,2,"Fresh and crisp salads made with a variety of greens, vegetables, fruits, and dressings, offering a light and healthy accompaniment to cakes.",Salads
 6883,Cake,2017-02-19 14:35:33,Afternoon,Weekend,Michele,5,"Sweet baked goods made from a mixture of flour, sugar, eggs, and butter or oil, often flavored with extracts, fruits, or spices.",Pure Veg
@@ -17326,7 +17326,7 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 8225,Tea,2017-03-16 10:45:41,Morning,Weekday,Penny,3,"Cakes perfect for pairing with a cup of tea, offering a balance of sweetness and lightness.",Beverages
 8226,Bread,2017-03-16 10:50:35,Morning,Weekday,Gabriel,3,"A staple food made from flour, water, and yeast, often baked until golden brown with a soft interior.",Pure Veg
 8226,Apple pie,2017-03-16 10:50:35,Morning,Weekday,Josephine,3,"British sandwich cookies filled with jam and topped with a decorative heart, perfect for tea time or snacking.",Desserts
-8227,Pączki,2017-03-16 10:52:25,Morning,Weekday,Maggie,5,"Dried fruits infused with cherry flavor, perfect for snacking or adding to cakes, cookies, and other baked goods for natural sweetness and texture.",Desserts
+8227,Paczki,2017-03-16 10:52:25,Morning,Weekday,Maggie,5,"Dried fruits infused with cherry flavor, perfect for snacking or adding to cakes, cookies, and other baked goods for natural sweetness and texture.",Desserts
 8227,Toast,2017-03-16 10:52:25,Morning,Weekday,Bruce,5,"Slices of bread toasted until golden brown and crisp, often served with butter, jam, or other toppings for breakfast or snacks.",Sandwiches
 8227,Extra Salami or Feta,2017-03-16 10:52:25,Morning,Weekday,Glenda,0,"Additional toppings for sandwiches or salads, offering a burst of flavor and protein.",Pure Veg
 8227,Hot chocolate,2017-03-16 10:52:25,Morning,Weekday,Johnny,5,"Though not a cake in the traditional sense, hot chocolate complements cakes well, offering a warm and indulgent beverage often topped with whipped cream or marshmallows.",Beverages
@@ -17476,7 +17476,7 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 8307,Soup,2017-03-17 13:54:31,Afternoon,Weekday,Charlotte,0,"Warm, comforting soups served alongside cakes for a satisfying meal.",Pure Veg
 8307,Sandwich,2017-03-17 13:54:31,Afternoon,Weekday,Joanne,5,"Layers of bread filled with meats, cheeses, vegetables, and condiments, offering a portable and satisfying meal option.",Sandwiches
 8308,Coffee,2017-03-17 14:06:14,Afternoon,Weekday,Curtis,2,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
-8308,Coffee granules ,2017-03-17 14:06:14,Afternoon,Weekday,Dustin,5,,Pure Veg
+8308,Coffee granules,2017-03-17 14:06:14,Afternoon,Weekday,Dustin,5,,Pure Veg
 8308,Extra Salami or Feta,2017-03-17 14:06:14,Afternoon,Weekday,Bill,1,"Additional toppings for sandwiches or salads, offering a burst of flavor and protein.",Pure Veg
 8308,Salad,2017-03-17 14:06:14,Afternoon,Weekday,Haley,1,"Fresh and crisp salads made with a variety of greens, vegetables, fruits, and dressings, offering a light and healthy accompaniment to cakes.",Salads
 8310,Salad,2017-03-17 14:22:53,Afternoon,Weekday,Hilary,3,"Fresh and crisp salads made with a variety of greens, vegetables, fruits, and dressings, offering a light and healthy accompaniment to cakes.",Salads
@@ -17848,7 +17848,7 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 8469,Coffee,2017-03-20 10:51:22,Morning,Weekday,Jamie,5,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 8470,Coffee,2017-03-20 11:03:54,Morning,Weekday,Terry,2,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 8471,Bread,2017-03-20 11:04:22,Morning,Weekday,Sonya,4,"A staple food made from flour, water, and yeast, often baked until golden brown with a soft interior.",Pure Veg
-8472,Coffee granules ,2017-03-20 11:15:42,Morning,Weekday,Michelle,2,,Pure Veg
+8472,Coffee granules,2017-03-20 11:15:42,Morning,Weekday,Michelle,2,,Pure Veg
 8473,Cake,2017-03-20 11:25:24,Morning,Weekday,Glenda,3,"Sweet baked goods made from a mixture of flour, sugar, eggs, and butter or oil, often flavored with extracts, fruits, or spices.",Pure Veg
 8473,Muffin,2017-03-20 11:25:24,Morning,Weekday,Aaron,1,"Individual-sized quick breads, often sweetened and flavored with fruits, nuts, or chocolate chips.",Pure Veg
 8473,Juice,2017-03-20 11:25:24,Morning,Weekday,Ashley,2,Refreshing fruit or vegetable juices served alongside cakes to provide a burst of flavor and hydration.,Beverages
@@ -18022,7 +18022,7 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 8558,Brownie,2017-03-22 09:13:22,Morning,Weekday,Lindsay,0,"Rich, fudgy chocolate cakes with a dense texture, often studded with nuts or chocolate chips.",Pure Veg
 8559,Coffee,2017-03-22 09:18:53,Morning,Weekday,Nina,2,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 8559,Sandwich,2017-03-22 09:18:53,Morning,Weekday,Stephen,0,"Layers of bread filled with meats, cheeses, vegetables, and condiments, offering a portable and satisfying meal option.",Sandwiches
-8560,Pączki,2017-03-22 09:27:17,Morning,Weekday,Nathan,5,"Dried fruits infused with cherry flavor, perfect for snacking or adding to cakes, cookies, and other baked goods for natural sweetness and texture.",Desserts
+8560,Paczki,2017-03-22 09:27:17,Morning,Weekday,Nathan,5,"Dried fruits infused with cherry flavor, perfect for snacking or adding to cakes, cookies, and other baked goods for natural sweetness and texture.",Desserts
 8560,Coffee,2017-03-22 09:27:17,Morning,Weekday,Melanie,1,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 8561,Coffee,2017-03-22 09:33:16,Morning,Weekday,Vivian,0,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 8562,Coffee,2017-03-22 09:36:40,Morning,Weekday,Zachary,2,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
@@ -18455,7 +18455,7 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 8756,Bread,2017-03-25 11:13:02,Morning,Weekend,Erica,0,"A staple food made from flour, water, and yeast, often baked until golden brown with a soft interior.",Pure Veg
 8756,Cake,2017-03-25 11:13:02,Morning,Weekend,Susan,5,"Sweet baked goods made from a mixture of flour, sugar, eggs, and butter or oil, often flavored with extracts, fruits, or spices.",Pure Veg
 8757,Farm House,2017-03-25 11:21:36,Morning,Weekend,Renee,0,"Rustic cakes reminiscent of farmhouse baking, featuring simple, wholesome ingredients like oats, nuts, and dried fruits.",Pure Veg
-8757,Coffee granules ,2017-03-25 11:21:36,Morning,Weekend,Arthur,4,,Pure Veg
+8757,Coffee granules,2017-03-25 11:21:36,Morning,Weekend,Arthur,4,,Pure Veg
 8758,Coffee,2017-03-25 11:35:41,Morning,Weekend,Rosemary,4,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 8758,Bread,2017-03-25 11:35:41,Morning,Weekend,Joshua,2,"A staple food made from flour, water, and yeast, often baked until golden brown with a soft interior.",Pure Veg
 8758,Muffin,2017-03-25 11:35:41,Morning,Weekend,Derek,5,"Individual-sized quick breads, often sweetened and flavored with fruits, nuts, or chocolate chips.",Pure Veg
@@ -18617,7 +18617,7 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 8825,Juice,2017-03-25 17:09:03,Evening,Weekend,Irene,0,Refreshing fruit or vegetable juices served alongside cakes to provide a burst of flavor and hydration.,Beverages
 8825,Cake,2017-03-25 17:09:03,Evening,Weekend,Michael,5,"Sweet baked goods made from a mixture of flour, sugar, eggs, and butter or oil, often flavored with extracts, fruits, or spices.",Pure Veg
 8826,Panettone,2017-03-25 17:15:48,Evening,Weekend,Marcus,0,"A traditional British cake made with dried fruits, nuts, and spices, often served during the Christmas season as a festive treat.",Desserts
-8826,Coffee granules ,2017-03-25 17:15:48,Evening,Weekend,Ronald,1,,Pure Veg
+8826,Coffee granules,2017-03-25 17:15:48,Evening,Weekend,Ronald,1,,Pure Veg
 8827,Medialuna,2017-03-26 09:08:01,Morning,Weekend,Brendan,3,"A crescent-shaped pastry originating from Argentina, often sweetened and glazed.",Pure Veg
 8827,Bread,2017-03-26 09:08:01,Morning,Weekend,Judy,3,"A staple food made from flour, water, and yeast, often baked until golden brown with a soft interior.",Pure Veg
 8828,Bread,2017-03-26 09:13:45,Morning,Weekend,Dylan,5,"A staple food made from flour, water, and yeast, often baked until golden brown with a soft interior.",Pure Veg
@@ -19384,7 +19384,7 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 9175,Bread,2017-01-04 10:29:45,Morning,Weekend,Tony,3,"A staple food made from flour, water, and yeast, often baked until golden brown with a soft interior.",Pure Veg
 9176,Coffee,2017-01-04 10:30:48,Morning,Weekend,Brad,2,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 9176,Scone,2017-01-04 10:30:48,Morning,Weekend,Noah,4,"Traditional British baked goods resembling small, lightly sweetened biscuits, often served with clotted cream and jam for afternoon tea.",Pure Veg
-9177,Coffee granules ,2017-01-04 10:31:56,Morning,Weekend,Garry,0,,Pure Veg
+9177,Coffee granules,2017-01-04 10:31:56,Morning,Weekend,Garry,0,,Pure Veg
 9178,Bread,2017-01-04 10:40:35,Morning,Weekend,Noah,2,"A staple food made from flour, water, and yeast, often baked until golden brown with a soft interior.",Pure Veg
 9178,Sandwich,2017-01-04 10:40:35,Morning,Weekend,Ellen,1,"Layers of bread filled with meats, cheeses, vegetables, and condiments, offering a portable and satisfying meal option.",Sandwiches
 9178,Brownie,2017-01-04 10:40:35,Morning,Weekend,Hugh,4,"Rich, fudgy chocolate cakes with a dense texture, often studded with nuts or chocolate chips.",Pure Veg
@@ -19673,7 +19673,7 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 9296,Bread,2017-03-04 11:22:43,Morning,Weekday,Holly,5,"A staple food made from flour, water, and yeast, often baked until golden brown with a soft interior.",Pure Veg
 9297,Coffee,2017-03-04 11:44:04,Morning,Weekday,Steven,0,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 9297,Coffee,2017-03-04 11:44:04,Morning,Weekday,Frank,0,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
-9297,Coffee granules ,2017-03-04 11:44:04,Morning,Weekday,Brandon,1,,Pure Veg
+9297,Coffee granules,2017-03-04 11:44:04,Morning,Weekday,Brandon,1,,Pure Veg
 9298,Cheesecake,2017-03-04 11:58:00,Morning,Weekday,Judy,0,"A hearty sandwich or wrap filled with flavorful meats, cheeses, vegetables, and sauces, perfect for on-the-go eating.",Desserts
 9299,Bread,2017-03-04 12:02:58,Afternoon,Weekday,Rosemary,2,"A staple food made from flour, water, and yeast, often baked until golden brown with a soft interior.",Pure Veg
 9300,Bread,2017-03-04 12:03:37,Afternoon,Weekday,Caroline,0,"A staple food made from flour, water, and yeast, often baked until golden brown with a soft interior.",Pure Veg
@@ -20398,7 +20398,7 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 9622,Brownie,2017-08-04 15:40:26,Afternoon,Weekend,Jerry,0,"Rich, fudgy chocolate cakes with a dense texture, often studded with nuts or chocolate chips.",Pure Veg
 9623,Coffee,2017-08-04 15:44:07,Afternoon,Weekend,Maureen,2,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 9624,Eggs,2017-08-04 15:45:26,Afternoon,Weekend,Shannon,3,"Versatile and nutritious, eggs are used in a variety of cake recipes for moisture, structure, and richness.",Pure Veg
-9624,Pączki,2017-08-04 15:45:26,Afternoon,Weekend,Quentin,2,"Dried fruits infused with cherry flavor, perfect for snacking or adding to cakes, cookies, and other baked goods for natural sweetness and texture.",Desserts
+9624,Paczki,2017-08-04 15:45:26,Afternoon,Weekend,Quentin,2,"Dried fruits infused with cherry flavor, perfect for snacking or adding to cakes, cookies, and other baked goods for natural sweetness and texture.",Desserts
 9625,Honey,2017-08-04 16:01:34,Afternoon,Weekend,Penny,5,"A natural sweetener made by bees from flower nectar, often used in cake recipes for sweetness and moisture.",Pure Veg
 9626,Scandinavian,2017-08-04 16:02:06,Afternoon,Weekend,Rosa,3,"Reflecting the flavors of Northern Europe, Scandinavian cakes often feature berries, nuts, and wholesome grains.",Pure Veg
 9627,Hot chocolate,2017-08-04 16:05:07,Afternoon,Weekend,Drew,4,"Though not a cake in the traditional sense, hot chocolate complements cakes well, offering a warm and indulgent beverage often topped with whipped cream or marshmallows.",Beverages

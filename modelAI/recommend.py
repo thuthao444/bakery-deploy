@@ -116,6 +116,7 @@ def recommend(item, user, df, isLogin = False):
     if (not isLogin or counts[user] < 10):
         print("Content based + Item based")
         recommend_list = content_based(item, df) + item_based(item, df)
+        print('test')
         recommend_list = list(set(recommend_list))[:10]
         recommend_list = sorted(recommend_list, key=lambda x: random.random())
         return recommend_list
@@ -124,10 +125,10 @@ def recommend(item, user, df, isLogin = False):
         return CollaborativeFiltering(item, user, df)
 
 # test
-cd = os.getcwd()
-print(os.path.dirname(cd))
-data_path = os.path.join(os.path.dirname(cd), 'modelAI\\data')
-print(data_path)
-df = pd.read_csv(os.path.join(data_path, 'data.csv')) 
-test = recommend('Toast', 'Adam', df, True)
-print("test: ", test)
+# cd = os.getcwd()
+# print(os.path.dirname(cd))
+# data_path = os.path.join(os.path.dirname(cd), 'modelAI\\data')
+# print(data_path)
+# df = pd.read_csv(os.path.join(data_path, 'data.csv')) 
+# test = recommend('Toast', 'Adam', df, True)
+# print("test: ", test)

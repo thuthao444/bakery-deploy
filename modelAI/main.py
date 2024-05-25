@@ -40,3 +40,7 @@ async def get_recommendations(item_name: str, user_name):
     recommendations = recommend(item_name, df=df, user=user_name)
     return {"recommendations": recommendations}
 
+if __name__ == "__main__":
+    import uvicorn
+    port = int(os.environ.get("PORT", 4040))  
+    uvicorn.run(app, host="0.0.0.0", port=port)

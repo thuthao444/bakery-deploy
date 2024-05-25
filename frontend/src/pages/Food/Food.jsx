@@ -35,7 +35,7 @@ const Food = () => {
 
     const fetchRecommendations = async (itemName, userName) => {
         try {
-            const response = await axios.get('http://localhost:4040/recommend/', {
+            const response = await axios.get('https://modelai1.onrender.com/recommend/', {
                 params: {
                     item_name: itemName,
                     user_name: userName

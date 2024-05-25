@@ -14266,7 +14266,7 @@ TransactionNo,Items,DateTime,Daypart,DayType,User,Rating,Description,Category
 6881,Alfajores,2017-02-19 14:23:27,Afternoon,Weekend,Renee,2,"Traditional South American cookies made from delicate shortbread filled with dulce de leche or jam, often coated in powdered sugar or dipped in chocolate.",Desserts
 6882,Cake,2017-02-19 14:33:33,Afternoon,Weekend,Patsy,1,"Sweet baked goods made from a mixture of flour, sugar, eggs, and butter or oil, often flavored with extracts, fruits, or spices.",Pure Veg
 6882,Cake,2017-02-19 14:33:33,Afternoon,Weekend,Renee,2,"Sweet baked goods made from a mixture of flour, sugar, eggs, and butter or oil, often flavored with extracts, fruits, or spices.",Pure Veg
-6882,Coffee granules,2017-02-19 14:33:33,Afternoon,Weekend,Nelson,2,,Pure Veg
+6882,Coffee granules,2017-02-19 14:33:33,Afternoon,Weekend,Nelson,2,Sweet coffee with granola,Pure Veg
 6883,Coffee,2017-02-19 14:35:33,Afternoon,Weekend,Frances,0,"Cakes infused with the rich flavor of coffee, providing a delightful combination of sweetness and caffeine.",Beverages
 6883,Salad,2017-02-19 14:35:33,Afternoon,Weekend,Molly,2,"Fresh and crisp salads made with a variety of greens, vegetables, fruits, and dressings, offering a light and healthy accompaniment to cakes.",Salads
 6883,Cake,2017-02-19 14:35:33,Afternoon,Weekend,Michele,5,"Sweet baked goods made from a mixture of flour, sugar, eggs, and butter or oil, often flavored with extracts, fruits, or spices.",Pure Veg
